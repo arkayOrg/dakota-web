@@ -2,6 +2,13 @@
 
 @import "uswds";
 
+// These files from pattern lab have hardcoded asset paths which won't work
+// Overwriting various rules at the bottom
+@import "small.min";
+@import "medium.min";
+@import "large.min";
+@import "xlarge.min";
+
 // Add your SASS/CSS here
 
 // default mode hide banner
@@ -34,4 +41,77 @@
   .paginate-button {
     display: block;
   }
+}
+
+// PL overwrites
+
+@media screen and (min-width: 800px) {
+  .background {
+    background: url(asset_path("bg-lines-header.svg")) no-repeat top center;
+  }
+}
+.carousel__bg {
+  background: url(asset_path("researcher.jpg")) center center no-repeat;
+  background-size: cover;
+}
+
+.achievement-cards__card.papers {
+  background: url(asset_path("papers.jpg")) center center no-repeat;
+  background-size: cover;
+}
+
+.achievement-cards__card.welding {
+  background: url(asset_path("welding.jpg")) center center no-repeat;
+  background-size: cover;
+}
+
+.focus-areas {
+  background-image: url(asset_path("microscope.png")), url(asset_path("microscope-bg.png"));
+  background-repeat: no-repeat;
+  background-position: top right, top left;
+  background-size: contain;
+}
+
+.footer__bg-image {
+  background: url(asset_path("robot-arm.png")) no-repeat center top/30.3125rem;
+}
+
+@media screen and (min-width: 40em) {
+  .usa-banner__button::after {
+    background-color: transparent !important;
+  }
+}
+
+.usa-banner__button[aria-expanded=false]:after {
+  background-image: url(asset_path("angle-arrow-down-primary.svg"));
+}
+
+.usa-navbar .usa-logo img {
+  height: 5rem;
+}
+
+@media (min-width: 800px) {
+  .usa-nav__primary button[aria-expanded=false] {
+    background-image: none;
+  }
+
+  .usa-nav__primary button {
+    background-image: none !important;
+  }
+
+  .usa-nav__primary-item {
+    .usa-accordion__button {
+      background: none;
+    }
+  }
+}
+
+.footer {
+  // background: url(asset_path("bg-lines-light.svg")) no-repeat top center;
+  background-image: url(asset_path("bg-lines-light.svg"));
+}
+
+.footer__right {
+  // background-image: #005ea2 url(bg-lines-dark.svg) no-repeat center center;
+  background-image: url(asset_path("bg-lines-dark.svg"));
 }

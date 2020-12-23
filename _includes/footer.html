@@ -1,29 +1,51 @@
-<footer class="usa-footer site-footer" role="contentinfo">
-  <div class="footer-section-bottom bg-base-lighter">
-    <div class="grid-container">
-      <div class="grid-row padding-3">
-        <div class="tablet:grid-col">
-          <div class="logo-links">
-            <a class="footer-logo media_link" href="https://18f.gsa.gov">
-              {% asset logo-img.png width="50" alt="Agency logo" %}
-            </a>
+<footer class="footer">
+  <div class="footer__bg-image"></div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-xl-7 footer__left">
+        {% asset nsf-iucrc-logo.svg alt="NSF &amp; IUCRC Logos" %}
+        <div class="row">
+          <div class="col-12 col-xl-6">
+            <p><b>IUCRC: Industry-University Cooperative Research Centers Program</b></p>
+            <p><b>The National Science Foundation</b><br>2415 Eisenhower Ave.<br>Alexandria, VA 22314</p>
+            <p><b>USA Tel:</b> (703) 292-5111<br><b>FIRS:</b> (800) 877-8339 | TDD: (800) 281-8749</p>
+          </div>
+          <div class="col-12 col-xl-6">
+            <h4 class="footer__list-title">Resource Links</h4>
+            <ul class="footer__link-columns">
+              <li><a href="#">Contact</a>
+              </li>
+              <li><a href="#">IUCRC.org</a>
+              </li>
+              <li><a href="#">NSF.gov</a>
+              </li>
+            </ul>
+
+            <ul class="footer__link-columns footer__link-columns--2col">
+              <li><a href="#">USA.gov</a>
+              </li>
+              <li><a href="#">FOIA</a>
+              </li>
+              <li><a href="#">Inspector General</a>
+              </li>
+              <li><a href="#">Privacy</a>
+              </li>
+              <li><a href="#">About NSF</a>
+              </li>
+              <li><a href="#">SBIR.gov</a>
+              </li>
+            </ul>
+
           </div>
         </div>
-        <div class="tablet:grid-col"></div>
-        <div class="tablet:grid-col">
-          <ul class="add-list-reset">
-            <li>Footer link</li>
-            <li>Footer link</li>
-            <li>Footer link</li>
-          </ul>
-        </div>
-        <div class="tablet:grid-col">
-          <ul class="add-list-reset">
-            <li>Footer link</li>
-            <li>Footer link</li>
-            <li>Footer link</li>
-          </ul>
-        </div>
+      </div>
+
+      <div class="col-12 col-xl-5 footer__right">
+        <h3>Stay in Touch</h3>
+        <p>Subscribe to our email list to be notified of upcoming deadlines.</p>
+        <a class="usa-button btn-secondary" href="#">Sign Up</a>
+
       </div>
     </div>
   </div>
