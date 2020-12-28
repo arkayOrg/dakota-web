@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1770px" height="1651px" viewBox="0 0 1770 1651" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Line BG</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="48.7121536%" y1="64.2298072%" x2="45.0182505%" y2="95.5952082%" id="linearGradient-1">
+            <stop stop-color="#E6E6E6" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="48.6269272%" y1="64.2298072%" x2="44.6885708%" y2="95.5952082%" id="linearGradient-2">
+            <stop stop-color="#E6E6E6" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="52.4130838%" y1="62.3764228%" x2="57.3710172%" y2="94.2919918%" id="linearGradient-3">
+            <stop stop-color="#E6E6E6" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.6214478%" y1="62.3764228%" x2="51.8982773%" y2="94.2919918%" id="linearGradient-4">
+            <stop stop-color="#E6E6E6" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="21.7166139%" y1="91.1770242%" x2="7.28770157%" y2="108.594908%" id="linearGradient-5">
+            <stop stop-color="#E6E6E6" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="2.21526465%" y1="37.718368%" x2="98.8012957%" y2="62.4795342%" id="linearGradient-6">
+            <stop stop-color="#F4F4F4" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#F2F2F2" offset="8.25801605%"></stop>
+            <stop stop-color="#E5E5E5" offset="92.339315%"></stop>
+            <stop stop-color="#E4E4E4" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Line-BG" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.804152716" stroke-linecap="square">
+        <g transform="translate(0.000000, -18.000000)">
+            <line x1="556.75" y1="18.5" x2="0.25" y2="1669" id="Line-4" stroke="url(#linearGradient-1)"></line>
+            <line x1="1285.5" y1="7.5" x2="714.75" y2="1648.75" id="Line-4-Copy-3" stroke="url(#linearGradient-2)"></line>
+            <line x1="588.5" y1="18.5" x2="1227.6881" y2="1630.06773" id="Line-4-Copy-2" stroke="url(#linearGradient-3)"></line>
+            <line x1="1397.5" y1="7.5" x2="1724.36057" y2="1630.06773" id="Line-4-Copy-4" stroke="url(#linearGradient-4)"></line>
+            <line x1="1770.5" y1="0.5" x2="570" y2="1201.24001" id="Line-4-Copy-5" stroke="url(#linearGradient-5)"></line>
+            <line x1="100.5" y1="18.5" x2="1687.5" y2="820.5" id="Line-4-Copy" stroke="url(#linearGradient-6)"></line>
+        </g>
+    </g>
+</svg>

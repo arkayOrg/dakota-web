@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="620px" viewBox="0 0 9 620" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>timeline-line</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Tokens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.276808966" stroke-linecap="square">
+        <g id="Timeline" transform="translate(-276.000000, -205.000000)" stroke="#DEE9F1">
+            <g id="Start-a-Center">
+                <g transform="translate(248.000000, 181.000000)">
+                    <g id="Steps">
+                        <g id="Oval-2" transform="translate(10.000000, 21.000000)">
+                            <g id="timeline-line">
+                                <g transform="translate(19.000000, 3.000000)">
+                                    <g>
+                                        <line x1="0.388888889" y1="558" x2="6.61111111" y2="558" id="Line-2-Copy-10"></line>
+                                        <line x1="0.388888889" y1="527" x2="6.61111111" y2="527" id="Line-2-Copy-14" fill="#D8D8D8"></line>
+                                        <line x1="0.388888889" y1="310" x2="6.61111111" y2="310" id="Line-2-Copy-23"></line>
+                                        <line x1="0.388888889" y1="341" x2="6.61111111" y2="341" id="Line-2-Copy-22"></line>
+                                        <line x1="0.388888889" y1="372" x2="6.61111111" y2="372" id="Line-2-Copy-21"></line>
+                                        <line x1="0.388888889" y1="403" x2="6.61111111" y2="403" id="Line-2-Copy-20"></line>
+                                        <line x1="0.388888889" y1="434" x2="6.61111111" y2="434" id="Line-2-Copy-18"></line>
+                                        <line x1="0.388888889" y1="465" x2="6.61111111" y2="465" id="Line-2-Copy-17"></line>
+                                        <line x1="0.388888889" y1="496" x2="6.61111111" y2="496" id="Line-2-Copy-16"></line>
+                                        <line x1="0.388888889" y1="31" x2="6.61111111" y2="31" id="Line-2"></line>
+                                        <line x1="0.388888889" y1="62" x2="6.61111111" y2="62" id="Line-2-Copy"></line>
+                                        <line x1="0.388888889" y1="93" x2="6.61111111" y2="93" id="Line-2-Copy-2"></line>
+                                        <line x1="0.388888889" y1="589" x2="6.61111111" y2="589" id="Line-2-Copy-3"></line>
+                                        <line x1="0.388888889" y1="124" x2="6.61111111" y2="124" id="Line-2-Copy-4"></line>
+                                        <line x1="0.388888889" y1="155" x2="6.61111111" y2="155" id="Line-2-Copy-5"></line>
+                                        <line x1="0.388888889" y1="186" x2="6.61111111" y2="186" id="Line-2-Copy-11"></line>
+                                        <line x1="0.388888889" y1="217" x2="6.61111111" y2="217" id="Line-2-Copy-9"></line>
+                                        <line x1="0.388888889" y1="248" x2="6.61111111" y2="248" id="Line-2-Copy-8"></line>
+                                        <line x1="0.388888889" y1="279" x2="6.61111111" y2="279" id="Line-2-Copy-7"></line>
+                                        <line x1="3.5" y1="1" x2="3.5" y2="619" id="Line-8"></line>
+                                        <line x1="0.388888889" y1="1" x2="6.61111111" y2="1" id="Line-2-Copy-6"></line>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
