@@ -5,11 +5,27 @@
 // These files from pattern lab have hardcoded asset paths which won't work
 // Overwriting various rules at the bottom
 @import "small.min";
-@import "medium.min";
-@import "large.min";
-@import "xlarge.min";
 
 // Add your SASS/CSS here
+
+@media (min-width: 769px) {
+  @import "medium.min";
+}
+
+@media (min-width: 1025px) {
+  @import "large.min";
+}
+
+@media (min-width: 1260px) {
+  @import "xlarge.min";
+}
+
+
+// @import "medium.min" only screen and (min-width: 769px);
+
+// @import "large.min" only screen and (min-width: 1025px);
+
+// @import "xlarge.min" only screen and (min-width: 1260px);
 
 // default mode hide banner
 .usa-banner__content {
