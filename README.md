@@ -235,4 +235,4 @@ This project is in the worldwide [public domain](LICENSE.md). As stated in [CONT
 > By submitting a pull request, you are agreeing to comply with this waiver of
 > copyright interest.
 
-Tweaks by Dakota Consulting
+Tweaks by Dakota Consulting, Inc.
