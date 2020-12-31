@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /test/
 layout: wide
 title: Home
 ---

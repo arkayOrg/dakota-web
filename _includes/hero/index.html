@@ -1,0 +1,58 @@
+{% comment %}
+This will be displayed on the homepage. Ideally, you want to highlight key goals of the website
+{% endcomment %}
+{% assign research_img = asset researcher.jpg %}
+
+<div class="hero">
+  <div id="carouselImages" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="carousel__bg" style="background-image: url('../../visuals/placeholders/researcher.jpg');"></div>
+          <div class="carousel__content carousel__content--slant">
+            <div class="carousel__text-cta">
+              <h1>Accelerating Impact through Partnerships</h1>
+              <p class="carousel__subtitle">Industry-University Cooperative Research Centers (IUCRC)</p>
+            </div>
+          </div>
+        </div>
+        <div class="credit__wrapper">
+          <p class="credit">ATE Centers Impact 2016-2017</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="container">
+          <div class="carousel__bg" style="background-image: url('../../visuals/placeholders/welder.jpg');"></div>
+          <div class="carousel__content carousel__content--slant">
+            <div class="carousel__text-cta">
+              <h1>Accelerating Impact through Partnerships</h1>
+              <p class="carousel__subtitle">Industry-University Cooperative Research Centers (IUCRC)</p>
+            </div>
+          </div>
+        </div>
+        <div class="credit__wrapper">
+          <p class="credit">ATE Impacts 2018-2019 book</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <div class="container">
+          <div class="carousel__bg" style="background-image: url('../../visuals/placeholders/wheat_0.jpg');"></div>
+          <div class="carousel__content carousel__content--slant">
+            <div class="carousel__text-cta">
+              <h1>Accelerating Impact through Partnerships</h1>
+              <p class="carousel__subtitle">Industry-University Cooperative Research Centers (IUCRC)</p>
+            </div>
+          </div>
+        </div>
+        <div class="credit__wrapper">
+          <p class="credit">Wheat Genetics Resource Center</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  {% include carousel_text.html %}
+</div>

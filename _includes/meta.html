@@ -48,5 +48,9 @@ site, this is the place to do it.
   <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{% asset favicons/favicon-144.png @path %}">
   <!-- CSS
     ================================================== -->
+  <link rel="stylesheet" href="{% asset small.min @path %}" type="text/css">
+  <link rel="stylesheet" href="{% asset medium.min @path %}" type="text/css" media="screen and (min-width: 800px)">
+  <link rel="stylesheet" href="{% asset large.min @path %}" type="text/css" media="screen and (min-width: 1024px)">
+  <link rel="stylesheet" href="{% asset xlarge.min @path %}" type="text/css" media="screen and (min-width: 1200px)">
   {% asset index.scss %}
 </head>

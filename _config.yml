@@ -196,5 +196,6 @@ assets:
     - node_modules/uswds/dist/js
     - node_modules/uswds/dist/scss
     - node_modules/netlify-cms/dist
+    - _assets/css
     - _assets/images
     - _assets/js
