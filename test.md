@@ -8,7 +8,7 @@ sidenav: false
 		<div class="carousel-inner">
 			<div class="carousel-item active">
 				<div class="container">
-					<div class="carousel__bg" style="background-image: url('../../visuals/placeholders/factory.jpg');"></div>
+					<div class="carousel__bg" style="background-image: url('{{ site.baseurl }}/visuals/placeholders/factory.jpg');"></div>
 						<div class="carousel__content carousel__content--slant">
 							<div class="carousel__text-cta">
 								<h1>Strategic Engagements</h1>								

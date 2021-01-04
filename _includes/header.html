@@ -23,7 +23,7 @@ There's probably a simpler/cleaner way, but for now...
       <header class="usa-banner__header">
         <div class="usa-banner__inner">
           <div class="grid-col-auto">
-            <img class="usa-banner__header-flag" src="../../visuals/css-assets/us-flag.png" alt="U.S. flag">
+            <img class="usa-banner__header-flag" src="{{ site.baseurl }}/visuals/css-assets/us-flag.png" alt="U.S. flag">
           </div>
           <div class="grid-col-fill tablet-lg:grid-col-auto">
             <p class="usa-banner__header-text">An official website of the United States government</p>
@@ -40,7 +40,7 @@ There's probably a simpler/cleaner way, but for now...
       <div class="usa-banner__content usa-accordion__content" id="gov-banner">
         <div class="grid-row grid-gap-lg">
           <div class="usa-banner__guidance tablet-lg:grid-col-6">
-            <img class="usa-banner__icon usa-media-block__img" src="../../visuals/css-assets/icon-dot-gov.svg"
+            <img class="usa-banner__icon usa-media-block__img" src="{{ site.baseurl }}/visuals/css-assets/icon-dot-gov.svg"
               alt="Dot gov">
             <div class="usa-media-block__body">
               <p><b>The .gov means it’s official.</b><br>Federal government websites often end in .gov or .mil. Before
@@ -48,7 +48,7 @@ There's probably a simpler/cleaner way, but for now...
             </div>
           </div>
           <div class="usa-banner__guidance tablet-lg:grid-col-6">
-            <img class="usa-banner__icon usa-media-block__img" src="../../visuals/css-assets/icon-https.svg"
+            <img class="usa-banner__icon usa-media-block__img" src="{{ site.baseurl }}/visuals/css-assets/icon-https.svg"
               alt="Https">
             <div class="usa-media-block__body">
               <p><b>The site is secure.</b><br>The <b>https://</b> ensures that you are connecting to the official
@@ -64,7 +64,7 @@ There's probably a simpler/cleaner way, but for now...
     <div class="usa-navbar">
       <div class="usa-logo" id="basic-logo">
         <a href="/" title="Home" aria-label="Home">
-          <img src="../../visuals/css-assets/nsf-iucrc-logo.svg" alt="NSF &amp; IUCRC Logos" />
+          <img src="{{ site.baseurl }}/visuals/css-assets/nsf-iucrc-logo.svg" alt="NSF &amp; IUCRC Logos" />
           <span class="usa-sr-only">Home</span></a>
       </div>
       <div class="usa-navbar__btn"><button class="usa-menu-btn"></button></div>
@@ -74,7 +74,7 @@ There's probably a simpler/cleaner way, but for now...
       <div class="usa-navbar">
         <div class="usa-logo" id="basic-logo">
           <a href="/" title="" aria-label="">
-            <img src="../../visuals/css-assets/nsf-iucrc-logo.svg" alt="NSF &amp; IUCRC Logos" />
+            <img src="{{ site.baseurl }}/visuals/css-assets/nsf-iucrc-logo.svg" alt="NSF &amp; IUCRC Logos" />
             <span class="usa-sr-only"></span></a>
         </div>
         <div class="usa-navbar__btn"><button class="usa-nav__close"></button></div>
@@ -104,7 +104,7 @@ There's probably a simpler/cleaner way, but for now...
           </ul>
         </li>
         <li class="usa-nav__primary-item">
-          <a class="usa-accordion__button usa-nav__link {{ abt_class }}" href="/about/">About</a>
+          <a class="usa-accordion__button usa-nav__link {{ abt_class }}" href="{{ site.baseurl }}/about/">About</a>
         </li>
         <li class="usa-nav__primary-item">
           <a class="usa-accordion__button usa-nav__link {{ fun_class }}" href="#">Funding</a>
