@@ -3,7 +3,7 @@ title: Government | IUCRC
 tag: government
 layout: default
 secondary: true
-permalink: /government
+permalink: /government/
 ---
 
 {% include hero/government.html %}

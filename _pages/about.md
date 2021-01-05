@@ -3,7 +3,7 @@ title: About | IUCRC
 tag: about
 layout: default
 secondary: true
-permalink: /about
+permalink: /about/
 ---
 
 {% include hero/about.html %}

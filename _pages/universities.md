@@ -3,7 +3,7 @@ title: University | IUCRC
 tag: university
 layout: default
 secondary: true
-permalink: /universities
+permalink: /universities/
 ---
 
 {% include hero/universities.html %}
