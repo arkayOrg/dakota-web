@@ -3,7 +3,6 @@ title: Industry | IUCRC
 tag: industry
 layout: default
 secondary: true
-permalink: /industry/
 ---
 
 {% include hero/industry.html %}
