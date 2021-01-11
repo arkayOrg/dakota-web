@@ -189,6 +189,8 @@ exclude:
   - node_modules
   - Gemfile
   - Gemfile.lock
+  - blog
+  - _posts
 
 assets:
   sources:
