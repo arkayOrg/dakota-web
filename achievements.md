@@ -18,7 +18,7 @@ pagination:
         <div class="topic__row topic__row--divider">
           <div class="topic__text">
             <h2 id=""><span class="highlight">{{ post.title }}</span></h2>
-            <a class="usa-button btn-tertiary" href="{{ post.url }}">Learn More</a>
+            <a class="usa-button btn-tertiary" href="{{ site.baseurl }}{{ post.url | append: '.html' }}">Learn More</a>
           </div>
           <div class="topic__image">
             <img src="{{ site.baseurl }}/visuals/achievements/{{ post.img }}" aria-hidden="true" alt="Topic Image Right">
