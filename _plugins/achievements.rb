@@ -9,6 +9,8 @@ module SiteData
     end
 
     def generate
+      count = 0
+
       Dir.glob(File.join(@basepath, '_data', 'achievements', '*.yml')) do |yml_filename|
         achievement = YAML.load_file(yml_filename)
 
@@ -36,6 +38,14 @@ module SiteData
           output.gsub('site.baseurl', @site.baseurl),
           mode: "w"
         )
+
+        count += 1
+      end
+
+      if count == 1
+        puts "   1 achievement generated."
+      else
+        puts "   #{count} achievements generated."
       end
     end
   end
