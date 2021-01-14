@@ -1,0 +1,54 @@
+key: novel-concrete-wall-panels
+date: 2020-12-02
+title: |-
+  Catalyzing Commercialization: Novel Concrete Wall Panels Lower a Building’s Energy Footprint
+focus_area: Advanced Materials
+img: wall_panel.png
+center: Center for Energy Harvesting Materials and System (CEHMS)
+content: |-
+  <p>
+    About 20% of total energy consumption in the U.S. is used for the heating and cooling of buildings using conventional sources like fossil fuels. While standard thermal insulation, with its low thermal conductivity, can help mitigate heating/cooling loss, researchers have sought to incorporate thermal storage capacity within the building envelope to better control the temperature variations across building walls.
+  </p>
+
+  <p>
+    Previous attempts to do so have relied on mixing a phase-change material (PCM) like petroleum wax into the cement paste. The wax would absorb heat during a hot period and release stored heat during a cold period, thereby significantly reducing the temperature variation inside the building. Unfortunately, this approach has not succeeded in becoming a commercial reality due to technical challenges.
+  </p>
+
+  <p>
+    A new method developed by scientists at the <a href="site.baseurl/centers/center-for-energy-harvesting-materials-and-system">Center for Energy Harvesting Materials and Systems (CEHMS)</a> at Columbia Univ., part of the National Science Foundation’s Industry-University Cooperative Research Centers program, promises to overcome these challenges.
+  </p>
+
+  <figure>
+    <img alt="Wall panel" src="site.baseurl/visuals/achievements/wall_panel.png">
+    <figcaption>
+      (a) A novel wall panel consists of foamed concrete with a (b) micropore structure that is filled with a phase-change material (PCM). The PCM can absorb heat during warm periods and release heat during cold periods, helping to regulate a building’s temperature. (c) A higher porosity corresponds to less temperature fluctuation.
+    </figcaption>
+  </figure>
+
+  <p>
+    The CEHMS team used a multiscale modeling method to guide the design and manufacture of PCM wall panels. The end result was a lightweight wall panel that has a relatively uniform microporous structure — with up to 75% porosity — that retains adequate structural strength to meet the required building codes for non-structural use.
+  </p>
+
+  <p>
+    The team developed a mixing process that involves the application of pressure and the addition of foaming surfactants, which generate microsized air bubbles in the cement paste. By modulating the process conditions, they can control the microstructure and porosity of the concrete. Typically, it is very difficult to control the generation of uniform microstructure and porosity in concrete; a standard concrete has only 7% porosity. Using their novel process, the researchers have created materials that have porosities as high as 83%.
+  </p>
+
+  <p>
+    Next, they embedded polymer fibers and metal mesh into the cement for reinforcement. After curing the concrete in a mold, the micropores are filled with PCM by vacuum infusion. The PCM-filled capillary pores provide thermal energy storage while the polymer fibers in the composite provide adequate strength (3.3 MPa) to support the workload in service and installation.
+  </p>
+
+  <p>
+    The phase-change wall panel can suppress room temperature fluctuations and significantly reduce the energy needed to heat and cool a room. Lab tests and numerical simulations demonstrate that a 1-in.-thick wall panel with 70% PCM embedment could shrink the electricity demand of a 1,000-ft2 home in the U.S. Northeast by ~50% in the summer months. Larger-scale applications could improve energy efficiency of buildings even more and reduce their heating/cooling-related carbon footprint. The novel foam concrete exhibits better thermal and acoustic properties than standard thermal insulation, as well as good mechanical properties. Such wall panels could represent a sustainable and energy-efficient way to combat climate change. In addition to its use as an energy-efficient wall panel, the novel concrete could also be used in building-integrated photovoltaic thermal roof panels.
+  </p>
+
+  <p>
+    The organization is now looking to create customized wall panels for specific climates that would contain several PCMs with tuned melting temperatures. “This technology could be a game-changer, bringing deep energy savings at an affordable price to the energy-efficient building envelope market,” says Orin Herskowitz, Columbia Technology Ventures Director. Columbia Univ. is working with a startup to license and further drive commercial development of this technology.
+  </p>
+
+  <p>
+    This technology was funded through the NSF Industry-University Cooperative Research Centers Program.
+  </p>
+
+  <p>
+    This <a terget="_blank" href="https://www.aiche.org/resources/publications/cep/2020/may/catalyzing-commercialization-novel-concrete-wall-panels-lower-buildings-energy-footprint">article</a> was prepared by the National Science Foundation in partnership with CEP.
+  </p>

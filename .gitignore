@@ -4,3 +4,7 @@ _site
 node_modules
 .bundle
 .jekyll-cache/
+
+# ignore everything in _achievements except .ignorefiles
+_achievements/*
+!_achievements/.ignorefiles 

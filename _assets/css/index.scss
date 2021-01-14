@@ -21,3 +21,47 @@
     background: #e8e8e8;
   }
 }
+
+.paging {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+
+  .pager {
+    display: flex;
+
+    li {
+      padding: 0;
+      width: 1.5em;
+
+      &::before {
+        display: none;
+      }
+
+      a {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+      }
+
+      &.selected {
+        background: #005ea2;
+
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.content-block.achievement {
+  p:last-of-type.keep-margin {
+    margin-bottom: 1.5625rem;
+  }
+
+  figcaption {
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+}

@@ -1,0 +1,91 @@
+key: test-helps-rubber-meet-the-road
+date: 2020-08-11
+title: |-
+  Test Helps ‘Rubber Meet the Road’ in Wet Driving Conditions
+focus_area: Advanced Materials
+img: driving_conditions.jpg
+center: Center for Tire Research (CenTiRe)
+content: |-
+  <figure>
+    <img alt="Test setup" src="site.baseurl/visuals/achievements/driving_conditions.jpg">
+    <figcaption>
+      Credit: Siamak Farhad, Mechanical Engnieering Department, University of Akron
+    </figcaption>
+  </figure>
+
+  <p>
+    More than 300,000 people are injured and about 4,000 die each year in car crashes that occur on roads with wet pavement, according to the <a target="_blank" href="https://ops.fhwa.dot.gov/weather/q1_roadimpact.htm">U.S. Department of Transportation</a>. Although no one can control the rain, they can improve the tires that drive on slick surfaces. Dr. Siamak Farhad, an Associate Professor of Mechanical Engineering department at The University of Akron, and his research team have developed a system they call dynamic mechanical analysis that, for the first time, directly and accurately stress tests new materials that go into making tires. 
+  </p>
+
+  <p>
+    “The new test could increase wet traction of tires,” says Farhad. “That’s a significant impact to society and the economy because it reduces the number accidents and deaths.” 
+  </p>
+
+  <p>
+    Farhad developed the test at the <a href="site.baseurl/centers/center-for-tire-research">Center for Tire Research (CenTiRe)</a> — an Industry-University Cooperative Research Center (IUCRC) funded by the National Science Foundation (NSF) to conduct leading-edge research in materials, tire physics, testing and manufacturing.
+  </p>
+
+  <h3>Conventional test systems fall short</h3>
+
+  <p>
+    Until now, directly and accurately testing rubber materials in the laboratory under conditions that simulate wet traction has been nearly impossible. Because tire materials have properties that make them both elastic like a spring and viscous like honey, testing them requires equipment that can vibrate samples across a broad range of frequencies. That means applying forces from gradual compression and expansion (low frequency) to more rapid impulses (high frequency). 
+  </p>
+
+  <p>
+    Machines cannot run at a wide range of frequencies and when they try to run at high frequencies, the testing machines experience mechanical vibrations that interfere with sensors. Most testing systems attempt to overcome this limitation by changing the temperature of a material in order to simulate the effects of high frequency. Called time temperature superposition, or TTS, this approach leads to inaccuracies, Farhad says. 
+  </p>
+
+  <h3>Quickly and accurately testing rubber materials for tires has been nearly impossible—until now</h3>
+
+  <p>
+    The dynamic mechanical analysis system overcomes both of these challenges. It runs at a wide range of frequencies and can achieve elusive high frequencies, without experiencing vibrations. 
+  </p>
+
+  <p>
+    “Tire rubber is not homogeneous, and application of TTS is an approximation. Farhad’s work allows us to test material responses directly, without TTS. This is the main technical breakthrough,” says Mindaugas Rackaitis, industrial advisory board chair of CenTiRe and the manager of advanced materials research at Akron, Ohio-based Bridgestone Americas.
+  </p>
+
+  <p>
+    What’s more, the device can produce results in less than an hour. 
+  </p>
+
+  <p>
+    “This is the main technical breakthrough,” says Rackaitis. “Economically, running TTS for one sample might take several hours, whereas with this new measurement method, it could possibly be done faster than 30 minutes.” 
+  </p>
+
+  <p>
+    Rackaitis says that the ability to test materials accurately at a high frequency could have broad implications for developing materials beyond tires. Researchers that work on products designed for impact resistance, sound propagation, packaging and more would be interested in this device.
+  </p>
+
+  <h3>The size of a shoebox</h3>
+
+  <figure class="align-left">
+    <img alt="Text fixture" src="site.baseurl/visuals/achievements/driving_conditions_2.jpg">
+    <figcaption>
+      Credit: Siamak Farhad, Mechanical Engnieering Department, University of Akron
+    </figcaption>
+  </figure>
+
+  <p>
+    The test system is about the size of a shoebox and it applies high-frequency perturbations to two small pieces of viscoelastic material, less than 0.2” x 0.2” each, without disrupting system sensors or dislodging the samples. Farhad and his research team built it with inexpensive and commercially available technologies from today’s market, including a force sensor and a mover called an actuator, which is integrated with sensors. 
+  </p>
+
+  <p>
+    Although the components were readily available, the system’s design was not. Farhad and his research team spent a year-and-a-half with computer modeling software to come up with a configuration that would produce no vibrations and minimized temperature increases when running samples at high frequencies. After working through 50 different designs, they invented a unique clamp mechanism that holds the samples and a sturdy base that produces no resonance. 
+  </p>
+
+  <p>
+    During that time, Farhad and Esmaeeli conferenced biweekly, either by video or in person, with 20 industry partners to present their progress, solicit feedback, and brainstorm solutions to problems. The combination of technology and human ingenuity paid off. When the researchers finally built a working device and tested it on samples, the system worked on the first try. 
+  </p>
+
+  <p>
+    Dr. Ron Kennedy, the CenTiRe Managing Director, who helped coordinate collaborators between Farhad’s research team and industry members, says that a great advantage of the NSF IUCRC program is that it encourages faculty, students, and industry members to work together to develop technology through a mentoring relationship. 
+  </p>
+
+  <p>
+    “Farhad and his students took great advantage of the mentoring provided by experts at the CenTiRe member companies to better define the technical requirements and application needs for the test equipment. This resulted in the development of test equipment that will directly address the needs of the member companies, and in turn the driving public,” Kennedy says. 
+  </p>
+
+  <p>
+    The team has filed a <a target="_blank" href="https://patents.google.com/patent/US20190017912A1/en">U.S. patent</a> for their test device, but will be working to add a control chamber that can run a variety of viscoelastic material samples at different temperatures. Farhad says the team hopes to have a commercially viable product in spring 2021. 
+  </p>

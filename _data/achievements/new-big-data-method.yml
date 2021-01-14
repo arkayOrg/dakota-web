@@ -1,0 +1,57 @@
+key: new-big-data-method
+date: 2020-08-11
+title: |-
+  New Big Data Method Could Revolutionize Personalized Medical Treatments from Cancer to Depression
+focus_area: Biotechnology
+img: big_data.jpg
+center: Center for Computing and Genomics (CCBGM)
+content: |-
+  <figure>
+    <img alt="big data abstract graphic" src="site.baseurl/visuals/achievements/big_data.jpg">
+    <figcaption>
+      Credit: metamorworks/Shutterstock
+    </figcaption>
+  </figure>
+
+  <p>
+    By leveraging big datasets and artificial intelligence, researchers are learning how to create more personalized medical treatments that could result in better patient outcomes and significant economic impacts.
+  </p>
+
+  <p>
+    The collaboration of physicians and computer scientists based at the Mayo Clinic in Rochester, Minnesota and the University of Illinois at Urbana-Champaign, who are a part of the <a href="site.baseurl/centers/center-for-computing-and-genomics">Center for Computational Biology and Genomic Medicine (CCBGM)</a>—an Industry-University Cooperative Research Center (IUCRC) funded by the National Science Foundation—have found patterns by combining large, existing drug therapy datasets with physician insights. 
+  </p>
+
+  <h3>Identifying patterns for personalized treatments</h3>
+
+  <p>
+    The patterns showed how individuals responded to particular treatments, giving insight on which drug treatments could work best based on characteristics like gender, ethnicity, and genetic makeup. This allowed researchers to identify possible pathways to develop more effective, personalized treatments for a form of breast cancer and for depression. The patterns, which were revealed using machine learning algorithms, also allowed the researchers to work backwards to determine why a certain treatment worked well with a particular subset of people. 
+  </p>
+
+  <p>
+    “We have used artificial intelligence and machine learning not only as a way to pick and select treatments, but to also prioritize biomarkers so that we can go back in and see what the biology of the mechanisms behind these drugs is—how it’s actually working,” said Arjun Athreya, an assistant professor and principal data scientist leading the machine learning strategies of the project at the Mayo Clinic’s department of molecular pharmacology and experimental therapeutics. “Our ability to identify and prioritize which gene needs to be studied in the laboratory has significantly accelerated discovery research, by allowing novel hypotheses to be tested.” 
+  </p>
+
+  <h3>Discovering new treatments</h3>
+
+  <p>
+    Looking at drug treatments for triple-negative breast cancer—a particularly aggressive form for which targeted treatments remain to be found—the data showed one gene in particular, CDC42, was affected by the drug Metformin. This drug is typically used for treating diabetes, and the basis for its anti-cancer properties likely would not have been discovered without the aid of the new technique. 
+  </p>
+
+  <p>
+    The collaborators also looked at individualizing therapy for major depressive disorder (MDD). Today, patients diagnosed with depression can try four to six antidepressants before their symptoms improve—a process that takes months. Combining genomic data with predictive clinical measures, the machine learning methods were able to increase the predictability of anti-depression drug treatment effectiveness to 75%—much higher than the standard 56% accuracy achieved through sociodemographic factors alone. 
+  </p>
+
+  <p>
+    Considering that MDD affects cognitive and concentration abilities at work, getting patients back to their normal lives sooner through proper medication has tremendous benefits for the patients, their families, and in the workplace. The World Health Organization estimates that by 2030, the global economic impact of MDD in the workplace will be $16 trillion. The new approach to predicting drug response could dramatically decrease that impact and potentially even bolster the global economy.  
+  </p>
+
+  <p class="keep-margin">
+    Athreya is expanding collaborations with clinicians and industry partners to study other chronic and rare conditions. The Mayo Clinic, where Athreya works, is looking to leverage the power of artificial intelligence in transforming the way physicians provide care for patients. They are additionally working to expand their studies by leveraging population-scale biobanks nationwide to recruit people of African American and Hispanic heritage, who traditionally are under-represented in clinical trials. 
+  </p>
+
+  <figure>
+    <img alt="Man sitting in front of a window with words written on it in marker" src="site.baseurl/visuals/achievements/big_data_2.jpg">
+    <figcaption>
+      Credit: Arjun Athreya, Liewei Wang and Richard Weinshilboum; Dept of Molecular Pharmacology and Experimental Therapeutics, Mayo Clinic
+    </figcaption>
+  </figure>

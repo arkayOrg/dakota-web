@@ -121,6 +121,10 @@ searchgov:
 ##########################################################################################
 
 collections:
+  achievements:
+    output: true
+    permalink: /centers/achievements/:name
+    sort_by: date
   pages:
     output: true
     permalink: /:path/
