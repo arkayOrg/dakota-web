@@ -1,0 +1,46 @@
+key: new-technique-surveillance-images
+date: 2020-07-22
+title: |-
+  New Technique Provides Faster, Lower-Cost Detection in Surveillance Images
+focus_area: Information, Communication and Computing
+img: shutterstock_1122512510.jpg
+center: Center for Net-Centric and Cloud Software and Systems (NCSS)
+content: |-
+  <p>
+    Processing images from surveillance cameras is a time-consuming and costly endeavor. A new technique developed by researchers at the <a href="site.baseurl/centers/net-centric-and-cloud-software-and-system">Center for Net-Centric and Cloud Software and Systems (NCSS)</a> with funding from the National Science Foundation’s (NSF) Industry-University Cooperative Research Center (IUCRC) program, has found a more efficient way to process surveillance images. The new technique has the potential to reduce system and processing costs, enabling faster detections. It also has promising applications for medical imagery and wearable cameras. 
+  </p>
+
+  <p>
+    Rather than using previous methods that unpacked a whole image, the researchers focused on just the pertinent information. Imagine a surveillance system mounted on a drone for a search and rescue effort. The background landscape information isn’t important—you’re just looking for a human figure. The researchers developed an object detecting and tracking algorithm that looks specifically for the key information.
+  </p>
+
+  <p>
+    The process was designed for images that come from a type of camera known as a compressive camera, which is becoming increasingly common in consumer products like drone surveillance, medical imaging, and police body cameras. Compressive cameras, which use a system called compressive sensing, are often used in technology that is resource-restricted—such as systems that have a limit to data storage, power, or space. Between the camera lens and the detector chip array that usually collects incoming light to create the image, these cameras have an additional programmable array. This array compresses all the light from the scene into a single pixel. This means that the saved image is just one pixel, instead of a grid of hundreds, which dramatically reduces data and power usages. 
+  </p>
+
+  <p>
+    In the past, researchers have struggled with finding the optimal way to get needed information back out of that one pixel. Untangling the whole image from one pixel requires machine learning, which takes time and extensive computing power, and requires large picture datasets to “train” the machine learning algorithm. The new technique uses a different type of algorithm to bypass this step and is able to gather pertinent information without having to reconstruct the whole image from the single pixel first. The algorithm can be further programmed to detect the important information.
+  </p>
+
+  <p>
+    “The intent of the system is to detect whatever is key, say a human and where they move, while being able to ignore other things, like where a tree is or when a cat crosses the street,” said Pavan Turaga, lead researcher on the NCSS project at the Arizona State University. “And what we’ve found in general is we can solve problems like object detection and object tracking, almost as if we had access to the full image, but at a significantly lower cost of acquiring the complete data.”  
+  </p>
+
+  <p>
+    For surveillance uses, this new technique has the additional benefit of retaining all the information in the single pixel if a full picture needs to be reconstructed for further details. The technique also works particularly well with infrared imaging, which is dependent on much more expensive large sensor arrays than optical imagers. 
+  </p>
+
+  <p>
+    Given the wide range of consumer applications, the researchers paired with Raytheon, an international defense company, through the Sensor Signal and Information Processing (SenSIP) Center. The long-standing collaboration between Raytheon Missile Systems (RMS) and the ASU SenSIP site helped the researchers optimize their new algorithm for drone and other surveillance applications, including vehicle and target tracking.  
+  </p>
+
+  <p class="keep-margin">
+    The new technique can be applied to a wide range of cameras including wearable cameras and ones used in military equipment. The patented technique could also be adapted for use with three-dimensional healthcare images, such as MRIs. This would dramatically reduce the time required to scan patients, saving medical costs and waiting periods.
+  </p>
+
+  <figure>
+    <img alt="monitors" src="site.baseurl/visuals/achievements/shutterstock_1122512510.jpg">
+    <figcaption>
+      Credit: roibu/Shutterstock
+    </figcaption>
+  </figure>

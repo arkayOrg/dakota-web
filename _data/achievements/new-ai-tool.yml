@@ -1,0 +1,49 @@
+key: new-ai-tool
+date: 2020-07-15
+title: |-
+  New A.I. Tool Aims at Reducing Breast Cancer Deaths
+focus_area: Health and Safety
+img: chotai_breakthrough.jpg
+center: Center for Health Organization and Transformation (CHOT)
+content: |-
+  <p>
+    More than 40,000 women and 500 men in the United States die from breast cancer each year, according to the American Cancer Society. But a novel computer model could help cut those numbers in half by 2026. The artificial intelligence (AI) tool is built using 1.6 million anonymous healthcare entries from more than 260,000 breast cancer patients over a period of 41 years. Through meaningful analysis of a number of data points, including patient demographics and medical actions taken, the model aims to provide physicians with decision-making information that personalizes treatment. 
+  </p>
+
+  <p>
+    “We want to help a patient chose the optimal action for her at a particular stage so that she can have the best outcomes and quality of life following her diagnosis,” says the lead researcher on the project, Hui Yang, an associate professor of industrial and manufacturing engineering at The Pennsylvania State University and the site director of the <a target="_blank" href="https://www.chot.psu.edu/">Center for Health Organization Transformation</a> — an Industry-University Cooperative Research Center (IUCRC) funded by the National Science Foundation to drive innovations in healthcare. Yang launched the project two years ago as part of an IUCRC partnership with Susan G. Komen®, the world’s leading breast cancer organization.
+  </p>
+
+  <p>
+    Although the medical field is full of highly skilled healthcare workers and protocols for treating breast cancer patients, the disease remains the second most common cause of death from cancer in women in the United States, according to the <a target="_blank" href="https://mchb.hrsa.gov/whusa11/hstat/hshi/downloads/pdf/214c.pdf">U.S. Department of Health and Human Services</a>. Several variables influence these numbers, among them the need for better decision-making models that give practitioners the information they need to discuss tailored treatments with patients.
+  </p>
+
+  <figure>
+    <img alt="2 men looking at computer" src="site.baseurl/visuals/achievements/chotai_breakthrough.jpg">
+    <figcaption>
+      Dr. Hui Yang (standing) and Mr. Farhad Imani (sitting) working on the development of AI algorithms for breast cancer treatment planning. Credit: Hui Yang, Pennsylvania State University
+    </figcaption>
+  </figure>
+
+  <p>
+    Yang and his colleagues began collecting data that would help them answer some specific research questions. They include, How does breast cancer behave over time? If a patient is in a certain state, such as early diagnosis or post-mastectomy, what is the probability that she will move to a different state, such as remission or recurrence? How does an action, such as radiation and chemotherapy, impact a patient’s quality of life or the medical cost of treatment?
+  </p>
+
+  <figure>
+    <img alt="3 men seated" src="site.baseurl/visuals/achievements/chotai_breakthrough.jpg">
+    <figcaption>
+      Dr. Hui Yang (middle). Dr. Cheng-bang Chen (left) and Mr. Farhad Imani (right) working on the development of AI algorithms for breast cancer treatment planning. Credit: Dr. Hui Yang, Pennsylvania State University
+    </figcaption>
+  </figure>
+
+  <p>
+    The researchers pulled anonymous patient data from public breast cancer databases, such as those run by the National Cancer Institute and Centers for Disease Control to amass 1.6 million entries in all from patients diagnosed and treated between 1975 to 2016. The entries trace every patient from the first diagnosis to each outcome along the way. 
+  </p>
+
+  <p>
+    They put these details into a machine-learning algorithm that’s designed to characterize the data and produce a probability that certain actions will lead to certain outcomes. Those results come from patients that have already undergone treatment. The algorithm learns from the actions and outcomes and is trained over time to become more accurate at formulating the probability. Eventually, says Yang, the final model will help Komen with its mission of saving lives, through informing its education programs, public policy advocacy, and support of research to prevent and cure breast cancer. Yang and his team will also turn the algorithm into a software application that physicians can use to help make decisions. For instance, a doctor would input details around the patient’s demographics and diagnoses and then receive the probabilistic estimate of risks along a course of actions for treatment.
+  </p>
+
+  <p>
+    “We want to provide healthcare professionals with useful decision-support tools so that they can develop the optimal, personalized treatment strategy for patients,” says Yang.
+  </p>

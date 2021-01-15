@@ -1,0 +1,66 @@
+key: ultrasonic-dehydration-of-protein-suspensions
+date: 2020-06-29
+title: |-
+  Catalyzing Commercialization: Ultrasonic Dehydration of Protein Suspensions
+focus_area: Energy and Environment
+img: ultrasonic-dehydration.png
+center: Center for Advanced Research in Drying (CARD)
+content: |-
+  <p>
+    Today, consumer food choices, as well as food processing innovations, are driven by health, nutrition, and sustainability considerations. Plant proteins, a sustainable alternative to meat, are being used more frequently in foods from protein bars to pasta. At the heart of many food processes is drying. Proteins are routinely dried to improve storage stability, expand alternatives to product formulation, and enhance bioavailability. However, a common challenge with drying is that proteins are sensitive to high heat and exposure times, which can denature and degrade their quality, nutritional value, and taste.
+  </p>
+
+  <p>
+    The <a href="site.baseurl/centers/center-for-advanced-research-in-drying">Center for Advanced Research in Drying (CARD)</a> has devised an alternative processing technology — i.e., ultrasound contact drying — that could mitigate problems associated with traditional drying operations. CARD is devoted to research on the drying of moist, porous materials such as food, agricultural products, chemical products, and biopharmaceuticals. Led by Worcester Polytechnic Institute and the Univ. of Illinois at Urbana-Champaign, CARD is investigating the use of high-power ultrasound as a nonthermal, faster, and less energy-intensive method for protein dehydration.
+  </p>
+
+  <p>
+    Drying of heat-sensitive biological materials has been an ongoing challenge in the food-processing industry. Ultrasound contact drying is an attractive technology because it can preserve protein functionality, including solubility and enzymatic activity. In the bio-pharmaceuticals industry, the method can be used to dry delicate materials such as therapeutic and diagnostic proteins. In addition, it can be run at room temperature and offers shorter drying times than conventional drying.
+  </p>
+
+  <p>
+    In ultrasound contact drying, piezoelectric transducers produce a high-frequency sound (20–100 kHz) that creates cavitation bubbles and capillary waves in liquid water, which rupture the surface of the water. A stream of air blows away the resulting mist.
+  </p>
+
+  <figure>
+    <img alt="Ultrasound induces capillary waves at the surface of a pool or drop of water" src="site.baseurl/visuals/achievements/ultrasonic-dehydration.png">
+    <figcaption>
+      Ultrasound induces capillary waves at the surface of a pool or drop of water. As the waves crest, cavitation bubbles are formed. These bubbles burst from the liquid surface, releasing tiny droplets of mist that can be blown away by a stream of air. Source: Adapted from <a href="#footer-1">(1)</a>.
+    </figcaption>
+  </figure>
+
+  <p>
+    Ultrasound contact drying is more energy efficient than traditional heat-based drying. The energy consumption per unit mass of water removed in a conventional convection dryer was reported as 3.7 kJ/g, while a prototype ultrasonic dryer consumed 0.3 kJ/g. In traditional drying operations, energy usage from running ancillary equipment and energy losses can account for 50% of the total energy consumption.
+  </p>
+
+  <p>
+    CARD tested their ultrasound contact drying process on pea and lentil proteins in small pilot-plant experiments. A thin layer of a protein gel or slurry was spread onto a drying surface, which was placed in contact with an array of ultrasound transducers housed in a transducer box. The slurry was kept at 26–28°C by a heat-exchange system. Ultrasound energy was applied for 5–8 min until the moisture content of the gel was reduced to 1.5%. The final product consisted of non-sticky thin flakes. This shows promise for scaling up the operation because the drying equipment could operate without becoming fouled with sticky residues. Protein powders made by ultrasound contact drying were readily dispersible in water and 5 to 10 times more soluble than protein powders dried through conventional means.
+  </p>
+
+  <p>
+    The design and development of pilot plant demonstration equipment is underway to further develop the ultrasonic technology to produce high-quality food products, while reducing processing time, energy consumption, and processing costs.
+  </p>
+
+  <p>
+    “One of the most important aspects of the Center’s mission is creating new technologies and tools that help our industry members build commercial success,” says Jamal Yagoobi, Lead Director of CARD.
+  </p>
+
+  <p>
+    To that end, CARD is actively collaborating with industry groups that are developing ultrasound contact drying for various types of proteins and biopolymers processed in the food and biotech industries. Plans are underway to expand testing of this method to dry other protein products, including α-lactalbumin, β-lactoglobulin, bovine serum albumin (BSA), and insulin.
+  </p>
+
+  <p>
+    This technology was funded through the NSF Industry-University Cooperative Research Centers (IUCRC) program.
+  </p>
+
+  <p>
+    This <a target="_blank" href="https://www.aiche.org/resources/publications/cep/2020/june/catalyzing-commercialization-ultrasonic-dehydration-protein-suspensions">article</a> was prepared by NSF for AIChE and appeared in the June 2020 issue of Chemical Engineering Progress.
+  </p>
+
+  <div class="footnotes">
+    <p class="footnote">
+      <a name="footer-1">
+        1. Simon, J. C., et al., “Ultrasonic Atomization of Liquids in Drop-Chain Acoustic Fountains,” Journal of Fluid Mechanics, 766, pp. 129–146 (Mar. 2015).
+      </a>
+    </p>
+  </div>
