@@ -1,0 +1,58 @@
+key: unlocking-the-power-of-rna-interference
+date: 2020-06-17
+title: |-
+  Catalyzing Commercialization: Unlocking the Power of RNA Interference for Insect Pest Management
+focus_area: Biotechnology
+img: bugs.jpg
+center: Center for Atomically Thin Multifunctional Coatings (ATOMIC)
+content: |-
+  <p>
+    In recent decades, insects have become more resistant to pesticides. As resistance becomes more widespread, the agricultural biotechnology sector has sought viable alternatives to curtail the huge economic losses associated with insect pests. One of these alternative approaches, called RNA interference (RNAi), could be used to kill pests by silencing genes that are critical for their survival.
+  </p>
+
+  <p>
+    RNAi (a 2006 Nobel Prize-winning discovery), which functions across a wide range of plants and animals, is a useful laboratory tool for the study of gene function. In addition to application for commercial pest control in agriculture, RNAi-based technologies are also being pursued for use in animal and human healthcare.
+  </p>
+
+  <figure>
+    <img alt="biosensor" src="site.baseurl/visuals/achievements/bugs.jpg">
+    <figcaption>
+      RNAi is a powerful tool for protecting agricultural crops from pest damage. It functions by preventing the production of proteins that are essential for pest survival. CAMTech researchers have discovered why RNAi works well in coleopteran insects, such as the beetle on the left, but not in lepidopteran insects, such as the fall armyworm on the right.
+    </figcaption>
+  </figure>
+
+  <p>
+    RNAi can be initiated by feeding double-stranded RNA (dsRNA) to the target insect pest. These dsRNA are cut within cells into short interfering RNAs (siRNAs) by Dicer enzymes. The siRNAs, carried by a protein complex, scan for other RNAs with a complementary sequence. These target sequences are bound by the siRNA and subsequently cleaved, thereby preventing the production of proteins essential for survival of the insect pest.
+  </p>
+
+  <p>
+    RNAi has been successfully applied for management of corn-feeding beetles by expressing dsRNA in the corn plant. Although RNAi works well against beetles (order Coleoptera), it does not work well against other groups of insects, including moths (order Lepidoptera), which cause considerable damage to a wide range of crops. The reasons underlying the limited utility of RNAi for lepidopteran pest management were unclear until recently.
+  </p>
+  
+  <p>
+    Univ. of Kentucky scientists affiliated with the <a href="site.baseurl/centers/center-for-arthropod-management-technologies">Center for Arthropod Management Technologies (CAMTech)</a>, an Industry-University Cooperative Research Center funded by the National Science Foundation, conducted research to address the differential efficiency of RNAi.
+  </p>
+
+  <p>
+    In order to trigger RNAi, dsRNAs must withstand degradation by nuclease enzymes (dsRNases), be absorbed into the cell, and be transported via endosomes (membrane-bound compartments) within the cell to appropriate sites for processing into siRNA. Previous research had suggested that poor uptake of dsRNA played a primary role in the differential efficiency of RNAi against insect pests. CAMTech scientists led by Subba Reddy Palli performed a comparative analysis of dsRNA degradation, uptake, and processing in the Colorado potato beetle (CPB; Coleoptera), in which RNAi works very well, and in the fall armyworm (FAW; Lepidoptera), in which RNAi does not work well.
+  </p>
+
+  <p>
+    In addition to identifying the key proteins involved in RNAi, the team demonstrated that the primary reason for differences in the efficiency of RNAi among insects is likely due to the disappearance of dsRNA into endosomes rather than from limited dsRNA uptake. The dsRNA taken up by CPB cells was processed into siRNA, which silenced target genes. In contrast, the dsRNA taken up by FAW cells were observed to accumulate in endosomes, and not form siRNA that would otherwise silence the genes critical to insect survival. This discovery can now be used to improve RNAi efficiency in major insect pests and disease vectors for which RNAi does not work well.
+  </p>
+
+  <p>
+    Along with the potential for endosomal entrapment, the successful delivery of dsRNA to insect cells faces other challenges, including digestion of dsRNA by dsRNases. CAMTech scientists at Univ. of Kentucky and Iowa State Univ. are employing nanotechnology to address these problems. dsRNA that is conjugated to nanoparticles is protected from dsRNases and is taken up by cells more efficiently.
+  </p>
+
+  <p>
+    The researchers used porous silica nanoparticles to deliver dsRNA to insects. In addition, they are performing studies on polyanhydrite nanoparticles to determine how particle size, type, and exposure route affect uptake of nanoparticles in insects such as mosquitoes and cockroaches. The results of these studies will facilitate industrially attractive solutions to the pressing problem of pesticide resistance, which will allow for the development of dsRNA-nanoparticle formulations for improved RNAi-mediated control of insect pests and disease vectors.
+  </p>
+
+  <p>
+    This technology was funded through the NSF Industry-University Cooperative Research Centers Program (IUCRC).
+  </p>
+
+  <p>
+    This <a target="_blank" href="https://www.aiche.org/resources/publications/cep/2018/october/catalyzing-commercialization-unlocking-power-rna-interference-insect-pest-management">article</a> was prepared by NSF for AIChE and appeared in the October 2018 issue of Chemical Engineering Progress.
+  </p>

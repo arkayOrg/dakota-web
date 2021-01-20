@@ -7,6 +7,9 @@ pagination:
   enabled: true
   per_page: 5
   collection: achievements
+  trail:
+    before: 4
+    after: 4
 ---
 {% include hero/achievements.html %}
 
@@ -18,11 +21,23 @@ pagination:
         <div class="topic__row topic__row--divider">
           <div class="topic__text">
             <h2 id=""><span class="highlight">{{ post.title }}</span></h2>
+
+            {% if post.description %}
+            <p>{{ post.description }}</p>
+            {% endif %}
+
+            {% if post.learn_more_link %}
+            <a class="usa-button btn-tertiary" target="_blank" href="{{ post.learn_more_link }}">Learn More</a>
+            {% else %}
             <a class="usa-button btn-tertiary" href="{{ site.baseurl }}{{ post.url | append: '.html' }}">Learn More</a>
+            {% endif %}
+
           </div>
+          {% if post.img %}
           <div class="topic__image">
             <img src="{{ site.baseurl }}/visuals/achievements/{{ post.img }}" aria-hidden="true" alt="Topic Image Right">
           </div>
+          {% endif %}
         </div>
         {% endfor %}
       </div>

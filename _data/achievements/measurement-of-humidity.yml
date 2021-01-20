@@ -1,0 +1,62 @@
+key: measurement-of-humidity
+date: 2020-06-17
+title: |-
+  Catalyzing Commercialization: Tiny Optical Fiber Sensors Offer Continuous, In situ Measurement of Humidity
+focus_area: Energy and Environment
+img: optic_fiber.png
+center: Center for Advanced Research in Drying (CARD)
+content: |-
+  <p>
+    Humidity is a very important parameter to monitor and control when drying food products, pulp and paper products, chemicals, and other semi-moist, porous materials. It can impact drying optimization and, ultimately, product shelf life. However, humidity sensors can be unrealiable, especially when used in large industrial ovens that dry, bake, or de-water materials. Accuracy and precision, along with durability and size, are all important factors for successful automated humidity sensing.
+  </p>
+
+  <p>
+    In bakery products, for example, a 1% change in finished product moisture can dramatically impact staling and shelf life, and importantly, consumer preference for the product. Cookies, crackers, breakfast cereal, and even pet food have stringent targets for final product moisture. Humidity monitoring is often performed offline (post-oven) because inline humidity sensing — inside an oven using standard electrical sensors based on capacitive sensing elements — is difficult.
+  </p>
+
+  <p>
+    Researchers at Worcester Polytechnic Institute (WPI) have developed technology for probe-like fiber optic humidity sensors that solve many of the problems associated with existing electrical sensors. This pre-competitive research is conducted on behalf of the <a href="site.baseurl/centers/center-for-advanced-research-in-drying">Center for Advanced Research in Drying (CARD)</a>, an Industry-University Cooperative Research Center funded by the National Science Foundation.
+  </p>
+
+  <figure>
+    <img alt="Optic fiber diagram" src="site.baseurl/visuals/achievements/optic_fiber.png">
+    <figcaption>
+      (a) An optical fiber is polished to create a flat surface on one side, and coated with titanium dioxide. (b) Schematic showing the end face of the fiber sensor. (c) A scanning electron microscope (SEM) image of an optical fiber. (d) Microscopic photo of the end face of a fiber. The bright white circle is the light output from the core of the fiber <a href="#footnote-1">(1)</a>.
+    </figcaption>
+  </figure>
+
+  <p>
+    The technology is based on measuring fiber-guided light signals in response to a moisture change. A fiber’s tip is polished to create a flat surface on one side, which is coated with sub-micron-thick tin dioxide. The flat fiber end face serves as a mirror and reflects the light back along the same fiber. Moisture around the sensor influences the refractive index of the tin oxide, which alters the reflected optical spectrum. The changing optical spectrum can be monitored in real time by a spectrometer. Researchers have demonstrated a linear relationship between moisture level and optical signal change.
+  </p>
+
+  <p>
+    Fiber optic cables can withstand high temperatures (above 400°F) without breaking down, and they have a very tiny (~250 μm diameter) footprint. Optical fibers are also immune to electromagnetic interference inherent in tunnel ovens. Other potential improvements over capacitive sensing chips may include higher accuracy, better resolution, and detection of very low moisture levels (below 5%). Development of these sensors can help companies improve product quality and throughput in a manufacturing environment.
+  </p>
+
+  <p>
+    For pilot-scale testing, the tip of the optic fiber can be inserted directly into the product itself and in situ measurements can be made. This is a great research benefit to understand the humidity profile of the actual product as it progresses through an oven.
+  </p>
+
+  <p>
+    For commercial applications, fiber optic humidity sensors can be wall-mounted and used for measuring the humidity inside the chamber. The measurement can be correlated with moisture in the product and used for effective monitoring and control strategies. And, continuous moisture measurement can help in building autonomous manufacturing systems.
+  </p>
+
+  <p>
+    “The unique characteristics of these fiber optic sensors can provide key advantages over existing sensors. We hope to exploit those capabilities to optimize how we monitor and control our processes,” says Michael Bordonaro, Senior Principal Engineer, Global Research and Development, Ingredion, Inc.
+  </p>
+
+  <p>
+    This technology was funded through the NSF Industry-University Cooperative Research Centers program.
+  </p>
+
+  <p>
+    This <a target="_blank" href="https://www.aiche.org/resources/publications/cep/2019/october/catalyzing-commercialization-tiny-optical-fiber-sensors-offer-continuous-situ-measurement-humidity">article</a> was prepared by NSF for AIChE and appeared in the October 2019 issue of Chemical Engineering Progress.
+  </p>
+
+  <div class="footnotes">
+    <p class="footnote">
+      <a name="footnote-1">
+        1. Simon, J. C., et al., “Ultrasonic Atomization of Liquids in Drop-Chain Acoustic Fountains,” Journal of Fluid Mechanics, 766, pp. 129–146 (Mar. 2015).
+      </a>
+    </p>
+  </div>

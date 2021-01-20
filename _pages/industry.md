@@ -69,33 +69,35 @@ secondary: true
       </div>
 
       <div class="row three-column-cta__row">
-        <div
-          class="paragraph col-12 col-md-6 col-lg-4 three-column-cta__single paragraph--type--three-column-cta paragraph--view-mode--default">
-          <img src="{{ site.baseurl }}/visuals/css-assets/graduation.svg" alt="graduation cap">
-          <div class="three-column-cta__content">
-            <h4>Access to Talent</h4>
-            <p>Opportunity to mentor and train students to attain desired skills for work in your industry</p>
+        <div class="col-12 col-md-6 col-lg-4 three-column-cta__single">
+          <div class="three-column-cta__card">
+            <img src="{{ site.baseurl }}/visuals/css-assets/graduation.svg" alt="graduation cap">
+            <div class="three-column-cta__content">
+              <h4>Access to Talent</h4>
+              <p>Opportunity to mentor and train students to attain desired skills for work in your industry</p>
+            </div>
           </div>
         </div>
-
-        <div
-          class="paragraph col-12 col-md-6 col-lg-4 three-column-cta__single paragraph--type--three-column-cta paragraph--view-mode--default">
-          <img src="{{ site.baseurl }}/visuals/css-assets/key.svg" alt="key">
-          <div class="three-column-cta__content">
-            <h4>Access to Research Results and IP</h4>
-            <p>Gain royalty-free, non-exclusive licenses on intellectual property produced in the center</p>
+        <div class="col-12 col-md-6 col-lg-4 three-column-cta__single">
+          <div class="three-column-cta__card">
+            <img src="{{ site.baseurl }}/visuals/css-assets/key.svg" alt="key">
+            <div class="three-column-cta__content">
+              <h4>Access to Research Results & IP</h4>
+              <p>Gain royalty-free, non-exclusive licenses on intellectual property produced in the center</p>
+            </div>
           </div>
         </div>
-
-        <div
-          class="paragraph col-12 col-md-6 col-lg-4 three-column-cta__single paragraph--type--three-column-cta paragraph--view-mode--default">
-          <img src="{{ site.baseurl }}/visuals/css-assets/coins.svg" alt="coins">
-          <div class="three-column-cta__content">
-            <h4>Leveraged Research Dollars</h4>
-            <p>Earn high return on investment when research is jointly funded</p>
+        <div class="col-12 col-md-6 col-lg-4 three-column-cta__single">
+          <div class="three-column-cta__card">
+            <img src="{{ site.baseurl }}/visuals/css-assets/coins.svg" alt="coins">
+            <div class="three-column-cta__content">
+              <h4>Leveraged Research Dollars</h4>
+              <p>Earn high return on investment when research is jointly funded</p>
+            </div>
           </div>
         </div>
       </div>
+
     </div>
   </div>
 

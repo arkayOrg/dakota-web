@@ -25,7 +25,7 @@ content: |-
   <figure>
     <img alt="Ultrasound induces capillary waves at the surface of a pool or drop of water" src="site.baseurl/visuals/achievements/ultrasonic-dehydration.png">
     <figcaption>
-      Ultrasound induces capillary waves at the surface of a pool or drop of water. As the waves crest, cavitation bubbles are formed. These bubbles burst from the liquid surface, releasing tiny droplets of mist that can be blown away by a stream of air. Source: Adapted from <a href="#footer-1">(1)</a>.
+      Ultrasound induces capillary waves at the surface of a pool or drop of water. As the waves crest, cavitation bubbles are formed. These bubbles burst from the liquid surface, releasing tiny droplets of mist that can be blown away by a stream of air. Source: Adapted from <a href="#footnote-1">(1)</a>.
     </figcaption>
   </figure>
 
@@ -59,7 +59,7 @@ content: |-
 
   <div class="footnotes">
     <p class="footnote">
-      <a name="footer-1">
+      <a name="footnote-1">
         1. Simon, J. C., et al., “Ultrasonic Atomization of Liquids in Drop-Chain Acoustic Fountains,” Journal of Fluid Mechanics, 766, pp. 129–146 (Mar. 2015).
       </a>
     </p>
