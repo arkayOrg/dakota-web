@@ -68,50 +68,44 @@ manage in the long term.
   </div>
 </div>
 
-{% if false %}
 <div class="achievement-cards">
   <div class="container">
     <h2><span class="highlight">Learn About the IUCRC and Research Being Done Today</span></h2>
     <div class="achievement-cards__desc">
-      <p>Copy that quickly covers the research being done today ex: Learn about our centers and the cutting edge
-        research they’re conducting. Want more information about the IUCRC program? <a href="#">Click to read about</a>
-        the IUCRC program, history
-        and mission.</p>
+      <p>IUCRC is partnering with universities to drive innovations in various <a href="#focus_areas">focus areas</a>, including
+        biotechnology, information, communication and computing, health and safety, advanced manufacturing,
+        advanced materials, energy, and the environment.  Review the achivements below or learn more
+        about <a href="{{ site.baseurl }}/about/">the IUCRC program, history and mission</a>.
+      </p>
     </div>
     <div class="row achievement-cards__row">
-      <div class="col-12 col-md-6 col-lg-4 achievement-cards__col">
-        <a class="achievement-cards__card achievement-cards__card--no-image" href="#">
-          <div class="achievement-cards__content">
-            <h3>Example Card Without Image, Lorem Ipsum</h3>
-            <p class="usa-button btn-tertiary">See Achievement</p>
-          </div>
-        </a>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4 achievement-cards__col">
-        <a class="achievement-cards__card" style="background-image: url('{{ site.baseurl }}/visuals/placeholders/papers.jpg');"
-          href="#">
-          <div class="achievement-cards__content">
-            <h3>New Technology for Isolating Single Cells Opens the Door for Fast and Precise Experiments and Treatments
-            </h3>
-            <p class="usa-button btn-tertiary">See Achievement</p>
-          </div>
-        </a>
-      </div>
-      <div class="col-12 col-md-6 col-lg-4 achievement-cards__col">
-        <a class="achievement-cards__card" style="background-image: url('{{ site.baseurl }}/visuals/placeholders/welding.jpg');"
-          href="#">
-          <div class="achievement-cards__content">
-            <h3>New Big Data Method Could Revolutionize Personalized Medical Treatments</h3>
-            <p class="usa-button btn-tertiary">See Achievement</p>
-          </div>
-        </a>
-      </div>
+
+      {% assign achievements = site.achievements | sort: 'date' | reverse | slice:0, 3 %}
+      {% for ach in achievements %}
+
+        {% assign bg_img_style = '' %}
+        {% if ach.img %}
+          {% assign bg_img_style = 'style="background-image: url(' | append: "'" | append: site.baseurl | append: "/visuals/achievements/" | append: ach.img | append: "'" | append: '");' %}
+        {% endif %}
+        
+        <div class="col-12 col-md-6 col-lg-4 achievement-cards__col">
+          <a class="achievement-cards__card" {{ bg_img_style}}
+            href="{{ site.baseurl}}{{ ach.url | append: '.html' }}">
+            <div class="achievement-cards__content">
+              <h3>{{ ach.title }}</h3>
+              {% if ach.description %}
+                <p>{{ ach.description }}</p>
+              {% endif %}
+              <p class="usa-button btn-tertiary">See Achievement</p>
+            </div>
+          </a>
+        </div>
+
+      {% endfor %}
     </div>
-    <a class="usa-button btn-primary" href="#">See All Achievements</a>
+    <a class="usa-button btn-primary" href="{{ site.baseurl }}/centers/achievements/">See All Achievements</a>
   </div>
 </div>
-{% endif %}
-
 
 <div class="focus-areas">
   <div class="focus-areas__slant">
@@ -119,13 +113,13 @@ manage in the long term.
       <img src="{{ site.baseurl }}/visuals/css-assets/microscope-mobile.png" alt="Microscope" />
       <div class="focus-areas__title">
         <div class="container">
-          <h2><span class="highlight">Focus Areas</span></h2>
+          <h2><a name="focus_areas"><span class="highlight">Focus Areas</span></a></h2>
         </div>
       </div>
     </div>
     <div class="container">
       <div class="focus-areas__content">
-        <div class="focus-areas__desc">
+        <div class="focus-areas__desc hide">
           <p>Subhead for featured content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum risus
             a massa dignissim.</p>
         </div>
