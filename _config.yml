@@ -205,3 +205,9 @@ assets:
     - _assets/css
     - _assets/images
     - _assets/js
+
+redirection:
+  - from: /centers/focus-area/advanced-electronics/
+    to: /centeralltest/?focus-area=advanced-electronics
+  - from: /centers/focus-area/advanced-manufacturing/
+    to: /centeralltest/?focus-area=advanced-manufacturing
