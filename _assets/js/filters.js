@@ -7,7 +7,7 @@ console.log("Hello from michael's script");
   var filterHeadersText=[];
   var filterHeadersInput=[];
   var filterHeadersInputText=[];
-
+  var tags;
 
 if($(".filters__results").length > 0) {
 	//adds filter tags
@@ -63,38 +63,40 @@ if($(".filters__results").length > 0) {
       filterHeadersText = [];
       filterHeadersInput = [];
       filterHeadersInputText = [];
-      if($("input[id^=edit-field-year-value]" ).first().val()) {
-        filterHeadersInput.push($("input[id^=edit-field-year-value]" ).first().attr("id").split("--")[0]);
-        filterHeadersInputText.push("After: " + $("input[id^=edit-field-year-value]" ).first().val());
+      if($("#edit-field-year" ).val()) {
+        filterHeadersInput.push("edit-field-year");
+        filterHeadersInputText.push("After: " + $("#edit-field-year" ).val());
 
         dataLayer.push({
           'event': 'directory_search', 
-          'tag': "After: " + $("input[id^=edit-field-year-value]" ).first().val(),
+          'tag': "After: " + $("#edit-field-year" ).val(),
         });
       }
-      if($("input[id^=edit-field-year-value-1]").val()) {
-        filterHeadersInput.push($("input[id^=edit-field-year-value-1]").attr("id").split("--")[0]);
-        filterHeadersInputText.push("Before: " + $("input[id^=edit-field-year-value-1]").val());
+      if($("#edit-field-year-1" ).val()) {
+        filterHeadersInput.push("edit-field-year-1");
+        filterHeadersInputText.push("After: " + $("#edit-field-year-1" ).val());
 
         dataLayer.push({
           'event': 'directory_search', 
-          'tag': "Before: " + $("input[id^=edit-field-year-value-1]").val(),
+          'tag': "After: " + $("#edit-field-year-1" ).val(),
         });
       }
-      if($("input[id^=edit-search-api-fulltext]").val()) {
-        filterHeadersInput.push($("input[id^=edit-search-api-fulltext]").attr("id").split("--")[0]);
-        filterHeadersInputText.push( "Search: " + $("input[id^=edit-search-api-fulltext]").val());
+      if($('#search-fulltext').val()) {
+      	console.log("searching fulltext");
+        filterHeadersInput.push("search-fulltext");
+        filterHeadersInputText.push( "Search: " + $('#search-fulltext').val());
+        console.log(filterHeadersInputText);
 
         dataLayer.push({
           'event': 'directory_search', 
-          'tag': "Search: " + $("input[id^=edit-search-api-fulltext]").val(),
+          'tag': "Search: " + $('#search-fulltext').val(),
         });
       }
       
       $( "input[type='checkbox']" ).each(function() {
         //go through the entire list, check what's checked, add it to the array.
         if($(this).is(":checked")) {
-          filterHeaders.push($(this).attr("id").split("--")[0]);
+          filterHeaders.push($(this).attr("id"));
           filterHeadersText.push($(this).parent().find('label').html());
           dataLayer.push({
             'event': 'directory_search', 
@@ -104,8 +106,45 @@ if($(".filters__results").length > 0) {
 
         //console.log(dataLayer)
       });
+      $('.filters__active ul').empty();
+	    for ( var i = 0, l = filterHeadersInput.length; i < l; i++ ) {
+	      tags = true;
+	      $('.filters__active ul').append("<li class='inputtrigger' triggerinput='"+ filterHeadersInput[i] + "'>" + filterHeadersInputText[i] + "</li>");
+	    }
+
+	    for ( var i = 0, l = filterHeaders.length; i < l; i++ ) {  
+	      tags = true;
+	      $('.filters__active ul').append("<li class='trigger' trigger='"+ filterHeaders[i] + "'>" + filterHeadersText[i] + "</li>");
+	    }
+	    if(tags)
+	    {
+	      //add the clear all tag.
+	      $('.filters__active ul').append("<li class='clearall'>Clear All</li>");
+	      //clearing button
+		    $('.filters__active li.clearall').click(function() {      
+	          $( "input" ).val('');
+	          $("input:checkbox").prop('checked', false);
+	          filterAll();
+	        });
+	    }
+        $('.filters__active li.inputtrigger').each(function() {      
+          var id = $(this).attr("triggerinput");  
+          $(this).click(function() {
+            $( "input[id^=" + id +"]").val('');
+		          filterAll();
+          });
+        });
+
+        $('.filters__active li.trigger').each(function() {      
+          var id = $(this).attr("trigger");  
+          $(this).click(function() {
+            $( "input[id^=" + id +"]").first().click();
+		          filterAll();
+          });
+        });
     }
 
+    
 
 	//actual filtering code
    //filter on name
@@ -145,6 +184,7 @@ if($(".filters__results").length > 0) {
 		filterAll();
 	});
 	function filterAll(){
+		tags = false;
 		$(".filters__results .centers .row").show();
 
 		$rows = $(".filters__results .centers .row:visible");
@@ -179,7 +219,6 @@ if($(".filters__results").length > 0) {
 			$filter = $year2.val();
 		    $.each($rows, function(i, val){
 		        $year = $(val).find(".year").text();
-		        console.log($year + " " + $filter );
 		        if (parseInt($year) <= parseInt($filter)) 
 		            $(val).show();
 		        else
@@ -193,7 +232,6 @@ if($(".filters__results").length > 0) {
 	        	$filter = $(foc).parent().find("label").text().toUpperCase();
     			$.each($rows, function(j, val){
 			        $university = $(val).find(".universities").text();
-			        console.log($university + " " + $filter );
 			        if ($university.toUpperCase().indexOf($filter) >= 0) 
 			            $(val).show();
 			        else
@@ -209,7 +247,6 @@ if($(".filters__results").length > 0) {
 	        	$filter = $(foc).parent().find("label").text().toUpperCase();
     			$.each($rows, function(j, val){
 			        $location = $(val).find(".location").text();
-			        console.log($focus + " " + $filter );
 			        if ($location.toUpperCase().indexOf($filter) >= 0) 
 			            $(val).show();
 			        else
@@ -225,7 +262,6 @@ if($(".filters__results").length > 0) {
 	        	$filter = $(foc).parent().find("label").text().toUpperCase();
     			$.each($rows, function(j, val){
 			        $focus = $(val).find(".focus").text();
-			        console.log($focus + " " + $filter );
 			        if ($focus.toUpperCase().indexOf($filter) >= 0) 
 			            $(val).show();
 			        else
