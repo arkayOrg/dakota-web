@@ -102,37 +102,6 @@ secondary: true
           </div>
         </div>
       </div>
-
-      <!--------------   ---->
-
-      <!-- <div class="row three-column-cta__row">
-        <div
-          class="paragraph col-12 col-md-6 col-lg-4 three-column-cta__single paragraph--type--three-column-cta paragraph--view-mode--default">
-          <img src="{{ site.baseurl }}/visuals/css-assets/coins_1.svg" alt="Coins">
-          <div class="three-column-cta__content">
-            <h4>Leveraged Research Dollars</h4>
-            <p>Stretch public research funds further</p>
-          </div>
-        </div>
-
-        <div
-          class="paragraph col-12 col-md-6 col-lg-4 three-column-cta__single paragraph--type--three-column-cta paragraph--view-mode--default">
-          <img src="{{ site.baseurl }}/visuals/css-assets/network.svg" alt="Network">
-          <div class="three-column-cta__content">
-            <h4>Network</h4>
-            <p>Meet industrial leaders and top researchers driving sector change</p>
-          </div>
-        </div>
-
-        <div
-          class="paragraph col-12 col-md-6 col-lg-4 three-column-cta__single paragraph--type--three-column-cta paragraph--view-mode--default">
-          <img src="{{ site.baseurl }}/visuals/css-assets/graduation_1.svg" alt="Graduation cap">
-          <div class="three-column-cta__content">
-            <h4>Training</h4>
-            <p>Mentor and train students to attain desired skills for work in government</p>
-          </div>
-        </div>
-      </div> -->
     </div>
   </div>
 
