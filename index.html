@@ -85,7 +85,7 @@ manage in the long term.
 
         {% assign bg_img_style = '' %}
         {% if ach.img %}
-          {% assign bg_img_style = 'style="background-image: url(' | append: "'" | append: site.baseurl | append: "/visuals/achievements/" | append: ach.img | append: "'" | append: '");' %}
+          {% assign bg_img_style = 'style="background-image: url(' | append: site.baseurl | append: "/visuals/achievements/" | append: ach.img | append: ')"' %}
         {% endif %}
         
         <div class="col-12 col-md-6 col-lg-4 achievement-cards__col">
