@@ -205,7 +205,3 @@ assets:
     - _assets/css
     - _assets/images
     - _assets/js
-
-redirection:
-  - from: /supplement/instructions/
-    to: /resources/awardees/supplement/overview/
