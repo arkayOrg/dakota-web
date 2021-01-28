@@ -1,3 +1,11 @@
+{% assign page_title = 'Program Solicitation and Resources' %}
+{% if include.title %}{% assign page_title = include.title %}{% endif %}
+
+{% assign solicitation_breadcrumb_attrs = 'class="breadcrumb-item"' %}
+{% if include.title == nil %}
+  {% assign solicitation_breadcrumb_attrs = 'class="breadcrumb-item active" aria-current="page"' %}
+{% endif %}
+
 <div class="hero">
   <div id="carouselIndustry" class="carousel slide carousel--interior" data-ride="carousel" data-pause="false" data-interval="false">
     <div class="carousel-inner">
@@ -6,8 +14,27 @@
           <div class="carousel__bg" style="background-image: url('{{ site.baseurl }}/visuals/placeholders/solicitations.jpg');"></div>
           <div class="carousel__content carousel__content--slant">
             <div class="carousel__text-cta">
-              <h1>Program Solicitation and Resources</h1>
+              <nav class="breadcrumbs" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="{{ site.baseurl }}/universities/">Universities</a></li>
+
+                  {% if include.title %}
+                    <li {{ solicitation_breadcrumb_attrs }}>
+                      <a href="{{ site.baseurl }}/universities/solicitation/">Program Solicitation and Resources</a>
+                    </li>
+                  {% else %}
+                    <li {{ solicitation_breadcrumb_attrs }}>Program Solicitation and Resources</li>
+                  {% endif %}
+
+                  {% if include.title %}
+                    <li class="breadcrumb-item active" aria-current="page">{{ include.title }}</li>
+                  {% endif %}
+                </ol>
+              </nav>
+              <h1>{{ page_title }}</h1>
+              {% if include.title == nil %}
               <p class="carousel__subtitle">Find opportunities for Industry–University Cooperative Research Center (IUCRC) funding.</p>
+              {% endif %}
             </div>
           </div>
         </div>
