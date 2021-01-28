@@ -1,6 +1,7 @@
 ---
 title: Industry | IUCRC
 tag: industry
+permalink: /industry/
 layout: default
 secondary: true
 ---
