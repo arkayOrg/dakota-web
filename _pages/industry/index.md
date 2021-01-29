@@ -112,28 +112,28 @@ secondary: true
             <li>
               <span class="dark-bg__timeline-title">
                 <h3>Search the Center Directory for research of interest to your company</h3>
-                <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/centers">Search</a>
+                <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/centers/">Search</a>
               </span>
             </li>
 
             <li>
               <span class="dark-bg__timeline-title">
                 <h3>Contact Center</h3>
-                <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/centers">Contact</a>
+                <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/centers/">Contact</a>
               </span>
             </li>
 
             <li>
               <span class="dark-bg__timeline-title">
                 <h3>Read the Center documents</h3>
-                <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/universities/solicitation#block5">Read Documents</a>
+                <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/universities/solicitation/">Read Documents</a>
               </span>
             </li>
 
             <li>
               <span class="dark-bg__timeline-title">
                 <h3>Sign the membership agreement</h3>
-                <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/industry/joining-a-center/membership-agreement">Sign</a>
+                <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/industry/joining-a-center/membership-agreement/">Sign</a>
               </span>
             </li>
 
@@ -164,7 +164,7 @@ secondary: true
             <div class="topic__text">
               <h2 id="join-an-iucrc"><span class="highlight">Join an IUCRC</span></h2>
               <p></p>
-              <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/industry/joining-a-center">Learn More</a>
+              <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/industry/joining-a-center/">Learn More</a>
             </div>
             <div class="topic__image">
               <img src="{{ site.baseurl }}/visuals/placeholders/chemistry.jpg" alt="Topic Image Right">
@@ -184,7 +184,7 @@ secondary: true
               <p>Industry and government agencies can participate as Center members or by partnering directly with NSF
                 at the strategic level to inspire new areas of research.</p>
               <p></p>
-              <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/strategic-engagements">Learn More</a>
+              <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/strategic-engagements/">Learn More</a>
             </div>
             <div class="topic__image">
               <img src="{{ site.baseurl }}/visuals/placeholders/researcher3.jpg" alt="Topic Image Right">

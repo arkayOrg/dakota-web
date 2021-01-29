@@ -95,7 +95,7 @@ secondary: true
         <p>NSF is a federal agency that supports fundamental research and education across all fields of science and
           engineering, with an $8.1 billion budget in fiscal year 2019.</p>
 
-        <a class="usa-button btn-primary" href="/contact-us">Contact Us</a>
+        <a class="usa-button btn-primary" href="{{ site.baseurl }}/contact-us">Contact Us</a>
       </div>
     </div>
   </div>
@@ -107,7 +107,7 @@ secondary: true
         <p>IUCRCs support areas of strategic interest to industry, offering resources to develop faster paths to market.
           Industry and government agencies can participate as Center members or by partnering directly with NSF at the
           strategic level to inspire new areas of research.&nbsp;&nbsp;</p>
-        <a class="usa-button btn-primary" href="/strategic-engagements">Learn More</a>
+        <a class="usa-button btn-primary" href="{{ site.baseurl }}/strategic-engagements/">Learn More</a>
       </div>
     </div>
   </div>

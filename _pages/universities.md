@@ -121,7 +121,7 @@ secondary: true
                 </li>
                 <li>
                   Engage in discussions with prospective industry members.
-                  <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/centers">SEARCH DIRECTORY</a>
+                  <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/centers/">SEARCH DIRECTORY</a>
                 </li>
               </ul>
             </li>
@@ -155,7 +155,7 @@ secondary: true
                 <li>
                   Connect with existing Centers to explore the possibility of joining. Observe an active Center's
                   operations by attending a Center meeting as a guest.
-                  <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/centers">VIEW CENTER DIRECTORY</a>
+                  <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/centers/">VIEW CENTER DIRECTORY</a>
                 </li>
               </ul>
             </li>

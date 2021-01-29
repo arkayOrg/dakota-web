@@ -32,7 +32,7 @@ sidenav: false
         <div class="carousel__text-cta">
           <p class="carousel__featured">               
             Read about the industrial and societal impact of cutting-edge research at a few of our Centers.
-            <a class="usa-button btn-tertiary" href="/centers/achievements">Learn More</a>
+            <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/centers/achievements/">Learn More</a>
           </p>
         </div>
       </div>

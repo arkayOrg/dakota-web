@@ -19,6 +19,12 @@ module SiteData
         title = achievement['title'].strip
         title = "\"#{title}\"" if title =~ /(:|-)/
 
+        # For front matter values, "site.baseurl" needs to be the acutal baseurl (@site.baseurl),
+        # but for the content, "site.baseurl" needs to be "{{ site.baseurl }}".  The point is to
+        # do these conversions here; this way, the process that creates/updates the YAML doesn't
+        # need to mind the difference, just output "site.baseurl"
+
+        # Front matter
         output = "---\n"
         output << "key: #{achievement['key']}\n"
         output << "layout: achievement\n"
@@ -27,22 +33,24 @@ module SiteData
         output << "center: #{achievement['center']}\n" if achievement['center']
         output << "date: #{achievement['date']}\n"
         output << "img: #{achievement['img']}\n" if achievement['img']
-        output << "learn_more_link: #{achievement['learn_more_link']}\n" if achievement['learn_more_link']
+        output << "learn_more_link: #{achievement['learn_more_link']}\n".gsub('site.baseurl', @site.baseurl) if achievement['learn_more_link']
         output << "description: #{achievement['description']}\n" if achievement['description']
+        output << "permalink: /centers/achievement/#{achievement['key']}/\n"
         output << "---\n"
 
+        # Content
         if achievement['learn_more_link']
           output << "<p><a target=\"_blank\" href=\"{{ page.learn_more_link }}\">Learn more</a></p>"
         else
-          output << "<h2><a href=\"site.baseurl/centers/TBD\">{{ page.center }}</a></h2>\n"
+          output << "<h2><a href=\"{{ site.baseurl }}/centers/TBD\">{{ page.center }}</a></h2>\n"
           output << '<p>{{ page.date | date: "%B %d, %Y" }}</p>'
-          output << "\n<p><strong><a href=\"site.baseurl/centers/focus-area/{{ page.focus_area | slugify }}\">{{ page.focus_area }}</a></strong></p>\n\n"
-          output << achievement['content']
+          output << "\n<p><strong><a href=\"{{ site.baseurl }}/centers/focus-area/{{ page.focus_area | slugify }}\">{{ page.focus_area }}</a></strong></p>\n\n"
+          output << achievement['content'].gsub('site.baseurl', '{{ site.baseurl }}')
         end
 
         File.write(
           File.join(@basepath, '_achievements', "#{yml_filename}.md"),
-          output.gsub('site.baseurl', @site.baseurl),
+          output,
           mode: "w"
         )
 
