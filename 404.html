@@ -6,8 +6,25 @@ permalink: /404.html
 <div class="grid-container">
   <div class="grid-row grid-gap">
     <div class="usa-layout-docs-main_content desktop:grid-col-9 usa-prose">
-      <h1>Page not found</h1>
-      <p>The requested page could not be found.</p>
+      <div id="404-container" />
     </div>
   </div>
 </div>
+<script>
+  var redirection = {
+    {% for redir in site.redirection %}
+      {% assign obj = "'" | append: redir.from | append: "': '" | append: redir.to | append: "'," %}
+      {{ obj }}
+    {% endfor %}
+  };
+
+  if (redirection[window.location.pathname]) {
+    document.getElementById('404-container').innerHTML = '<p><br/><strong style="font-size:larger">Redirecting...</strong></p>';
+    setTimeout(function() {
+      var href = '{{ site.baseurl }}' + redirection[window.location.pathname];
+      window.location.href = href;
+    }, 1000);
+  } else {
+    document.getElementById('404-container').innerHTML = '<h1>Page Not Found</h1><p>The requested page could not be found.</p>';
+  }
+</script>

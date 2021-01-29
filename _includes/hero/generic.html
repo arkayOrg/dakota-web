@@ -1,0 +1,23 @@
+<div class="hero">
+  <div id="carouselIndustry" class="carousel slide carousel--interior" data-ride="carousel" data-pause="false" data-interval="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          {% if include.img %}
+          <div class="carousel__bg" style="background-image: url('{{ site.baseurl }}/visuals/placeholders/{{ include.img }}');"></div>
+          {% endif %}
+          <div class="carousel__content carousel__content--slant">
+            <div class="carousel__text-cta">
+              <h1>{{ include.title }}</h1>
+            </div>
+          </div>
+        </div>
+        {% if include.credit %}
+        <div class="credit__wrapper">
+          <p class="credit">{{ include.credit }}</p>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>

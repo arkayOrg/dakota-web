@@ -1,11 +1,12 @@
 ---
-title: Government | IUCRC
-tag: government
+title: Industry | IUCRC
+tag: industry
+permalink: /industry/
 layout: default
 secondary: true
 ---
 
-{% include hero/government.html %}
+{% include hero/industry.html %}
 
 <div class="stickybits-wrapper">
   <div class="secondary-nav" style="position: sticky;">
@@ -14,23 +15,20 @@ secondary: true
         <ul class="nav">
           <li class="nav-item">
             <!-- INTEGRATOR: the href below should match that of the associated heading in the content block -->
-            <a class="nav-link" href="#value-to-government">Value to Government</a>
+            <a class="nav-link" href="#value-to-industry">Value to Industry</a>
           </li>
           <li class="nav-item">
             <!-- INTEGRATOR: the href below should match that of the associated heading in the content block -->
             <a class="nav-link" href="#membership-steps">Membership Steps</a>
           </li>
-
           <li class="nav-item">
             <!-- INTEGRATOR: the href below should match that of the associated heading in the content block -->
-            <a class="nav-link" href="#resources-for-government">Resources for Government</a>
+            <a class="nav-link" href="#join-an-iucrc">Join an IUCRC</a>
           </li>
-
           <li class="nav-item">
             <!-- INTEGRATOR: the href below should match that of the associated heading in the content block -->
             <a class="nav-link" href="#strategic-engagements">Strategic Engagements</a>
           </li>
-
         </ul>
       </div>
 
@@ -42,17 +40,15 @@ secondary: true
           <ul class="nav">
             <li class="nav-item">
               <!-- INTEGRATOR: the href below should match that of the associated heading in the content block -->
-              <a class="nav-link" href="#value-to-government">Value to Government</a>
+              <a class="nav-link" href="#value-to-industry">Value to Industry</a>
             </li>
-
             <li class="nav-item">
               <!-- INTEGRATOR: the href below should match that of the associated heading in the content block -->
               <a class="nav-link" href="#membership-steps">Membership Steps</a>
             </li>
-
             <li class="nav-item">
               <!-- INTEGRATOR: the href below should match that of the associated heading in the content block -->
-              <a class="nav-link" href="#resources-for-government">Resources for Government</a>
+              <a class="nav-link" href="#join-an-iucrc">Join an IUCRC</a>
             </li>
             <li class="nav-item">
               <!-- INTEGRATOR: the href below should match that of the associated heading in the content block -->
@@ -67,7 +63,7 @@ secondary: true
 
   <div class="three-column-cta">
     <div class="container">
-      <h2 id="value-to-government"><span class="highlight"> Value to Government</span></h2>
+      <h2 id="value-to-industry"><span class="highlight"> Value to Industry</span></h2>
 
       <div class="three-column-cta__desc">
         <p></p>
@@ -78,8 +74,8 @@ secondary: true
           <div class="three-column-cta__card">
             <img src="{{ site.baseurl }}/visuals/css-assets/graduation.svg" alt="graduation cap">
             <div class="three-column-cta__content">
-              <h4>Leveraged Research Dollars</h4>
-              <p>Stretch public research funds further</p>
+              <h4>Access to Talent</h4>
+              <p>Opportunity to mentor and train students to attain desired skills for work in your industry</p>
             </div>
           </div>
         </div>
@@ -87,8 +83,8 @@ secondary: true
           <div class="three-column-cta__card">
             <img src="{{ site.baseurl }}/visuals/css-assets/key.svg" alt="key">
             <div class="three-column-cta__content">
-              <h4>Network</h4>
-              <p>Meet industrial leaders and top researchers driving sector change</p>
+              <h4>Access to Research Results & IP</h4>
+              <p>Gain royalty-free, non-exclusive licenses on intellectual property produced in the center</p>
             </div>
           </div>
         </div>
@@ -96,12 +92,13 @@ secondary: true
           <div class="three-column-cta__card">
             <img src="{{ site.baseurl }}/visuals/css-assets/coins.svg" alt="coins">
             <div class="three-column-cta__content">
-              <h4>Training</h4>
-              <p>Mentor and train students to attain desired skills for work in government</p>
+              <h4>Leveraged Research Dollars</h4>
+              <p>Earn high return on investment when research is jointly funded</p>
             </div>
           </div>
         </div>
       </div>
+
     </div>
   </div>
 
@@ -111,37 +108,38 @@ secondary: true
         <div class="dark-bg__content">
           <h2 class="on-dark-bg" id="membership-steps">Membership Steps</h2>
           <ul>
+
             <li>
               <span class="dark-bg__timeline-title">
-                <h3>Search the Directory</h3>
-                <a class="usa-button btn-tertiary" href="/centers">Search</a>
+                <h3>Search the Center Directory for research of interest to your company</h3>
+                <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/centers">Search</a>
               </span>
             </li>
 
             <li>
               <span class="dark-bg__timeline-title">
                 <h3>Contact Center</h3>
-                <a class="usa-button btn-tertiary" href="/centers">Contact</a>
+                <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/centers">Contact</a>
               </span>
             </li>
 
             <li>
               <span class="dark-bg__timeline-title">
-                <h3>Establish a way to support the Center (choose one)</h3>
-                <ul>
-                  <li><span>Sign a </span><a href="/industry/joining-a-center/membership-agreement"><span>membership
-                        agreement</span></a><span> with the Center.</span><br>
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; OR</li>
-                  <li><span>Issue a "Solicitation/Contract/Order for Commercial Items" by using </span><a
-                      href="/sites/default/files/2020-07/SF1449.pdf"><span>form 1449</span></a><span>. Send the
-                      completed form directly to the university.</span><br>
-                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; OR</li>
-                  <li><span>Set up an Interagency Agreement (IAA) or Military Interdepartmental Purchase
-                      Request&nbsp;(MIPR) with NSF. See&nbsp;</span><a
-                      href="/universities/solicitation/iucrc-interagency-agreement-requests"><span>instructions for
-                        processing an IAA or MIPR</span></a><span>.</span></li>
-                </ul>
-                <p>&nbsp;</p>
+                <h3>Read the Center documents</h3>
+                <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/universities/solicitation#block5">Read Documents</a>
+              </span>
+            </li>
+
+            <li>
+              <span class="dark-bg__timeline-title">
+                <h3>Sign the membership agreement</h3>
+                <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/industry/joining-a-center/membership-agreement">Sign</a>
+              </span>
+            </li>
+
+            <li>
+              <span class="dark-bg__timeline-title">
+                <h3>Pay the membership fee</h3>
               </span>
             </li>
 
@@ -156,24 +154,24 @@ secondary: true
     </div>
   </div>
 
+
   <div class="topic">
     <div class="container">
       <div class="views-element-container">
-        <div class="js-view-dom-id-989e5ea1219cb968e79bc6f103dc3aac39d29671bece10e6fd5a27cbb33f40ae">
+        <div class="js-view-dom-id-4aa85384b8cd74d2d72750aa32457470396a1dc547f2960f8bdbda0dbedd3e5b">
+
           <div class="topic__row topic__row--divider">
             <div class="topic__text">
-              <h2 id="resources-for-government"><span class="highlight">Resources for Government</span></h2>
+              <h2 id="join-an-iucrc"><span class="highlight">Join an IUCRC</span></h2>
               <p></p>
-              <p>Find the documents required to participate in a Center</p>
-              <p></p>
-              <a class="usa-button btn-tertiary" href="/universities/solicitation#block9">Learn More</a>
+              <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/industry/joining-a-center">Learn More</a>
             </div>
             <div class="topic__image">
-              <img src="{{ site.baseurl }}/visuals/css-assets/book_1.jpg" alt="Topic Image Right">
+              <img src="{{ site.baseurl }}/visuals/placeholders/chemistry.jpg" alt="Topic Image Right">
 
               <div class="credit__wrapper credit__wrapper--no-padding">
                 <p class="credit">
-                  Credit: Becky Kirkland, North Carolina State University
+                  Credit: Tim Schoon/University of Iowa
                 </p>
               </div>
             </div>
@@ -186,14 +184,14 @@ secondary: true
               <p>Industry and government agencies can participate as Center members or by partnering directly with NSF
                 at the strategic level to inspire new areas of research.</p>
               <p></p>
-              <a class="usa-button btn-tertiary" href="/strategic-engagements">Learn More</a>
+              <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/strategic-engagements">Learn More</a>
             </div>
             <div class="topic__image">
-              <img src="{{ site.baseurl }}/visuals/css-assets/sr1.jpg" alt="Topic Image Right">
+              <img src="{{ site.baseurl }}/visuals/placeholders/researcher3.jpg" alt="Topic Image Right">
 
               <div class="credit__wrapper credit__wrapper--no-padding">
                 <p class="credit credit--left">
-                  Credit: David Baillot/UC San Diego Jacobs School of Engineering
+                  Credit: Roger Castonguay/Defining Studios
                 </p>
               </div>
             </div>

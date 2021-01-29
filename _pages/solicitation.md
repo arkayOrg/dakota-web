@@ -100,8 +100,9 @@ secondary: true
   <div class="content-block">
     <div class="container">
       <div class="content-block__inner">
-        <a class="usa-button btn-primary" href="{{ site.baseurl }}/pubs/2020/nsf20570/nsf20570.htm?org=NSF">IUCRC
-          solicitation</a>
+        <a class="usa-button btn-primary" href="https://nsf.gov/pubs/2020/nsf20570/nsf20570.htm?org=NSF">
+          IUCRC solicitation
+        </a>
       </div>
     </div>
   </div>
@@ -157,7 +158,7 @@ secondary: true
       <div class="content-block__inner">
         <h2 id="faq"><span class="highlight">Frequently Asked Questions</span></h2>
         <p>Read this official NSF document to learn more about the program and process for applying.</p>
-        <a class="usa-button btn-primary" href="{{ site.baseurl }}/pubs/2020/nsf20080/nsf20080.jsp">FAQ</a>
+        <a class="usa-button btn-primary" href="https://www.nsf.gov/pubs/2020/nsf20080/nsf20080.jsp">FAQ</a>
       </div>
     </div>
   </div>
@@ -183,7 +184,7 @@ secondary: true
       <div class="row three-column-cta__row">
         <div class="col-12 col-md-6 col-lg-4 three-column-cta__single">
           <div class="three-column-cta__content">
-            <a href="{{ site.baseurl }}/pubs/2020/nsf20570/nsf20570.htm">Site proposals to plan or create or join an
+            <a href="https://www.nsf.gov/pubs/2020/nsf20570/nsf20570.htm">Site proposals to plan or create or join an
               IUCRC</a>
             <p></p>
             <p>Eligibility requirements, program guidelines, and proposal submission instructions can be found in the
@@ -203,7 +204,7 @@ secondary: true
 
         <div class="col-12 col-md-6 col-lg-4 three-column-cta__single">
           <div class="three-column-cta__content">
-            <a href="{{ site.baseurl }}/pubs/2021/nsf21036/nsf21036.jsp?WT_mc_id=USNSF_25&amp;WT_mc_ev=click">Catalyzing
+            <a href="https://www.nsf.gov/pubs/2021/nsf21036/nsf21036.jsp?WT_mc_id=USNSF_25&WT_mc_ev=click">Catalyzing
               Industry-University Collaboration in Chemical Research through Industry/University Cooperative Research
               Centers (IUCRCs)</a>
             <p></p>
@@ -226,7 +227,7 @@ secondary: true
       <div class="row three-column-cta__row">
         <div class="col-12 col-md-6 col-lg-4 three-column-cta__single">
           <div class="three-column-cta__content">
-            <a href="{{ site.baseurl }}/pubs/2021/nsf21013/nsf21013.jsp">Non-Academic Research Internships for Graduate
+            <a href="https://www.nsf.gov/pubs/2021/nsf21013/nsf21013.jsp">Non-Academic Research Internships for Graduate
               Students (INTERN)</a>
             <p></p>
             <p>Support graduate students in research in non-academic settings, including company and government
@@ -238,7 +239,7 @@ secondary: true
 
         <div class="col-12 col-md-6 col-lg-4 three-column-cta__single">
           <div class="three-column-cta__content">
-            <a href="{{ site.baseurl }}/pubs/2021/nsf21029/nsf21029.jsp">Research Internships for Graduate Students at
+            <a href="https://www.nsf.gov/pubs/2021/nsf21029/nsf21029.jsp">Research Internships for Graduate Students at
               Air Force Research Laboratory (NSF-AFRL INTERN)</a>
             <p></p>
             <p>Support the training of graduate students to meet both the NSF's strategic workforce development
@@ -250,7 +251,7 @@ secondary: true
 
         <div class="col-12 col-md-6 col-lg-4 three-column-cta__single">
           <div class="three-column-cta__content">
-            <a href="{{ site.baseurl }}/funding/pgm_summ.jsp?pims_id=5517">Research Experience for Undergraduates
+            <a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=5517">Research Experience for Undergraduates
               (REU)</a>
             <p></p>
             <p>Support undergraduate student involvement in research; up to $8,000.</p>
@@ -260,7 +261,7 @@ secondary: true
 
         <div class="col-12 col-md-6 col-lg-4 three-column-cta__single">
           <div class="three-column-cta__content">
-            <a href="{{ site.baseurl }}/funding/pgm_summ.jsp?pims_id=505170">Research Experiences for Teachers
+            <a href="https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=505170">Research Experiences for Teachers
               (RET)</a>
             <p></p>
             <p>Support research participation by K-12 teachers and community college instructors; up to $10,000&nbsp;
@@ -271,7 +272,7 @@ secondary: true
 
         <div class="col-12 col-md-6 col-lg-4 three-column-cta__single">
           <div class="three-column-cta__content">
-            <a href="{{ site.baseurl }}/pubs/2014/nsf14124/nsf14124.jsp">Veterans Research Supplement (VRS) </a>
+            <a href="https://www.nsf.gov/pubs/2014/nsf14124/nsf14124.jsp">Veterans Research Supplement (VRS) </a>
             <p></p>
             <p>Support research participation by undergraduate or graduate students, K-12 STEM teachers, or community
               college instructors and students who have served in active duty with the U.S. armed forces; up to $10,000.
@@ -347,7 +348,7 @@ secondary: true
         <div class="container">
           <div class="row">
             <div class="col-12 col-lg-4 alternating-list__col">
-              <a href="{{ site.baseurl }}/sites/default/files/2020-07/how-to-run-a-successful-planning-grant-meeting.docx">How to Run a
+              <a href="{{ site.baseurl }}/how-to-run-a-successful-planning-grant-meeting.docx">How to Run a
                 Successful Planning Grant Meeting</a>
             </div>
             <div class="col-12 col-lg-6 alternating-list__col">

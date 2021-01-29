@@ -11,8 +11,10 @@ module SiteData
     def generate
       count = 0
 
-      Dir.glob(File.join(@basepath, '_data', 'achievements', '*.yml')) do |yml_filename|
-        achievement = YAML.load_file(yml_filename)
+      achievements = YAML.load_file(File.join(@basepath, '_data', 'achievements.yml'))
+
+      achievements.each do |achievement|
+        yml_filename = achievement['key']
 
         title = achievement['title'].strip
         title = "\"#{title}\"" if title =~ /(:|-)/
@@ -38,10 +40,8 @@ module SiteData
           output << achievement['content']
         end
 
-        mdfilename = File.basename(yml_filename).sub('.yml', '.md')
-
         File.write(
-          File.join(@basepath, '_achievements', mdfilename),
+          File.join(@basepath, '_achievements', "#{yml_filename}.md"),
           output.gsub('site.baseurl', @site.baseurl),
           mode: "w"
         )
