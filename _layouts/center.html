@@ -1,25 +1,95 @@
 ---
-layout: default
+layout: page
 ---
 
-{% comment %}
-This is an example showing how you can load date from the _data/ folder
-{% endcomment %}
+{% assign center = site.data.centers[page.acronym] %}
 
+{% assign awards = site.data.award_data[page.acronym] %}
+<dir></dir>
 
-<div class="usa-layout-docs usa-section">
-  <div class="grid-container">
-    <div class="grid-row grid-gap">
-      <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
-        {{ content }}
-        <ul>
-          {% for item in site.data[page.datafile] %}
-          <li>
-            <a href="{{ item.url }}"><b>{{ item.name }}</b></a>: {{item.description}}
-          </li>
-          {% endfor %}
-        </ul>
+<div class="hero">
+  <div id="carouselCenterInd" class="carousel slide carousel--interior" data-ride="carousel" data-pause="false" data-interval="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="carousel__content carousel__content--slant">
+            <div class="carousel__text-cta">
+              <nav class="breadcrumbs" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Centers</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">{{ center.title }}</li>
+                </ol>
+              </nav>
+              <h1>{{ center.title }}</h1>
+              <p class="carousel__subtitle">Last Reviewed: 07/19/17</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </div>
+<div class="content-block">
+    <div class="container">
+      <div class="content-block__inner" style="font-style:italic">The opinions, findings, and conclusions or recommendations expressed are those of the Center author(s) and do not necessarily reflect the views of the National Science Foundation.
+      </div>
+    </div>
+  </div>
+  <div class="content-block">
+    <div class="container">
+      <div class="content-block__inner">
+        <h2 id=""><span class="highlight">Center Overview</span></h2>
+          {{ center.field_overview }}
+      </div>
+    </div>
+  </div>
+
+<div class="content-block">
+  <div class="container">
+    <div class="content-block__inner">
+        <h2 id=""><span class="highlight">Universities</span></h2>
+          <ul>
+            {% for member in universities %}
+              <li>{{ member.name }}</li>
+            {% endfor %}
+          </ul>
+          <a class="usa-button btn-tertiary" href="http://www.ambic.org">View Center Website</a>
+    </div>
+  </div>
+</div>
+<div class="content-block content-block--bg">
+    <div class="container">
+      <div class="content-block__inner">
+        <h2 id=""><span class="highlight">Research Focus</span></h2>
+{{ center.field_research_focus }}
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="content-block__inner">
+          <h2 id=""><span class="highlight">Awards</span></h2>
+          <ul>
+            {% assign i = 0 %}
+            {% for award in awards %}
+              <div class="usa-accordion">
+              <div class="filters__section">
+                <button class="usa-accordion__button" aria-expanded="true" aria-controls="section{{ i }}">
+                  <div class = "row">
+                    <div class="col-12 col-lg-2 alternating-list__col">
+                      {{ award.field_awardnumber }}
+                    </div>
+                    <div class="col-12 col-lg-9 alternating-list__col">
+                      {{ award.field_awardtitle }}
+                    </div>
+                  </div>
+                </button>
+                <div class="usa-accordion__content usa-accordion__content--scrollable" id="section{{ i }}" hidden>
+                  {{ award.field_awardabstractText }}
+                </div>
+              </div>
+            </div>
+            {% assign i = i | plus:1 %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>

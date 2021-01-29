@@ -272,4 +272,12 @@ if($(".filters__results").length > 0) {
 		createTags();
 	}
 }
+	$(".toggle-btn div.normal").hide();
+    $(".toggle-btn").click(function(){
+        $(this).find("div.normal").toggle();
+        $(this).find("div.fast").toggle("fast");
+        $(this).find("div.slow").toggle("slow");
+        $(this).find("div.very-fast").toggle(50);
+        $(this).find("div.very-slow").toggle(2000);
+    });
 });

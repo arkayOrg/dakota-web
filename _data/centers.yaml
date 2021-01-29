@@ -16,6 +16,7 @@ WET:
     field_states: PA, AZ
     field_sites: Temple University, University of Arizona, Arizona State University
     field_awards: WET 1361498, WET 1361505, WET 1361815
+    url: water-and-environmental-technology
 WHIP:
     title: Wind Hazard and Infrastructure Performance Center (WHIP)
     field_acronym: WHIP
@@ -32,6 +33,7 @@ WHIP:
     field_states: FL, TX
     field_sites: Florida International University, Texas Tech University
     field_awards: WHIP 1841503, WHIP 1841523
+    url: wind-hazard-and-infrastructure-performance
 WGRC:
     title: Wheat Genetics Resource Center (WGRC)
     field_acronym: WGRC
@@ -47,9 +49,10 @@ WGRC:
     field_states: KS
     field_sites: Kansas State University
     field_awards: WGRC 1822162
-WINDstar:
+    url: wheat-genetics-resource-center
+windSTAR:
     title: Center for Wind Energy Science, Technology and Research (WindSTAR)
-    field_acronym: WINDStar
+    field_acronym: windSTAR
     field_universities: 
         - name: University of Massachusetts, Lowell
         - name: University of Texas, Dallas
@@ -63,6 +66,7 @@ WINDstar:
     field_states: MA, TX, NC
     field_sites: University of Massachusetts Lowell, University of Texas at Dallas, North Carolina State University
     field_awards: WindSTAR 1362022, WindSTAR 1362033, WindSTAR 1916715, WindSTAR 1916776
+    url: wind-energy-science-technology-and-research
 CARD:
     title: Center for Advanced Research in Drying (CARD)
     field_acronym: CARD
@@ -95,6 +99,7 @@ CAKE:
     field_states: FL
     field_sites: Florida Atlantic University, Florida International University
     field_awards: CAKE 1464537, CAKE 1338922
+    url: center-for-advanced-knowledge-enablement
 CAEML:
     title: Center for Advanced Electronics Through Machine Learning (CAEML)
     field_acronym: CAEML
@@ -112,6 +117,7 @@ CAEML:
     field_states: NC, GA, IL
     field_sites: North Carolina State University, Georgia Tech Research Corporation, University of Illinois at Urbana-Champaign
     field_awards: CAEML 1624770, CAEML 1624731, CAEML 1624811
+    url: center-for-advanced-electronics-through-machine-learning
 CAFS:
     title: Center for Advanced Forestry Systems (CAFS)
     field_acronym: CAFS
@@ -133,6 +139,7 @@ CAFS:
     field_states: TN, WA, ID, ME, NC, OR, IN, GA
     field_sites: University of Washington, University of Idaho, University of Maine, North Carolina State University, Oregon State University, Purdue University
     field_awards: CAFS 1540000, CAFS 1439653, CAFS 1540045, CAFS 1361543, CAFS 1916552, CAFS 1915078, CAFS 1916793, CAFS 1916587, CAFS 1916699, CAFS 1916155, CAFS 1916720
+    url: center-for-advanced-forestry-systems
 CADMIM:
     title: Center for Advanced Design and Manufacturing of Integrated Microfluidics (CADMIM)
     field_acronym: CADMIM
@@ -149,6 +156,7 @@ CADMIM:
     field_states: CA, IL
     field_sites: University of California-Irvine, University of Illinois at Chicago
     field_awards: CADMIM 1841509, CADMIM 1841473
+    url: center-for-advanced-design-and-man-of-integrated-microfluidics
 ATOMIC:
     title: Center for Atomically Thin Multifunctional Coatings (ATOMIC)
     field_acronym: ATOMIC
@@ -165,6 +173,7 @@ ATOMIC:
     field_states: TX, PA
     field_sites: William Marsh Rice University, Pennsylvania State Univ University Park
     field_awards: ATOMIC 1539999, ATOMIC 1540018
+    url: atomically-thin-multifunctional-coatings
 CAC:
     title: Cloud and Autonomic Computing (CAC)
     field_acronym: CAC
@@ -181,3 +190,4 @@ CAC:
     field_states: TX, AZ
     field_sites: Texas Tech University, University of Arizona
     field_awards: CAC 1362134, CAC 1624668
+    url: cloud-and-autonomic-computing

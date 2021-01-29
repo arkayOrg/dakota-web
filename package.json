@@ -9,8 +9,15 @@
     "test": "bundle exec htmlproofer _site; npx a11y '_site/**/*.html'"
   },
   "dependencies": {
-    "netlify-cms": "^2.10.74",
-    "uswds": "~2.9.0"
+    "netlify-cms": "^2.10.76",
+    "netlify-cms-lib-widgets": "^1.6.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "redux": "^3.7.2",
+    "redux-legacy": "npm:redux@^3.0.0",
+    "seamless-immutable": "^7.1.4",
+    "uswds": "~2.9.0",
+    "validate-color": "^2.1.0"
   },
   "devDependencies": {
     "a11y": "^0.5.1",
