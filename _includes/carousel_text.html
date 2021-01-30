@@ -1,11 +1,8 @@
 {% if page.secondary %}
-  {% assign carouselId = 'interiorCarouselText' %}
   {% assign carouselClass = 'carousel--interior' %}
-{% else %}
-  {% assign carouselId = 'carouselText' %}
-  {% assign carouselClass = '' %}
 {% endif %}
-<div id="{{ carouselId }}" class="carousel slide carousel--text {{ carouselClass }}" data-ride="carousel" data-pause="false" data-interval="false">
+
+<div id="carouselText" class="carousel slide carousel--text {{ carouselClass }}" data-ride="carousel" data-pause="false" data-interval="false">
   <div class="carousel-inner">
     <div class="carousel-item">
       <div class="container">
