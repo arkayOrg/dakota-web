@@ -26,51 +26,47 @@ sidenav: false
   </div>
   <div id="interiorCarouselText" class="carousel slide carousel--text carousel--interior" data-ride="carousel" data-pause="false" data-interval="false">
     <div class="carousel-inner">
-                      <div class="carousel-item active">
-    <div class="container">
-      <div class="carousel__content">
-        <div class="carousel__text-cta">
-          <p class="carousel__featured">               
-            Read about the industrial and societal impact of cutting-edge research at a few of our Centers.
-            <a class="usa-button btn-tertiary" href="/centers/achievements">Learn More</a>
-          </p>
+      <div class="carousel-item active">
+        <div class="container">
+          <div class="carousel__content">
+            <div class="carousel__text-cta">
+              <p class="carousel__featured">               
+                Read about the industrial and societal impact of cutting-edge research at a few of our Centers.
+                <a class="usa-button btn-tertiary" href="/centers/achievements">Learn More</a>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-        </div>
-          </div>
-     </div>
+  </div>
   <div class="stickybits-wrapper">
   <div class="secondary-nav" style="position: sticky;">
       <div class="container">
         <div class="secondary-nav__scrollspy">
           <ul class="nav">
-            
-  
-  <li class="nav-item">
-    <!-- INTEGRATOR: the href below should match that of the associated heading in the content block -->
-    <a class="nav-link" href="#center-directory">Center Directory</a>
-  </li>
-  
-  <li class="nav-item">
-    <!-- INTEGRATOR: the href below should match that of the associated heading in the content block -->
-    <a class="nav-link" href="#join-the-iucrc-program">Join the IUCRC Program</a>
-  </li>
+            <li class="nav-item">
+              <!-- INTEGRATOR: the href below should match that of the associated heading in the content block -->
+              <a class="nav-link" href="#center-directory">Center Directory</a>
+            </li>
+            <li class="nav-item">
+              <!-- INTEGRATOR: the href below should match that of the associated heading in the content block -->
+              <a class="nav-link" href="#join-the-iucrc-program">Join the IUCRC Program</a>
+            </li>
           </ul>
         </div>
         <div class="dropdown">
           <button class="dropdown-toggle" type="button" id="secondaryNavDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Explore this page</button>
           <div class="dropdown-menu" aria-labelledby="secondaryNavDropdown">
             <ul class="nav">
-  <li class="nav-item">
-    <!-- INTEGRATOR: the href below should match that of the associated heading in the content block -->
-    <a class="nav-link" href="#center-directory">Center Directory</a>
-  </li>
-  
-  <li class="nav-item">
-    <!-- INTEGRATOR: the href below should match that of the associated heading in the content block -->
-    <a class="nav-link" href="#join-the-iucrc-program">Join the IUCRC Program</a>
-  </li>
+              <li class="nav-item">
+                <!-- INTEGRATOR: the href below should match that of the associated heading in the content block -->
+                <a class="nav-link" href="#center-directory">Center Directory</a>
+              </li>
+              <li class="nav-item">
+                <!-- INTEGRATOR: the href below should match that of the associated heading in the content block -->
+                <a class="nav-link" href="#join-the-iucrc-program">Join the IUCRC Program</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -976,7 +972,7 @@ sidenav: false
         <div class="alternating-list__row centers">
           <div class="row">
               <div class="col-12 col-lg-4 alternating-list__col title">
-                <a href="center/{{ center[1].url }}" hreflang="en">{{ center[1].title }}</a>
+                <a href="/centers/{{ center[1].url }}" hreflang="en">{{ center[1].title }}</a>
               </div>
               <div class="col-12 col-lg-3 alternating-list__col focus">
                 <a href="#" hreflang="en">{{ center[1].field_focus }}</a>

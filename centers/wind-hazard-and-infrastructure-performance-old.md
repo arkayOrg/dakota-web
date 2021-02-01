@@ -1,10 +1,11 @@
 ---
+title: Wind Hazard and Infrastructure Performance Center
+acronym: WHIP
 layout: page
+sidenav: false
 ---
 
 {% assign center = site.data.centers[page.acronym] %}
-
-{% assign awards = site.data.award_data %}
 <dir></dir>
 
 <div class="hero">
@@ -68,31 +69,10 @@ layout: page
   <div class="container">
     <div class="content-block__inner">
           <h2 id=""><span class="highlight">Awards</span></h2>
-          <ul>
-            {% assign i = 0 %}
-            {% for award in awards %}
-            {% if award.field_centeracronym == page.acronym %}
-              <div class="usa-accordion">
-              <div class="filters__section">
-                <button class="usa-accordion__button" aria-expanded="false" aria-controls="section{{ i }}">
-                  <div class = "row">
-                    <div class="col-12 col-lg-2 alternating-list__col">
-                      {{ award.field_awardnumber }}
-                    </div>
-                    <div class="col-12 col-lg-9 alternating-list__col">
-                      {{ award.field_awardtitle }}
-                    </div>
-                  </div>
-                </button>
-                <div class="usa-accordion__content usa-accordion__content--scrollable" id="section{{ i }}" hidden>
-                  {{ award.field_awardabstractText }}
-                  <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID={{ award.field_awardnumber }}">Read More > </a>
-                </div>
-              </div>
-            </div>
-            {% assign i = i | plus:1 %}
-            {% endif %}
-            {% endfor %}
-          </ul>
+          <div class="content-block__columns">
+            <p>
+        <a href="https://www.nsf.gov/awardsearch/advancedSearchResult?AwardNumberOperator=Exactly&amp;AwardNumberFrom=1624641&amp;ActiveAwards=true&amp;ExpiredAwards=true">1624641</a>
+    </p>
+          </div>
         </div>
       </div>
