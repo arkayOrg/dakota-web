@@ -348,7 +348,7 @@ secondary: true
         <div class="container">
           <div class="row">
             <div class="col-12 col-lg-4 alternating-list__col">
-              <a href="{{ site.baseurl }}/how-to-run-a-successful-planning-grant-meeting.docx">How to Run a
+              <a href="{{ site.baseurl }}/sites/default/files/2020-07/how-to-run-a-successful-planning-grant-meeting.docx">How to Run a
                 Successful Planning Grant Meeting</a>
             </div>
             <div class="col-12 col-lg-6 alternating-list__col">

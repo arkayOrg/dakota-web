@@ -29,7 +29,7 @@ pagination:
             {% if post.learn_more_link %}
             <a class="usa-button btn-tertiary" target="_blank" href="{{ post.learn_more_link }}">Learn More</a>
             {% else %}
-            <a class="usa-button btn-tertiary" href="{{ site.baseurl }}{{ post.url | append: '.html' }}">Learn More</a>
+            <a class="usa-button btn-tertiary" href="{{ site.baseurl }}{{ post.url }}">Learn More</a>
             {% endif %}
 
           </div>

@@ -114,14 +114,14 @@ secondary: true
             <li>
               <span class="dark-bg__timeline-title">
                 <h3>Search the Directory</h3>
-                <a class="usa-button btn-tertiary" href="/centers">Search</a>
+                <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/centers/">Search</a>
               </span>
             </li>
 
             <li>
               <span class="dark-bg__timeline-title">
                 <h3>Contact Center</h3>
-                <a class="usa-button btn-tertiary" href="/centers">Contact</a>
+                <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/centers/">Contact</a>
               </span>
             </li>
 
@@ -129,16 +129,16 @@ secondary: true
               <span class="dark-bg__timeline-title">
                 <h3>Establish a way to support the Center (choose one)</h3>
                 <ul>
-                  <li><span>Sign a </span><a href="/industry/joining-a-center/membership-agreement"><span>membership
+                  <li><span>Sign a </span><a href="{{ site.baseurl }}/industry/joining-a-center/membership-agreement/"><span>membership
                         agreement</span></a><span> with the Center.</span><br>
                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; OR</li>
                   <li><span>Issue a "Solicitation/Contract/Order for Commercial Items" by using </span><a
-                      href="/sites/default/files/2020-07/SF1449.pdf"><span>form 1449</span></a><span>. Send the
+                      href="{{ site.baseurl }}/sites/default/files/2020-07/SF1449.pdf"><span>form 1449</span></a><span>. Send the
                       completed form directly to the university.</span><br>
                     &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; OR</li>
                   <li><span>Set up an Interagency Agreement (IAA) or Military Interdepartmental Purchase
                       Request&nbsp;(MIPR) with NSF. See&nbsp;</span><a
-                      href="/universities/solicitation/iucrc-interagency-agreement-requests"><span>instructions for
+                      href="{{ site.baseurl }}/universities/solicitation/iucrc-interagency-agreement-requests/"><span>instructions for
                         processing an IAA or MIPR</span></a><span>.</span></li>
                 </ul>
                 <p>&nbsp;</p>
@@ -166,7 +166,7 @@ secondary: true
               <p></p>
               <p>Find the documents required to participate in a Center</p>
               <p></p>
-              <a class="usa-button btn-tertiary" href="/universities/solicitation#block9">Learn More</a>
+              <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/universities/solicitation/">Learn More</a>
             </div>
             <div class="topic__image">
               <img src="{{ site.baseurl }}/visuals/css-assets/book_1.jpg" alt="Topic Image Right">
@@ -186,7 +186,7 @@ secondary: true
               <p>Industry and government agencies can participate as Center members or by partnering directly with NSF
                 at the strategic level to inspire new areas of research.</p>
               <p></p>
-              <a class="usa-button btn-tertiary" href="/strategic-engagements">Learn More</a>
+              <a class="usa-button btn-tertiary" href="{{ site.baseurl }}/strategic-engagements/">Learn More</a>
             </div>
             <div class="topic__image">
               <img src="{{ site.baseurl }}/visuals/css-assets/sr1.jpg" alt="Topic Image Right">
