@@ -16,15 +16,28 @@ site, this is the place to do it.
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Title and meta description
     ================================================== -->
-  <title>{{ page.title || site.title}}</title>
-  <meta property="og:title" content="{{site.title}}">
-  <meta name="description" content="{{site.description}}">
-  <meta property="og:description" content="{{site.description}}">
+  {% if page.title %}
+    {% assign page_title = page.title %}
+  {% else %}
+    {% assign page_title = site.title %}
+  {% endif %}
+  <title>{{ page_title }}</title>
+  <meta property="og:title" content="{{ page_title }}">
+
+  {% if page.acronym %}
+    {% assign desc = site.data.centers[page.acronym].field_overview | strip_html %}
+  {% elsif page.description %}
+    {% assign desc = page.description %}
+  {% else %}
+    {% assign desc = site.description %}
+  {% endif %}
+  <meta name="description" content="{{ desc }}">
+  <meta property="og:description" content="{{ desc }}">
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@{{site.twitter}}" />
-  <meta name="twitter:title" content="{{site.title}}" />
-  <meta name="twitter:description" content="{{site.description}}" />
+  <meta name="twitter:site" content="@{{ site.twitter }}" />
+  <meta name="twitter:title" content="{{ page_title }}" />
+  <meta name="twitter:description" content="{{ desc }}" />
 
   <meta property="og:type" content="article">
   <link rel="canonical" href="{{ page.url | absolute_url }}" />
