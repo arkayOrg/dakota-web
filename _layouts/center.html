@@ -1,5 +1,6 @@
 ---
 layout: page
+description: site.data.centers[page.acronym].field_overview
 ---
 
 {% assign center = site.data.centers[page.acronym] %}
@@ -49,7 +50,7 @@ layout: page
     <div class="content-block__inner">
         <h2 id=""><span class="highlight">Universities</span></h2>
           <ul>
-            {% for member in universities %}
+            {% for member in center.field_universities %}
               <li>{{ member.name }}</li>
             {% endfor %}
           </ul>
@@ -73,7 +74,6 @@ layout: page
             {% for award in awards %}
             {% if award.field_centeracronym == page.acronym %}
               <div class="usa-accordion">
-              <div class="filters__section">
                 <button class="usa-accordion__button" aria-expanded="false" aria-controls="section{{ i }}">
                   <div class = "row">
                     <div class="col-12 col-lg-2 alternating-list__col">
@@ -89,7 +89,6 @@ layout: page
                   <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID={{ award.field_awardnumber }}">Read More > </a>
                 </div>
               </div>
-            </div>
             {% assign i = i | plus:1 %}
             {% endif %}
             {% endfor %}
