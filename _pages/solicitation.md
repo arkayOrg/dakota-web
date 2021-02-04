@@ -1,5 +1,6 @@
 ---
 title: Apply For Funding | IUCRC
+description: The IUCRC program awards grants to university researchers who partner with industry. Complete the solicitation to apply for research funding.
 permalink: /universities/solicitation/
 tag: funding
 layout: default

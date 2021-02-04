@@ -1,5 +1,6 @@
 ---
 title: Government | IUCRC
+description: Federal, state and local government agencies participate in the Industry-University Cooperative Research Centers program.
 tag: government
 layout: default
 secondary: true

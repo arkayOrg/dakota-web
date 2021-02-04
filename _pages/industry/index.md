@@ -1,5 +1,6 @@
 ---
 title: Industry | IUCRC
+description: IUCRC provides value to industry through access to talent, access to research results and intellectual property (IP), and leveraged research dollars
 tag: industry
 permalink: /industry/
 layout: default

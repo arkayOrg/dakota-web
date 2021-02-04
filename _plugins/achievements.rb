@@ -34,7 +34,8 @@ module SiteData
         output << "date: #{achievement['date']}\n"
         output << "img: #{achievement['img']}\n" if achievement['img']
         output << "learn_more_link: #{achievement['learn_more_link']}\n".gsub('site.baseurl', @site.baseurl) if achievement['learn_more_link']
-        output << "description: #{achievement['description']}\n" if achievement['description']
+        output << "description: \"#{achievement['description']}\"\n" if achievement['description']
+        output << "index_description: #{achievement['index_description']}\n" if achievement['index_description']
         output << "permalink: /centers/achievement/#{achievement['key']}/\n"
         output << "---\n"
 

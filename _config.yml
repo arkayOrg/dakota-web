@@ -21,7 +21,7 @@
 title: IUCRC
 email: contact@example.gov
 description: >- # this means to ignore newlines until "baseurl:"
-  IUCRC
+  The IUCRC program generates scientific discoveries by funding and facilitating industry, university, and government partnerships.
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "https://example.gov" # the base hostname & protocol for your site, e.g. http://example.com
 
