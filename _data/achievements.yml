@@ -1,7 +1,9 @@
 - key: a-closed-loop-process-for-li-ion-battery-recycling
   date: 2020-06-17
-  title: |-
+  title: >-
     Catalyzing Commercialization: A Closed-Loop Process for Li-Ion Battery Recycling
+  description: >-
+    As the demand for mobile electronics and electric vehicles (EVs) increases, so does the demand for lithium-ion batteries. Recovering the value of these batteries once the devices they power reach their end of life is a challenge. In North America, most used batteries pile up in landfills and only 5% are recycled.
   focus_area: Energy and Environment
   center: Center for Resource Recovery and Recycling (CR3)
   content: |-
@@ -62,8 +64,11 @@
     </p>
 - key: a-new-generation-of-bio-based-adhesives
   date: 2020-06-17
-  title: |-
+  title: >-
     Catalyzing Commercialization: A New Generation of Bio-Based Adhesives from Bioadvantaged Monomers
+  description: >-
+    Biopolymers, produced at least partially from renewable resources, have gained attention as society, industry, and governments realize the need to move away from petroleum-based materials.  There are two main types of biopolymers — bioreplacement polymers and bioadvantaged polymers.
+    Bioreplacement polymers are produced using tools like synthetic biology and catalysis. In this approach, the polymers differ from their petroleum-based competitors only in the age of their carbon.However, achieving cost parity is extremely difficult.
   focus_area: Biotechnology
   img: processing_facility.jpg
   center: Center for Bioplastics and Biocomposites (CB2)
@@ -128,8 +133,10 @@
     </p>
 - key: ai-helps-shift-touch-id-to-touchless
   date: 2020-08-03
-  title: |-
+  title: >-
     A.I. Helps Shift Touch ID to Touchless
+  description: >-
+    Credit: Jeremy Dawson, West Virginia University.  Making a payment can be as easy as hovering a smartphone or a smart credit card over a contactless console. A similar touchless technology is on the horizon for fingerprint identification.
   focus_area: Information, Communication and Computing
   img: mantech_fingerprint_sample_image-27_0.jpg
   center: Center for Identification Technology Research (CITeR)
@@ -198,8 +205,10 @@
     </p>
 - key: cold-sintering-creates-new-avenues
   date: 2020-06-17
-  title: |-
+  title: >-
     Catalyzing Commercialization: Cold Sintering Creates New Avenues for Advanced Composites Manufacture
+  description: >-
+    Engineers often want to combine many types of materials into a composite architecture to achieve specific performances in devices, from electronics to biomedical implants. However, material compatibility issues that arise during manufacturing can limit practical realization of these composites.
   focus_area: Advanced Materials
   img: composite_material.jpg
   center: Center for Dielectrics and Piezoelectrics (CDP)
@@ -271,8 +280,12 @@
     </p>
 - key: creating-novel-bimetallic-catalysts
   date: 2020-06-17
-  title: |-
+  title: >-
     Catalyzing Commercialization: Creating Novel Bimetallic Catalysts for Methanol Fuel Cells
+  description: >-
+    Improvements in direct-methanol fuel cells (DMFCs) have been achieved at the Univ. of South Carolina based on a new, easy-to-scale method to synthesize bimetallic catalysts.
+    The two most common types of fuel cells being developed for mobile transportation applications are DMFCs and hydrogen fuel cells. Methanol is safer than hydrogen, and
+    it is easier to handle and install in refueling stations. Whereas a monometallic platinum (Pt) catalyst may be used for H2 fuel cells, a more-expensive bimetallic catalyst — typically consisting of Pt and ruthenium (Ru) — is required for DMFCs.
   focus_area: Advanced Materials
   img: co_ed.png
   center: Center for Rational Catalyst Synthesis (CerCAS)
@@ -335,8 +348,10 @@
     </p>
 - key: establishing-a-reference-cell-culture-platform
   date: 2020-06-17
-  title: |-
+  title: >-
     Catalyzing Commercialization: Establishing a Reference Cell Culture Platform for Biomanufacturing
+  description: >-
+    The biopharmaceutical industry has emerged as a major manufacturing engine of the U.S. economy. With new biological information brought about through technology innovation and data acquisition, ample opportunities exist to improve biomanufacturing efficiencies.
   focus_area: Biotechnology
   center: Advanced Mammalian Biomanufacturing Innovation Center (AMBIC)
   content: |-
@@ -409,16 +424,20 @@
     </p>
 - key: iucrc-compendium-2016
   date: 2016-01-01
-  title: |-
+  title: >-
     2016 IUCRC Compendium
-  description: |-
+  description: >-
+    2016 IUCRC Compendium (PDF Document)
+  index_description: |-
     A compilation of noteworthy industrially relevant research outcomes produced by Centers funded by the IUCRC program.
   learn_more_link: site.baseurl/sites/default/files/2020-03/NSF-book-2016-Final.pdf 
   img: panels.png
 - key: low-cost-norovirus-detection-platform
   date: 2020-06-17
-  title: |-
+  title: >-
     Catalyzing Commercialization: Researchers Develop Rapid, Low-Cost Norovirus Detection Platform
+  description: >-
+    A little bit of norovirus — the highly infectious microbe that causes about 20 million cases of food poisoning in the U.S. each year — goes a long way. Just 10 particles of the virus can cause illness in humans. While norovirus is often associated with cruise ships, it can also spread quickly through a community via its water supply. Norovirus causes about 200,000 deaths globally each year.
   focus_area: Energy and Environment
   img: smartphone_microscope.jpg
   center: Water and Environmental Technology (WET) Center
@@ -483,8 +502,10 @@
     </p>
 - key: measurement-of-humidity
   date: 2020-06-17
-  title: |-
+  title: >-
     Catalyzing Commercialization: Tiny Optical Fiber Sensors Offer Continuous, In situ Measurement of Humidity
+  description: >-
+    Humidity is a very important parameter to monitor and control when drying food products, pulp and paper products, chemicals, and other semi-moist, porous materials. It can impact drying optimization and, ultimately, product shelf life. However, humidity sensors can be unrealiable, especially when used in large industrial ovens that dry, bake, or de-water materials. Accuracy and precision, along with durability and size, are all important factors for successful automated humidity sensing.
   focus_area: Energy and Environment
   img: optic_fiber.png
   center: Center for Advanced Research in Drying (CARD)
@@ -545,8 +566,10 @@
     </div>
 - key: medicine-producing-cells
   date: 2020-11-18
-  title: |-
+  title: >-
     New Insights May Improve Performance of Medicine-Producing Cells
+  description: >-
+    Samples waiting to be analyzed on the mass spectrometer to quantify the incorporation of stable isotopes of carbon, which provides new insights into how nutrients are metabolized by CHO cells. Credit: Maciek Antoniewicz, University of MichiganJust like us, cells need to watch what they eat.
   focus_area: Biotechnology
   img: mpc_samples.jpg
   center: Advanced Mammalian Biomanufacturing Innovation Center (AMBIC)
@@ -635,8 +658,10 @@
     </figure>
 - key: membrane-based-technologies
   date: 2020-06-17
-  title: |-
+  title: >-
     Catalyzing Commercialization: Membrane-Based Technologies Treat Produced Water from Oil and Gas Operations
+  description: >-
+    During oil and gas production, about 7–10 barrels of polluted water are recovered for each barrel of oil produced. The amount of produced water depends on the geology of the formation and the type of reservoir. With a global oil production rate of 100 million bbl/day, the volumetric production rate of produced water is massive.
   focus_area: Advanced Manufacturing
   img: membrane.jpg
   center: Membrane Engineering Science and Technology (MAST) Center
@@ -685,8 +710,10 @@
     </p>
 - key: microfluidics-based-bioanalytical-solutions
   date: 2020-06-17
-  title: |-
+  title: >-
     Catalyzing Commercialization: Microfluidics-Based Bioanalytical Solutions Change the Game
+  description: >-
+    Microfluidic devices operate at physical length scales similar to biological constituents (e.g., cells and molecules) and can manipulate solutions of these constituents within microscale channels and chambers. A microfluidic device, also called a lab-on-a-chip (LOC), takes advantage of physics at these small dimensions to detect low sample concentrations — in the nanomolar to picomolar range — with high sensitivity. LOC devices can carry out assays at extremely small volumes, with just a microliter or picoliter of fluid.
   focus_area: Advanced Manufacturing
   img: microchip.jpg
   center: Center for Advanced Design and Manufacturing of Integrated Microfluidics (CADMIM)
@@ -759,8 +786,10 @@
     </p>
 - key: new-ai-tool
   date: 2020-07-15
-  title: |-
+  title: >-
     New A.I. Tool Aims at Reducing Breast Cancer Deaths
+  description: >-
+    More than 40,000 women and 500 men in the United States die from breast cancer each year, according to the American Cancer Society. But a novel computer model could help cut those numbers in half by 2026. The artificial intelligence (AI) tool is built using 1.6 million anonymous healthcare entries from more than 260,000 breast cancer patients over a period of 41 years.
   focus_area: Health and Safety
   img: chotai_breakthrough.jpg
   center: Center for Health Organization and Transformation (CHOT)
@@ -808,8 +837,10 @@
     </p>
 - key: new-big-data-method
   date: 2020-08-11
-  title: |-
+  title: >-
     New Big Data Method Could Revolutionize Personalized Medical Treatments from Cancer to Depression
+  description: >-
+    Credit: metamorworks/Shutterstock.  By leveraging big datasets and artificial intelligence, researchers are learning how to create more personalized medical treatments that could result in better patient outcomes and significant economic impacts.
   focus_area: Biotechnology
   img: big_data.jpg
   center: Center for Computing and Genomics (CCBGM)
@@ -865,8 +896,10 @@
     </figure>
 - key: new-technique-surveillance-images
   date: 2020-07-22
-  title: |-
+  title: >-
     New Technique Provides Faster, Lower-Cost Detection in Surveillance Images
+  description: >-
+    Processing images from surveillance cameras is a time-consuming and costly endeavor. A new technique developed by researchers at the Center for Net-Centric and Cloud Software and Systems (NCSS) with funding from the National Science Foundation’s (NSF) Industry-University Cooperative Research Center (IUCRC) program, has found a more efficient way to process surveillance images. The new technique has the potential to reduce system and processing costs, enabling faster detections.
   focus_area: Information, Communication and Computing
   img: shutterstock_1122512510.jpg
   center: Center for Net-Centric and Cloud Software and Systems (NCSS)
@@ -911,8 +944,10 @@
     </figure>
 - key: new-technology-for-isolating-cells
   date: 2020-10-16
-  title: |-
+  title: >-
     New Technology for Isolating Single Cells Opens the Door for Fast and Precise Experiments and Treatments
+  description: >-
+    Credit: luchschenF/Shutterstock.  Singling out a diseased or mutated cell and identifying which treatment option is most effective can be cumbersome, expensive, and time-consuming.
   focus_area: Advanced Manufacturing
   img: shutterstock_1789929248.jpg
   center: Center for Advanced Design and Manufacturing of Integrated Microfluidics (CADMIM)
@@ -995,8 +1030,10 @@
     </p>
 - key: next-generation-photovoltaics
   date: 2020-06-17
-  title: |-
+  title: >-
     Catalyzing Commercialization: Next-Generation Photovoltaics for Economic, Clean Energy
+  description: >-
+    Energy sustainability represents one of the grand challenges facing modern society, and thin-film solar photovoltaics provide one of the best opportunities for rapidly expanding renewable energy use. Photovoltaics (PV) using the thin-film semi­conductor cadmium telluride (CdTe) have been commercialized at the gigawatts (GW)-per-year scale, with 17.5 GWs installed globally.
   focus_area: Energy and Environment
   img: catalyzing.png
   center: Center for Next Generation Photovoltaics (NGPV)
@@ -1055,8 +1092,10 @@
     </p>
 - key: novel-concrete-wall-panels
   date: 2020-12-02
-  title: |-
+  title: >-
     Catalyzing Commercialization: Novel Concrete Wall Panels Lower a Building’s Energy Footprint
+  description: >-
+    About 20% of total energy consumption in the U.S. is used for the heating and cooling of buildings using conventional sources like fossil fuels. While standard thermal insulation, with its low thermal conductivity, can help mitigate heating/cooling loss, researchers have sought to incorporate thermal storage capacity within the building envelope to better control the temperature variations across building walls.
   focus_area: Advanced Materials
   img: wall_panel.png
   center: Center for Energy Harvesting Materials and System (CEHMS)
@@ -1109,8 +1148,10 @@
     </p>
 - key: novel-palladium-graphene-catalysts
   date: 2020-06-17
-  title: |-
+  title: >-
     Catalyzing Commercialization: Novel Palladium-Graphene Catalysts Improve Pharmaceutical Processing
+  description: >-
+    Pharmaceutical companies use a variety of metal catalysts to produce active pharmaceutical ingredients (APIs). One of the most widely used catalytic reactions in commercial operation is the Suzuki cross-coupling reaction, which can produce high-volume drugs such as the anti-hypertension drug losartan. These reactions traditionally employ homogeneous palladium catalysts, which often require extensive purification to separate the catalyst from the product.
   focus_area: Advanced Materials
   center: Center for Rational Catalyst Synthesis (CerCAS)
   content: |-
@@ -1167,8 +1208,10 @@
     </p>
 - key: rare-earth-metals-from-electric-motors
   date: 2020-03-17
-  title: |-
+  title: >-
     Rare Earth Metals from Electric Motors
+  description: >-
+    Sourcing uncommon minerals needed to make common products just got a whole lot easier.
   focus_area: Energy and Environment
   img: cr3_breakthrough_0.jpg
   center: Center for Atomically Thin Multifunctional Coatings (ATOMIC)
@@ -1232,8 +1275,10 @@
     </p>
 - key: red-mud
   date: 2020-06-17
-  title: |-
+  title: >-
     Catalyzing Commercialization: An Economically Viable Process to Recover High-Value Products from Red Mud
+  description: >-
+    Aluminum (Al) possesses many desirable properties: a high strength-to-weight ratio, corrosion resistance, thermal conductivity, and ductility. Over the past five decades, Al and its alloys have been used extensively for automotive, construction, electrical, and chemical applications. The growing demand for Al is met with an increase in demand for bauxite, a native ore for primary Al production.
   focus_area: Energy and Environment
   img: mud.jpg
   center: Center for Resource Recovery and Recycling (CR3)
@@ -1290,8 +1335,10 @@
     </p>
 - key: smartphone-app-detects-risk-of-fall
   date: 2020-06-09
-  title: |-
+  title: >-
     Smartphone App Detects Risk of Fall
+  description: >-
+    Credit: Lia Koltyrina/Shutterstock.com.  Healthcare wearables are a booming industry, and many devices have been developed for the elderly to detect falls. But identifying a fall after it has occurred could be too late.
   focus_area: Biotechnology
   img: shutterstock_622200797.jpg
   center: Building Reliable Advances and Innovation in Neurotechnology (BRAIN) Center
@@ -1354,8 +1401,10 @@
     </p>
 - key: solar-paper-powers-internet-of-things-devices
   date: 2020-06-17
-  title: |-
+  title: >-
     Catalyzing Commercialization: Solar Paper Powers Internet-of-Things Devices
+  description: >-
+    Today’s solar cells are mainly used for large-scale power production. However, the up-and-coming internet of things (IoT) will require many sensors and devices to transmit information wirelessly to computer networks and mobile personal electronics. Those sensors and devices could be powered with solar cells that harvest energy from either freely available sunlight or indoor lighting, provided the solar cells are small, inexpensive, lightweight, and able to conform and adhere to surfaces with any shape or texture.
   focus_area: Energy and Environment
   img: solar_paper.jpg
   center: Center for Next Generation Photovoltaics (NGPV)
@@ -1424,8 +1473,10 @@
     </p>
 - key: sustainable-pesticides
   date: 2020-12-10
-  title: |-
+  title: >-
     What's In A Name? A New Tool For Finding Sustainable Pesticides
+  description: >-
+    A new way to name certain proteins is a potential gamechanger for researchers developing organic pesticides that target specific insects, which are more environmentally friendly than chemically-based alternatives.
   focus_area: Biotechnology
   img: sip_group_pic.jpg
   center: "Center for Arthropod Management Technologies (CAMTech)"
@@ -1508,8 +1559,10 @@
     </p>
 - key: test-helps-rubber-meet-the-road
   date: 2020-08-11
-  title: |-
+  title: >-
     Test Helps ‘Rubber Meet the Road’ in Wet Driving Conditions
+  description: >-
+    Credit: Siamak Farhad, Mechanical Engnieering Department, University of AkronMore than 300,000 people are injured and about 4,000 die each year in car crashes that occur on roads with wet pavement, according to the U.S. Department of Transportation.
   focus_area: Advanced Materials
   img: driving_conditions.jpg
   center: Center for Tire Research (CenTiRe)
@@ -1599,8 +1652,10 @@
     </p>
 - key: two-dimensional-materials
   date: 2020-12-02
-  title: |-
+  title: >-
     Catalyzing Commercialization: Two-Dimensional Materials for Versatile Biosensing
+  description: >-
+    As modern medicine becomes more personalized and less centralized, the need for scalable and tunable platforms for next-generation point-of-care biosensors remains an ongoing research objective. One promising technology for point-of-care analysis is electrochemical sensors, which are portable, ultrasensitive, and inexpensive. Electrochemical sensors are compatible with integrated circuit technology, enabling integration of sensors with the necessary electronic circuitry for data acquisition, processing, and transfer.
   focus_area: Information, Communication and Computing
   img: two-dimensional-materials.png
   center: Center for Atomically Thin Multifunctional Coatings (ATOMIC)
@@ -1657,8 +1712,10 @@
     </p>
 - key: ultrasonic-dehydration-of-protein-suspensions
   date: 2020-06-29
-  title: |-
+  title: >-
     Catalyzing Commercialization: Ultrasonic Dehydration of Protein Suspensions
+  description: >-
+    Today, consumer food choices, as well as food processing innovations, are driven by health, nutrition, and sustainability considerations. Plant proteins, a sustainable alternative to meat, are being used more frequently in foods from protein bars to pasta. At the heart of many food processes is drying. Proteins are routinely dried to improve storage stability, expand alternatives to product formulation, and enhance bioavailability.
   focus_area: Energy and Environment
   img: ultrasonic-dehydration.png
   center: Center for Advanced Research in Drying (CARD)
@@ -1723,8 +1780,10 @@
     </div>
 - key: uncovering-the-life-cycle-of-the-ocean-quahog
   date: 2020-06-09
-  title: |-
+  title: >-
     Uncovering the Life Cycle of the Ocean Quahog Can Balance Economic and Ecologic Goals
+  description: >-
+    Polished section of the valve of a 170 year old ocean quahaog (Arctica islandica) with inset expansion of the hinge region. 2015 collection, offshore New Jersey. Credit: Sara Pace, University of Southern Mississippi and Chase Long, Virginia Institute of Marine Science
   focus_area: Energy and Environment
   img: quahog.jpg
   center: Science Center for Marine Fisheries (SCeMFiS)
@@ -1798,8 +1857,10 @@
     </p>
 - key: unlocking-the-power-of-rna-interference
   date: 2020-06-17
-  title: |-
+  title: >-
     Catalyzing Commercialization: Unlocking the Power of RNA Interference for Insect Pest Management
+  description: >-
+    In recent decades, insects have become more resistant to pesticides. As resistance becomes more widespread, the agricultural biotechnology sector has sought viable alternatives to curtail the huge economic losses associated with insect pests. One of these alternative approaches, called RNA interference (RNAi), could be used to kill pests by silencing genes that are critical for their survival.
   focus_area: Biotechnology
   img: bugs.jpg
   center: Center for Atomically Thin Multifunctional Coatings (ATOMIC)
