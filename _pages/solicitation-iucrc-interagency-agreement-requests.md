@@ -13,8 +13,8 @@ secondary: true
       <div class="content-block__inner">
         <p>NSF has specific statutory authority that authorizes other Federal Agencies to transfer funds to NSF and NSF
           to use those funds to provide support to scientific and engineering research or education. NSF recommends that
-          agencies use this provision of the&nbsp;<a href="https://legcounsel.house.gov/Comps/81-507.pdf">NSF Act of
-            1950</a>&nbsp;as amended (42 USC 1861-75) as the statutory authority for the transfer of funds for IUCRCs.
+          agencies use this provision of the&nbsp;<a href="https://www.nsf.gov/about/history/legislation.pdf">NSF Act of 1950</a>
+          as amended (42 USC 1861-75) as the statutory authority for the transfer of funds for IUCRCs.
         </p>
 
         <p>Membership fees received via IAA are paid to the university via supplemental funding to an existing NSF
@@ -28,7 +28,7 @@ secondary: true
         <p>In order to process your IAA request in a timely manner, you must know:</p>
 
         <ol>
-          <li>The center you want to join;</li>
+          <li>The center(s) you want to join;</li>
           <li>The university receiving your membership; and,</li>
           <li>The cost of the membership.</li>
         </ol>
@@ -52,8 +52,9 @@ secondary: true
           <li><strong>Completed&nbsp;<a href="{{ site.baseurl }}/sites/default/files/7600A.PDF">7600A</a>&nbsp;and&nbsp;<a
                 href="{{ site.baseurl }}/sites/default/files/7600B.PDF">7600B</a>&nbsp;forms. Please complete the highlighted areas in
               each form.&nbsp;</strong><em>For further 7600A Instructions please visit the U.S. Department of
-              Treasury&nbsp;</em><a
-              href="https://www.fiscal.treasury.gov/fsreports/ref/fincMgmtStdzn/iaa_forms.htm"><em>website</em></a><em>.</em>
+              Treasury&nbsp;</em>
+              <a href="hhttps://www.fiscal.treasury.gov/files/forms/GT&C-Form-7600-Instructions.pdf"><em>website</em></a>
+              <em>.</em>
 
             <ul>
               <li>The following language&nbsp;<strong><u>MUST</u></strong>&nbsp;be included in&nbsp;<strong>block
@@ -63,9 +64,9 @@ secondary: true
                     area</em></strong>) at the (<strong><em>insert the city and state of the university where the IUCRC
                     is located</em></strong>). Deliverables may include two reports annually which will be available at
                 the center's bi-annual meetings. NSF is authorized to deduct&nbsp;<a
-                  href="{{ site.baseurl }}/universities/solicitation/nsf-cost-recovery-estimates/">6.68% (based on the total
+                  href="{{ site.baseurl }}/universities/solicitation/nsf-cost-recovery-estimates/">6.67% (based on the total
                   transaction)</a>&nbsp;for administrative cost recovery for FY 2020 until further notice." Use
-                the&nbsp;<a href="{{ site.baseurl }}/sites/default/files/IAA_ACR_2020_calculation.xlsx">Administrative Cost Recovery (ACR)
+                the&nbsp;<a href="{{ site.baseurl }}/sites/default/files/IAA_ACR_2021.xlsx">Administrative Cost Recovery (ACR)
                   calculator</a>&nbsp;to help compute the amount of money your agency should send to NSF.</li>
               <li>The following language&nbsp;<strong><u>MUST</u></strong>&nbsp;be included in&nbsp;<strong>block
                   12</strong>&nbsp;of the&nbsp;<strong>7600A</strong>.<br><u>Statutory Authority:</u>&nbsp;"This is a
@@ -88,14 +89,14 @@ secondary: true
                     area</em></strong>) at the (<strong><em>insert the city and state of the university where the IUCRC
                     is located</em></strong>). Deliverables may include two reports annually which will be available at
                 the center's bi-annual meetings. NSF is authorized to deduct&nbsp;<a
-                  href="{{ site.baseurl }}/universities/solicitation/nsf-cost-recovery-estimates/">6.68% (based on the total
+                  href="{{ site.baseurl }}/universities/solicitation/nsf-cost-recovery-estimates/">6.67% (based on the total
                   transaction)</a>&nbsp;for administrative cost recovery for FY 2020 until further
                 notice."<br><u>Statutory Authority:</u>&nbsp;"This is a non-acquisition/contract/procurement agreement
-                being entered into pursuant to the authority of the National Science Foundation Act of 1950, as amended
-                (42 USC 1861-75). Acceptance is made with the understanding that funds will be made available pursuant
+                being entered into pursuant to the authority of the National Science Foundation Act of 1950,
+                as amended (42 USC 1861-75). Acceptance is made with the understanding that funds will be made available pursuant
                 to the terms and conditions of the NSF award and in accordance with the appropriation cited on the
                 agreement."</li>
-              <li>Complete the&nbsp;<a href="{{ site.baseurl }}/sites/default/files/NSF_form_%201611_FY20.pdf">NSF 1611
+              <li>Complete the&nbsp;<a href="{{ site.baseurl }}/sites/default/files/NSF_form_%201611_FY21.pdf">NSF 1611
                   form</a>&nbsp;(highlighted areas).</li>
             </ul>
           </li>
@@ -122,7 +123,7 @@ secondary: true
         <h2 id="">Submission Deadline Notice</h2>
 
         <p>To ensure obligation of funds prior to the end of the fiscal year, IAAs should be submitted to the NSF IUCRC
-          program&nbsp;<strong>no later than July 1</strong>. All submissions sent after that date will be returned to
+          program&nbsp;<strong>no later than June 28th, 2021</strong>. All submissions sent after that date will be returned to
           the submitting agency if funds are due to expire at the end of the Fiscal Year. Submissions sent after the
           deadline can be held over until the new fiscal year if the funds are not due to expire until the end of the
           new fiscal year.</p>
