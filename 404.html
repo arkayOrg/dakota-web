@@ -11,17 +11,21 @@ permalink: /404.html
   </div>
 </div>
 <script>
-  var redirection = {
+  var redirection = [
     {% for redir in site.redirection %}
-      {% assign obj = "'" | append: redir.from | append: "': '" | append: redir.to | append: "'," %}
-      {{ obj }}
+      {
+        from: '{{ redir.from }}',
+        to:   '{{ redir.to }}'
+      },
     {% endfor %}
-  };
+  ];
 
-  if (redirection[window.location.pathname]) {
+  var redirect_to = (redirection.filter(path => window.location.pathname.endsWith(path.from))[0] || {}).to;
+
+  if (redirect_to) {
     document.getElementById('404-container').innerHTML = '<p><br/><strong style="font-size:larger">Redirecting...</strong></p>';
     setTimeout(function() {
-      var href = '{{ site.baseurl }}' + redirection[window.location.pathname];
+      var href = '{{ site.baseurl }}' + redirect_to;
       window.location.href = href;
     }, 1000);
   } else {
