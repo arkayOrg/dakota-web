@@ -1,0 +1,57 @@
+---
+layout: page
+description: site.data.centers[page.acronym].field_overview
+---
+      <div class="alternating-list">
+        <div class="alternating-list__row-wrapper">
+          <div class="alternating-list__row">
+            <div class="row">
+              <div class="col-12 col-lg-4 alternating-list__col">
+                <h3>Center</h3>
+              </div>
+              <div class="col-12 col-lg-3 alternating-list__col">
+                <h3>Focus Area</h3>
+              </div>
+              <div class="col-12 col-lg-3 alternating-list__col">
+                <h3>Universities</h3>
+              </div>
+              <div class="col-12 col-lg-2 alternating-list__col">
+                <h3>Year Est.</h3>
+              </div>
+            </div>
+          </div>
+          {% for center in site.data.centers %}
+
+          {% if center[1].field_focus == page.focus %}
+          <div class="alternating-list__row centers">
+            <div class="row">
+              <div class="col-12 col-lg-4 alternating-list__col title">
+                <a href="{{ site.baseurl }}/centers/{{ center[1].url }}" hreflang="en">{{ center[1].title }}</a>
+              </div>
+              <div class="col-12 col-lg-3 alternating-list__col focus">
+                <a href="#" hreflang="en">{{ center[1].field_focus }}</a>
+              </div>
+              <div class="col-12 col-lg-3 alternating-list__col universities">
+                {% for member in center[1].field_universities%}
+                <li>{{ member.name }}</li>
+                {% endfor %}
+              </div>
+              <div class="col-12 col-lg-2 alternating-list__col year">
+                <p class="alternating-list__date">
+                  {{ center[1].field_year }}
+                </p>
+              </div>
+              <div class="col-12 col-lg-2 alternating-list__col location">
+                <p class="alternating-list__date">
+                  {{ center[1].field_states }}
+                </p>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+
+          {% endfor %}
+        </div>
+      </div>
+
+  {% include achievements-list.html %}
