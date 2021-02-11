@@ -2,6 +2,7 @@
 title: University | IUCRC
 tag: university
 layout: default
+permalink: /universities/
 secondary: true
 ---
 
