@@ -30,6 +30,7 @@ module SiteData
         output << "layout: achievement\n"
         output << "title: #{title}\n"
         output << "focus_area: #{achievement['focus_area']}\n" if achievement['focus_area']
+        output << "category: #{slugify('focus-' + achievement['focus_area'])}\n" if achievement['focus_area']
         output << "center: #{achievement['center']}\n" if achievement['center']
         output << "date: #{achievement['date']}\n"
         output << "img: #{achievement['img']}\n" if achievement['img']
@@ -63,6 +64,12 @@ module SiteData
       else
         puts "   #{count} achievements generated."
       end
+    end
+
+    private
+
+    def slugify(str)
+      str.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
     end
   end
 end
