@@ -195,6 +195,7 @@ exclude:
   - Gemfile.lock
   - blog
   - _posts
+  - _pages/collections.md
 
 assets:
   sources:
