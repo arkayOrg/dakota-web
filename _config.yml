@@ -207,7 +207,5 @@ assets:
     - _assets/js
 
 redirection:
-  - from: /centers/focus-area/advanced-electronics/
-    to: /centeralltest/?focus-area=advanced-electronics
-  - from: /centers/focus-area/advanced-manufacturing/
-    to: /centeralltest/?focus-area=advanced-manufacturing 
+  - from: /ultrasonic-dehydration-of-protein-suspensions
+    to: /centers/achievements/ultrasonic-dehydration-of-protein-suspensions/

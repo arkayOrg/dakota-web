@@ -27,7 +27,7 @@ secondary: true
         <p><strong>Samples and Forms:</strong></p>
 
         <ul>
-          <li><a href="{{ site.baseurl }}/industry/joining-a-center/membership-agreement">Membership Agreement Form</a></li>
+          <li><a href="{{ site.baseurl }}/industry/joining-a-center/membership-agreement/">Membership Agreement Form</a></li>
           <li><a href="{{ site.baseurl }}/sites/default/files/2020-04/how-to-run-a-successful-planning-grant-meeting.docx">How to Run a
               Successful Planning Grant Meeting (.DOCX)</a></li>
           <li><a href="{{ site.baseurl }}/universities/solicitation/sample-planning-meeting-agenda/">Sample Planning Grant Meeting
