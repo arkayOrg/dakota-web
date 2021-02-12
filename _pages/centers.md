@@ -1004,7 +1004,7 @@ scripts: /assets/js/filters.js
     <div class="three-column-cta__desc"><p></p></div>
     <div class="row three-column-cta__row">
       <div class="paragraph col-12 col-md-6 col-lg-4 three-column-cta__single paragraph--type--three-column-cta paragraph--view-mode--default">
-        <img src="/sites/default/files/2020-03/industry_0.svg" alt="industry building">
+        <img src="{{ site.baseurl }}/visuals/css-assets/industry.svg" alt="industry building">
         <div class="three-column-cta__content">
           <h4>Industry</h4>
           <p>Explore how membership could benefit your bottom line and help you grow your workforce.</p>
@@ -1012,7 +1012,7 @@ scripts: /assets/js/filters.js
         </div>
       </div>
       <div class="paragraph col-12 col-md-6 col-lg-4 three-column-cta__single paragraph--type--three-column-cta paragraph--view-mode--default">
-        <img src="/sites/default/files/2020-03/universities_0.svg" alt="university">
+        <img src="{{ site.baseurl }}/visuals/css-assets/universities.svg" alt="university">
         <div class="three-column-cta__content">
           <h4>University</h4>
           <p>Learn how joining an IUCRC can generate industry insight.</p>
@@ -1020,7 +1020,7 @@ scripts: /assets/js/filters.js
         </div>
       </div>
       <div class="paragraph col-12 col-md-6 col-lg-4 three-column-cta__single paragraph--type--three-column-cta paragraph--view-mode--default">
-        <img src="/sites/default/files/2020-03/government_0.svg" alt="Government building">
+        <img src="{{ site.baseurl }}/visuals/css-assets/government.svg" alt="Government building">
         <div class="three-column-cta__content">
           <h4>Government</h4>
           <p>See how the IUCRC program can connect you with top researchers and industrial leaders.</p>
