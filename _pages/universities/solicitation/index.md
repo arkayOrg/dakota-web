@@ -335,7 +335,7 @@ secondary: true
         <div class="container">
           <div class="row">
             <div class="col-12 col-lg-4 alternating-list__col">
-              <a href="{{ site.baseurl }}/industry/joining-a-center/membership-agreement">Membership Agreement</a>
+              <a href="{{ site.baseurl }}/industry/joining-a-center/membership-agreement/">Membership Agreement</a>
             </div>
             <div class="col-12 col-lg-6 alternating-list__col">
               <p><span><span><span><span><span>The Center Membership Agreement provides the framework for IUCRC
@@ -524,7 +524,7 @@ secondary: true
         <div class="container">
           <div class="row">
             <div class="col-12 col-lg-4 alternating-list__col">
-              <a href="{{ site.baseurl }}/industry/joining-a-center/membership-agreement">Membership Agreement</a>
+              <a href="{{ site.baseurl }}/industry/joining-a-center/membership-agreement/">Membership Agreement</a>
             </div>
             <div class="col-12 col-lg-6 alternating-list__col">
               <p><span><span><span><span><span>The Center Membership Agreement provides the framework for IUCRC

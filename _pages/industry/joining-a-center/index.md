@@ -77,7 +77,7 @@ secondary: true
           <p>The Center Membership Agreement defines the rights and responsibilities of all parties: Center,
             universities and members. Completed membership agreements must be submitted to NSF with the IUCRC proposal.
           </p>
-          <a class="usa-button btn-tertiary" href="/industry/joining-a-center/membership-agreement">Membership
+          <a class="usa-button btn-tertiary" href="/industry/joining-a-center/membership-agreement/">Membership
             Agreement</a>
         </div>
       </div>
