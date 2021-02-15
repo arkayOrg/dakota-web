@@ -1,13 +1,13 @@
 ---
-title: System Design and Simulation
-focus: System Design and Simulation
+title: Civil Infrastructure Systems
+focus: Civil Infrastructure Systems
 layout: focus
 
 pagination:
   enabled: true
   per_page: 3
   collection: achievements
-  category: focus-system-design-and-simulation
+  category: focus-civil-infrastructure-systems
   trail:
     before: 4
     after: 4

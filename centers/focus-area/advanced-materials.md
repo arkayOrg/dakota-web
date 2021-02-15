@@ -1,13 +1,13 @@
 ---
-title: System Design and Simulation
-focus: System Design and Simulation
+title: Advanced Materials
+focus: Advanced Materials
 layout: focus
 
 pagination:
   enabled: true
   per_page: 3
   collection: achievements
-  category: focus-system-design-and-simulation
+  category: focus-advanced-materials
   trail:
     before: 4
     after: 4

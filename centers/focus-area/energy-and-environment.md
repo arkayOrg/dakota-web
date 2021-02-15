@@ -1,13 +1,13 @@
 ---
-title: System Design and Simulation
-focus: System Design and Simulation
+title: Energy and Environment
+focus: Energy and Environment
 layout: focus
 
 pagination:
   enabled: true
   per_page: 3
   collection: achievements
-  category: focus-system-design-and-simulation
+  category: focus-energy-and-environment
   trail:
     before: 4
     after: 4

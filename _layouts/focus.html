@@ -3,6 +3,7 @@ layout: page
 description: site.data.centers[page.acronym].field_overview
 ---
       <div class="alternating-list">
+          <div class="container">
         <div class="alternating-list__row-wrapper">
           <div class="alternating-list__row">
             <div class="row">
@@ -18,7 +19,7 @@ description: site.data.centers[page.acronym].field_overview
               <div class="col-12 col-lg-2 alternating-list__col">
                 <h3>Year Est.</h3>
               </div>
-            </div>
+            </div></div>
           </div>
           {% for center in site.data.centers %}
 
@@ -39,11 +40,6 @@ description: site.data.centers[page.acronym].field_overview
               <div class="col-12 col-lg-2 alternating-list__col year">
                 <p class="alternating-list__date">
                   {{ center[1].field_year }}
-                </p>
-              </div>
-              <div class="col-12 col-lg-2 alternating-list__col location">
-                <p class="alternating-list__date">
-                  {{ center[1].field_states }}
                 </p>
               </div>
             </div>
