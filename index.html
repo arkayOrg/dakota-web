@@ -17,6 +17,8 @@ manage in the long term.
 
 {% include hero/index.html %}
 
+{% assign focus_area_path = site.baseurl | append: 'centers/focus-area' %}
+
 <div class="three-column-cta">
   <div class="container">
     <h2><span class="highlight">Empowering Value</span></h2>
@@ -120,27 +122,27 @@ manage in the long term.
           <p>Subhead for featured content. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum risus
             a massa dignissim.</p>
         </div>
-        <a class="usa-button btn-tertiary" href="#">Learn More About Our Centers</a>
+        <a class="usa-button btn-tertiary" id="focus-areas">Learn More About Our Centers</a>
         <ul class="focus-areas__list">
-          <li><a href="/centers/focus-area/advanced-electronics">Advanced Electronics</a>
+          <li><a href="{{ focus_area_path }}/advanced-electronics/">Advanced Electronics</a>
           </li>
-          <li><a href="/centers/focus-area/advanced-manufacturing">Advanced Manufacturing</a>
+          <li><a href="{{ focus_area_path }}/advanced-manufacturing/">Advanced Manufacturing</a>
           </li>
-          <li><a href="/centers/focus-area/advanced-materials">Advanced Materials</a>
+          <li><a href="{{ focus_area_path }}/advanced-materials/">Advanced Materials</a>
           </li>
-          <li><a href="/centers/focus-area/biotechnology">Biotechnology</a>
+          <li><a href="{{ focus_area_path }}/biotechnology/">Biotechnology</a>
           </li>
-          <li><a href="/centers/focus-area/civil-infrastructure-systems">Civil Infrastructure Systems</a>
+          <li><a href="{{ focus_area_path }}/civil-infrastructure-systems/">Civil Infrastructure Systems</a>
           </li>
-          <li><a href="/centers/focus-area/energy-and-environment">Energy and Environment</a>
+          <li><a href="{{ focus_area_path }}/energy-and-environment/">Energy and Environment</a>
           </li>
-          <li><a href="/centers/focus-area/health-and-safety">Health & Safety</a>
+          <li><a href="{{ focus_area_path }}/health-and-safety/">Health and Safety</a>
           </li>
-          <li><a href="/centers/focus-area/information-communication-and-computing">Information, Communication & Computing</a>
+          <li><a href="{{ focus_area_path }}/information-communication-and-computing/">Information, Communication and Computing</a>
           </li>
-          <li><a href="/centers/focus-area/sensing-and-information-systems">Sensing & Information Systems</a>
+          <li><a href="{{ focus_area_path }}/sensing-and-information-systems/">Sensing and Information Systems</a>
           </li>
-          <li><a href="/centers/focus-area/system-design-and-simulation">System Design and Simulation</a>
+          <li><a href="{{ focus_area_path }}/system-design-and-simulation/">System Design and Simulation</a>
           </li>
         </ul>
       </div>
