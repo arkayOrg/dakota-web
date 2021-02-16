@@ -4,27 +4,27 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="container">
-          <!-- <div class="carousel__bg" style="background-image: url('{{ site.baseurl }}/visuals/css-assets/breakthroughs.jpg');"></div> -->
           <div class="carousel__content carousel__content--slant">
             <div class="carousel__text-cta">
               <nav class="breadcrumbs" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="{{ site.baseurl }}/centers/">Centers</a></li>
+                  {% if include.focus %}
+                  <li class="breadcrumb-item" aria-current="page">{{ include.focus }}</li>
+                  {% else %}
                   <li class="breadcrumb-item" aria-current="page">
                     <a href="{{ site.baseurl }}/centers/achievements">Achievements</a>
                   </li>
                   <li class="breadcrumb-item active" aria-current="page">
-                    <a href="{{ site.baseurl }}/centers/focus-area/{{ page.focus_area | slugify }}">{{ page.focus_area }}</a>
+                    <a href="{{ site.baseurl }}/centers/focus-area/{{ page.focus_area | slugify }}/">{{ page.focus_area }}</a>
                   </li>
+                  {% endif %}
                 </ol>
               </nav>
               <h1>{{ page.title }}</h1>
             </div>
           </div>
         </div>
-        <!-- <div class="credit__wrapper">
-          <p class="credit">NRAO/AUI/National Science Foundation</p>
-        </div> -->
       </div>
     </div>
   </div>

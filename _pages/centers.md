@@ -973,7 +973,7 @@ scripts: /assets/js/filters.js
                 <a href="{{ site.baseurl }}/centers/{{ center[1].url }}" hreflang="en">{{ center[1].title }}</a>
               </div>
               <div class="col-12 col-lg-3 alternating-list__col focus">
-                <a href="#" hreflang="en">{{ center[1].field_focus }}</a>
+                <a href="{{ site.baseurl }}/centers/focus-area/{{ center[1].field_focus | slugify }}/" hreflang="en">{{ center[1].field_focus }}</a>
               </div>
               <div class="col-12 col-lg-3 alternating-list__col universities">
                 {% for member in center[1].field_universities%}
