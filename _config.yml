@@ -69,7 +69,7 @@ dap:
 
 # Configuration for Google Analytics
 ga:
-  # ua: your-ua
+   ua: UA-112339212-1
 
 # Site Navigation
 primary_navigation:
