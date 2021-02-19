@@ -60,9 +60,9 @@ secondary: true
               <li>The following language&nbsp;<strong><u>MUST</u></strong>&nbsp;be included in&nbsp;<strong>block
                   11</strong>&nbsp;of the&nbsp;<strong>7600A</strong>and&nbsp;<strong>block 28</strong>&nbsp;of
                 the&nbsp;<strong>7600B</strong>.<br><u>Description:</u>&nbsp;"Funds are to obtain membership and/or
-                augment ongoing research projects at the IUCRC for (<strong><em>insert the IUCRC's research
-                    area</em></strong>) at the (<strong><em>insert the city and state of the university where the IUCRC
-                    is located</em></strong>). Deliverables may include two reports annually which will be available at
+                augment ongoing research projects at the IUCRC for (<strong><em>insert the name of the IUCRC</em></strong>).
+                Funds may be used to support research across all participating sites in the IUCRC.
+                Deliverables may include two reports annually which will be available at
                 the center's bi-annual meetings. NSF is authorized to deduct&nbsp;<a
                   href="{{ site.baseurl }}/universities/solicitation/nsf-cost-recovery-estimates/">6.67% (based on the total
                   transaction)</a>&nbsp;for administrative cost recovery for FY 2020 until further notice." Use
@@ -85,9 +85,9 @@ secondary: true
             <ul>
               <li>The following language&nbsp;<strong><u>MUST</u></strong>&nbsp;be included in the&nbsp;<strong>ITEM
                   DESCRIPTION SECTION</strong>.<br><u>Description:</u>&nbsp;"Funds are to obtain membership and/or
-                augment ongoing research projects at the IUCRC for (<strong><em>insert the IUCRC's research
-                    area</em></strong>) at the (<strong><em>insert the city and state of the university where the IUCRC
-                    is located</em></strong>). Deliverables may include two reports annually which will be available at
+                augment ongoing research projects at the IUCRC for (<strong><em>insert the name of the IUCRC</em></strong>).
+                Funds may be used to support research across all participating sites in the IUCRC.
+                Deliverables may include two reports annually which will be available at
                 the center's bi-annual meetings. NSF is authorized to deduct&nbsp;<a
                   href="{{ site.baseurl }}/universities/solicitation/nsf-cost-recovery-estimates/">6.67% (based on the total
                   transaction)</a>&nbsp;for administrative cost recovery for FY 2020 until further

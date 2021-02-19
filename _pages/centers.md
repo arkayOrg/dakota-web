@@ -1,5 +1,5 @@
 ---
-title: centeralltest
+title: Explore Centers | IUCRC
 layout: page
 sidenav: false
 scripts: /assets/js/filters.js
@@ -10,7 +10,7 @@ scripts: /assets/js/filters.js
     <div class="carousel-inner">
       <div class="carousel-item active">
         <div class="container">
-          <div class="carousel__bg" style="background-image: url('/sites/default/files/2020-03/vr.jpg');"></div>
+          <div class="carousel__bg" style="background-image: url('{{ site.baseurl }}/visuals/placeholders/vr.jpg');"></div>
           <div class="carousel__content carousel__content--slant">
             <div class="carousel__text-cta">
               <h1>Explore Centers</h1>
