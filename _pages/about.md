@@ -3,7 +3,7 @@ title: About | IUCRC
 tag: about
 layout: default
 secondary: true
-description: IUCRC mission, history and stratetic engagements
+description: IUCRC mission, history and strategic engagements
 ---
 
 {% include hero/about.html %}
