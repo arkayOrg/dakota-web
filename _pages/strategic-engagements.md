@@ -1,5 +1,5 @@
 ---
-title: Partner with Universities | IUCRC
+title: IUCRC | Partner with Universities
 description: NSF supports scientific research of strategic interest to industry and government, providing facilitation and funding to university researchers.
 tag: strategic-engagements
 layout: default
