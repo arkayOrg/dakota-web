@@ -970,7 +970,7 @@ scripts: /assets/js/filters.js
           <div class="alternating-list__row centers">
             <div class="row">
               <div class="col-12 col-lg-4 alternating-list__col title">
-                <a href="{{ site.baseurl }}/centers/{{ center[1].url }}" hreflang="en">{{ center[1].title }}</a>
+                <a href="{{ site.baseurl }}{{ center[1].url }}" hreflang="en">{{ center[1].title }}</a>
               </div>
               <div class="col-12 col-lg-3 alternating-list__col focus">
                 <a href="{{ site.baseurl }}/centers/focus-area/{{ center[1].field_focus | slugify }}/" hreflang="en">{{ center[1].field_focus }}</a>
