@@ -114,3 +114,11 @@ $iucrc-navy: #005ea2;
 .secondary-nav {
   top: -1px;
 }
+
+#container-404 {
+  margin-top: 2em;
+
+  h2:not(:first-of-type) {
+    margin-top: 1em;
+  }
+}

@@ -1,12 +1,21 @@
 ---
 layout: default
 permalink: /404.html
+description: |
+  Page not Found
+
+  The page you were trying to reach at this address doesn't exist. This is usually the result of a bad or outdated link, or a typo. We apologize for any inconvenience.
+
+  What can I do now?
+
+  * Consider returning to the main site and conducting a search using the search box on every page.
+  * Please let us know by sending an email to ENGQuality@nsf.gov so that we can fix the problem.
 ---
 
 <div class="grid-container">
   <div class="grid-row grid-gap">
     <div class="usa-layout-docs-main_content desktop:grid-col-9 usa-prose">
-      <div id="404-container" />
+      <div id="container-404" />
     </div>
   </div>
 </div>
@@ -23,12 +32,22 @@ permalink: /404.html
   var redirect_to = (redirection.filter(path => window.location.pathname.endsWith(path.from))[0] || {}).to;
 
   if (redirect_to) {
-    document.getElementById('404-container').innerHTML = '<p><br/><strong style="font-size:larger">Redirecting...</strong></p>';
+    document.getElementById('container-404').innerHTML = '<p><br/><strong style="font-size:larger">Redirecting...</strong></p>';
     setTimeout(function() {
       var href = '{{ site.baseurl }}' + redirect_to;
       window.location.href = href;
     }, 1000);
   } else {
-    document.getElementById('404-container').innerHTML = '<h1>Page Not Found</h1><p>The requested page could not be found.</p>';
+    var page = '<h2><span>Page not Found</span></h2>' +
+               "<p>The page you were trying to reach at this address doesn't exist. " +
+               'This is usually the result of a bad or outdated link, or a typo. ' +
+               'We apologize for any inconvenience.</p>' +
+               '<h2>What can I do now?</h2>' +
+               '<ul><li>Consider returning to <a href="{{ site.baseurl }}/">the main site</a> ' +
+               'and conducting a search using the search box on every page.</li>' +
+               '<li>Please let us know by sending an email to <a href="mailto:ENGQuality@nsf.gov">ENGQuality@nsf.gov</a> ' +
+               'so that we can fix the problem.</li></ul>';
+
+    document.getElementById('container-404').innerHTML = page;
   }
 </script>
