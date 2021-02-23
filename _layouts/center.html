@@ -6,6 +6,9 @@ description: site.data.centers[page.acronym].field_overview
 {% assign center = site.data.centers[page.acronym] %}
 
 {% assign awards = site.data.award_data %}
+
+{% assign personnel = site.data.personnel_data %}
+
 <dir></dir>
 
 <div class="hero">
@@ -57,12 +60,39 @@ description: site.data.centers[page.acronym].field_overview
           <a class="usa-button btn-tertiary" href="http://www.ambic.org">View Center Website</a>
     </div>
   </div>
+
+  <div class="container">
+    <div class="content-block__inner">
+      <h2 id=""><span class="highlight">Center Personnel</span></h2>
+      <div class="content-block__columns">
+        <div>
+            {% assign i = 0 %}
+            {% for person in personnel %}
+            {% if person.field_centeracronym == page.acronym %}
+              <p>
+                {{ person.title }}
+                <br>
+                {{ person.field_pirole }}
+
+                <br>
+                {{ person.field_piphone }}
+
+                <br>
+                <a href="mailto:{{ person.field_piemail }}">{{ person.field_piemail }}</a>
+              </p>
+            {% assign i = i | plus:1 %}
+            {% endif %}
+            {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="content-block content-block--bg">
     <div class="container">
       <div class="content-block__inner">
         <h2 id=""><span class="highlight">Research Focus</span></h2>
-{{ center.field_research_focus }}
+          {{ center.field_research_focus }}
       </div>
     </div>
   </div>
