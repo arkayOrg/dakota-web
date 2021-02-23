@@ -310,14 +310,12 @@
       With funding from the National Science Foundation (NSF), chemical engineers at the Univ. of South Carolina have developed a simple, effective, generalizable method for the synthesis of supported bimetallic nanoparticles in which the two metals are intimately alloyed and the size of the nanoparticles can be precisely controlled. This method is called co-electroless deposition (co-ED).
     </p>
   
-    <a name="fig1">
-      <figure>
-        <img alt="co-electroless deposition graph" src="site.baseurl/visuals/achievements/co_ed.png">
-        <figcaption>
-          <strong>Figure 1.</strong> (a) In co-electroless deposition (co-ED), metal seed particles are attached to a carbon substrate. A bimetallic shell forms over each seed particle. (b) Researchers used co-ED to create a variety of catalysts and evaluated their mass activities with cyclic voltammetry.
-        </figcaption>
-      </figure>
-    </a>
+    <figure id="fig1">
+      <img alt="co-electroless deposition graph" src="site.baseurl/visuals/achievements/co_ed.png">
+      <figcaption>
+        <strong>Figure 1.</strong> (a) In co-electroless deposition (co-ED), metal seed particles are attached to a carbon substrate. A bimetallic shell forms over each seed particle. (b) Researchers used co-ED to create a variety of catalysts and evaluated their mass activities with cyclic voltammetry.
+      </figcaption>
+    </figure>
   
     <p>
       The new process (<a href="#fig1">Figure 1a</a>) employs precision flow delivery of metal precursor solutions into a reactor with a solution of a reducing agent such as dimethylamine borane (DMAB). The metals in the precursor solutions are quickly and completely reduced on the surface of pre-deposited metal seed particles that are attached to a carbon support layer. The metals form an evenly distributed bimetallic shell around the seed particles. The thickness and composition of the shell is determined by the amounts and rates of metals being deposited.
