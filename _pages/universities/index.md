@@ -70,33 +70,35 @@ secondary: true
       </div>
 
       <div class="row three-column-cta__row">
-        <div
-          class="paragraph col-12 col-md-6 col-lg-4 three-column-cta__single paragraph--type--three-column-cta paragraph--view-mode--default">
-          <img src="{{ site.baseurl }}/visuals/css-assets/coins.svg" alt="Coins">
-          <div class="three-column-cta__content">
-            <h4>Funding</h4>
-            <p>Build new, sustainable funding paths.</p>
+        <div class="col-12 col-md-6 col-lg-4 three-column-cta__single">
+          <div class="three-column-cta__card">
+            <img src="{{ site.baseurl }}/visuals/css-assets/coins.svg" alt="Coins">
+            <div class="three-column-cta__content">
+              <h4>Funding</h4>
+              <p>Build new, sustainable funding paths.</p>
+            </div>
           </div>
         </div>
-
-        <div
-          class="paragraph col-12 col-md-6 col-lg-4 three-column-cta__single paragraph--type--three-column-cta paragraph--view-mode--default">
-          <img src="{{ site.baseurl }}/visuals/css-assets/key.svg" alt="Key">
-          <div class="three-column-cta__content">
-            <h4>Industry Insight</h4>
-            <p>Learn about cutting-edge industrial needs.</p>
+        <div class="col-12 col-md-6 col-lg-4 three-column-cta__single">
+          <div class="three-column-cta__card">
+            <img src="{{ site.baseurl }}/visuals/css-assets/key.svg" alt="Key">
+            <div class="three-column-cta__content">
+              <h4>Industry Insight</h4>
+              <p>Learn about cutting-edge industrial needs.</p>
+            </div>
           </div>
         </div>
-
-        <div
-          class="paragraph col-12 col-md-6 col-lg-4 three-column-cta__single paragraph--type--three-column-cta paragraph--view-mode--default">
-          <img src="{{ site.baseurl }}/visuals/css-assets/graduation.svg" alt="Graduation">
-          <div class="three-column-cta__content">
-            <h4>Student Placement</h4>
-            <p>Train and place students in highly relevant research areas.</p>
+        <div class="col-12 col-md-6 col-lg-4 three-column-cta__single">
+          <div class="three-column-cta__card">
+            <img src="{{ site.baseurl }}/visuals/css-assets/graduation.svg" alt="Graduation">
+            <div class="three-column-cta__content">
+              <h4>Student Placement</h4>
+              <p>Train and place students in highly relevant research areas.</p>
+            </div>
           </div>
         </div>
       </div>
+
     </div>
   </div>
 
