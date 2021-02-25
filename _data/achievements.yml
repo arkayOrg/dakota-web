@@ -550,7 +550,7 @@
     <div class="footnotes">
       <p class="footnote">
         <a name="footnote-1">
-          1. Simon, J. C., et al., “Ultrasonic Atomization of Liquids in Drop-Chain Acoustic Fountains,” Journal of Fluid Mechanics, 766, pp. 129–146 (Mar. 2015).
+          1. Ren, Y., et al., “Lossy Mode Resonance based Optical Fiber-Tip Moisture Sensor in Foods,” Optical Sensors, pp. STu4D-4 (2019).
         </a>
       </p>
     </div>
@@ -804,7 +804,7 @@
     </p>
   
     <figure>
-      <img alt="3 men seated" src="site.baseurl/visuals/achievements/chotai_breakthrough.jpg">
+      <img alt="3 men seated" src="site.baseurl/visuals/achievements/chotai_breakthrough_2.jpg">
       <figcaption>
         Dr. Hui Yang (middle). Dr. Cheng-bang Chen (left) and Mr. Farhad Imani (right) working on the development of AI algorithms for breast cancer treatment planning. Credit: Dr. Hui Yang, Pennsylvania State University
       </figcaption>
@@ -1030,7 +1030,7 @@
   
     <a name="fig1">
       <figure>
-        <img alt="biosensor" src="site.baseurl/visuals/achievements/two-dimensional-materials.png">
+        <img alt="roadmap of device structures for CdTe PV performance" src="site.baseurl/visuals/achievements/catalyzing.png" class="fill-h">
         <figcaption>
           (Figure 1) Researchers at Colorado State Univ. have created a roadmap of device structures for CdTe PV performance. Thus far, they have achieved efficiencies of 19.2%.
         </figcaption>
@@ -1184,7 +1184,7 @@
     </p>
   
     <p>
-      This <a target="_blank" href="https://www.aiche.org/resources/publications/cep/2018/january/catalyzing-commercialization-novel-palladium-graphene-catalysts-improve-pharmaceutical-processing" article</a> was prepared by NSF for AIChE and appeared in the January 2018 issue of Chemical Engineering Progress.
+      This <a target="_blank" href="https://www.aiche.org/resources/publications/cep/2018/january/catalyzing-commercialization-novel-palladium-graphene-catalysts-improve-pharmaceutical-processing">article</a> was prepared by NSF for AIChE and appeared in the January 2018 issue of Chemical Engineering Progress.
     </p>
 - key: rare-earth-metals-from-electric-motors
   date: 2020-03-17
@@ -1193,7 +1193,7 @@
   description: >-
     Sourcing uncommon minerals needed to make common products just got a whole lot easier.
   img: cr3_breakthrough_0.jpg
-  center_key: ATOMIC
+  center_key: CR3
   content: |-
     <p>
       Sourcing uncommon minerals needed to make common products just got a whole lot easier. A research team at the <a href="site.baseurl/centers/center-for-resource-recovery-and-recycling">Center for Resource Recovery and Recycling (CR3)</a>, one of the four research centers under Worcester Polytechnic Institutes (WPI) <a target="_blank" href="https://wp.wpi.edu/mpi/research-centers/">Metal Processing Institute</a>, developed a simple, eco-friendly method for extracting so-called rare earth metals from old electric motors and generators. The technique promotes a circular economy and reduces the need to buy rare earth minerals, where prices can fluctuate widely. 
@@ -1204,7 +1204,7 @@
     </p>
   
     <figure>
-      <img alt="biosensor" src="site.baseurl/visuals/achievements/cr3_breakthrough_0.jpg">
+      <img alt="Postdoctoral fellow H.M. Dhammika Bandara" src="site.baseurl/visuals/achievements/cr3_breakthrough_0.jpg">
       <figcaption>
         Former WPI Postdoctoral fellow H.M. Dhammika Bandara holds a vial that contains dissolved rare earth magnets. Credit: WPI
       </figcaption>
@@ -1229,7 +1229,7 @@
     </p>
   
     <figure>
-      <img alt="biosensor" src="site.baseurl/visuals/achievements/cr3_breakthrough2_2.jpg">
+      <img alt="A collection of drive units" src="site.baseurl/visuals/achievements/cr3_breakthrough2_2.jpg">
       <figcaption>
         As seen in 2015, WPI researchers separated rare earth elements and recovered recyclable materials from drive units. Credit: WPI
       </figcaption>
@@ -1321,7 +1321,7 @@
   center_key: BRAIN
   content: |-
     <figure>
-      <img alt="Brain activity inside man's head" src="site.baseurl/visuals/achievements/shutterstock_622200797.jpg">
+      <img alt="Brain activity inside of head" src="site.baseurl/visuals/achievements/shutterstock_622200797.jpg">
       <figcaption>
         Credit: Lia Koltyrina/Shutterstock.com
       </figcaption>
@@ -1594,10 +1594,11 @@
   
     <h3>The size of a shoebox</h3>
   
-    <figure class="align-left">
-      <img alt="Text fixture" src="site.baseurl/visuals/achievements/driving_conditions_2.jpg">
+    <figure role="group" class="align-left">
+      <img alt="Test Fixture" height="592" src="site.baseurl/visuals/achievements/driving_conditions_2.jpg" style="margin-right:1rem;" width="304">
       <figcaption>
-        Credit: Siamak Farhad, Mechanical Engnieering Department, University of Akron
+        Credit: Siamak Farhad, Mechanical Engineering<br>
+        Department, University of Akron
       </figcaption>
     </figure>
   
@@ -1833,7 +1834,7 @@
   description: >-
     In recent decades, insects have become more resistant to pesticides. As resistance becomes more widespread, the agricultural biotechnology sector has sought viable alternatives to curtail the huge economic losses associated with insect pests. One of these alternative approaches, called RNA interference (RNAi), could be used to kill pests by silencing genes that are critical for their survival.
   img: bugs.jpg
-  center_key: ATOMIC
+  center_key: CAMTech
   content: |-
     <p>
       In recent decades, insects have become more resistant to pesticides. As resistance becomes more widespread, the agricultural biotechnology sector has sought viable alternatives to curtail the huge economic losses associated with insect pests. One of these alternative approaches, called RNA interference (RNAi), could be used to kill pests by silencing genes that are critical for their survival.
@@ -1844,7 +1845,7 @@
     </p>
   
     <figure>
-      <img alt="biosensor" src="site.baseurl/visuals/achievements/bugs.jpg">
+      <img alt="insects" src="site.baseurl/visuals/achievements/bugs.jpg">
       <figcaption>
         RNAi is a powerful tool for protecting agricultural crops from pest damage. It functions by preventing the production of proteins that are essential for pest survival. CAMTech researchers have discovered why RNAi works well in coleopteran insects, such as the beetle on the left, but not in lepidopteran insects, such as the fall armyworm on the right.
       </figcaption>
