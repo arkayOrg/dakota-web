@@ -152,7 +152,7 @@ SIBS:
     field_awards: SIBS 1161031
     url: /centers/sustainably-integrated-buildings-and-sites
 SCeMFiS:
-    title: Science Center for Marine Fisheries  (SCeMFiS)
+    title: Science Center for Marine Fisheries (SCeMFiS)
     field_acronym: SCeMFiS
     field_universities: 
         - name: University of Southern Mississippi
@@ -169,7 +169,7 @@ SCeMFiS:
     field_awards: SCeMFiS 1841112, SCeMFiS 1841435
     url: /centers/science-center-for-marine-fisheries
 ROSE-HUB:
-    title: Robots and Sensors for the Human Well-being  (ROSE-HUB)
+    title: Robots and Sensors for the Human Well-being (ROSE-HUB)
     field_acronym: ROSE-HUB
     field_universities: 
         - name: University of Denver, Purdue University
@@ -598,7 +598,7 @@ CICI:
     field_awards: CICI 1954073, CICI 1439688, CICI 1439708, CICI 2017796, CICI 1916342<
     url: /centers/center-for-the-integration-of-composites-into-infrastructure
 CPaSS:
-    title: Center for Particulate and Surfactant Systems  (CPaSS)
+    title: Center for Particulate and Surfactant Systems (CPaSS)
     field_acronym: CPaSS
     field_universities: 
         - name: University of Florida
@@ -710,7 +710,7 @@ CEMC:
     field_focus: Advanced Electronics
     field_phase: Phase III
     field_year: 2009
-    field_overview: "<p>The mission of the Center for Electromagnetic Compatibility (CEMC) is to support research and education in electromagnetic compatibility (EMC) and signal/power integrity (SI/PI). CEMC's  goal is to develop the knowledge base, tools, and people necessary to solve the EMC/SI/PI problems of today and tomorrow.</p><p>Good EMC/SI/PI design is essential for successful product development and customer satisfaction. The purpose of EMC design is to ensure that an electronic system can function in the presence of external electromagnetic noise while its radiated electromagnetic interference does not affect the functionality of other devices; the purpose of SI/PI design is to ensure proper circuit operation at high speeds. CEMC works with its industrial members to help solve problems related to EMC and SI/PI, which can significantly decrease the reliability, increase the cost, and delay the development schedules of modern electronic systems.</p><p>Advancing EMC/SI/PI technologies can increase the economic competitiveness of the U.S. by  improving the hardware in new technologies for 5G wireless, autonomous vehicles, smart cities, and more. The research can also have profound impacts on society and improve national security, in an information era in which our society is more dependent than ever on data connection and the internet of things.</p><p>The need for EMC/SI/PI research and education grows rapidly to enable and support technology revolutions and development. CEMC will continue serving as a resource center for the EMC community, facilitating research collaborations, disseminating results, and transferring knowledge.</p>"
+    field_overview: "<p>The mission of the Center for Electromagnetic Compatibility (CEMC) is to support research and education in electromagnetic compatibility (EMC) and signal/power integrity (SI/PI). CEMC's goal is to develop the knowledge base, tools, and people necessary to solve the EMC/SI/PI problems of today and tomorrow.</p><p>Good EMC/SI/PI design is essential for successful product development and customer satisfaction. The purpose of EMC design is to ensure that an electronic system can function in the presence of external electromagnetic noise while its radiated electromagnetic interference does not affect the functionality of other devices; the purpose of SI/PI design is to ensure proper circuit operation at high speeds. CEMC works with its industrial members to help solve problems related to EMC and SI/PI, which can significantly decrease the reliability, increase the cost, and delay the development schedules of modern electronic systems.</p><p>Advancing EMC/SI/PI technologies can increase the economic competitiveness of the U.S. by improving the hardware in new technologies for 5G wireless, autonomous vehicles, smart cities, and more. The research can also have profound impacts on society and improve national security, in an information era in which our society is more dependent than ever on data connection and the internet of things.</p><p>The need for EMC/SI/PI research and education grows rapidly to enable and support technology revolutions and development. CEMC will continue serving as a resource center for the EMC community, facilitating research collaborations, disseminating results, and transferring knowledge.</p>"
     field_research_focus: "<p>CEMC research addresses new challenges caused by higher data rates, greater design density, and lower power, as well as new scopes required to solve issues such as novel ways for high-frequency EMC measurements and hardware-related security problems. To do this, CEMC focuses on five topic areas:</p><ul><li>Electromagnetic interference, electrostatic discharge, and immunity.</li><li>Hardware security, safety, and trust.</li><li>Intrasystem electromagnetic interference and radio frequency desense.</li><li>Photonics-based microwave measurement.</li><li>Signal and power integrity.</li></ul><p>CEMC studies underlying noise physics and coupling mechanisms for various issues such as radiated electromagnetic interference, electrostatic discharge, radio-frequency interference, and hardware security. Based on the gained understanding, engineering design tools, models, and methodologies for achieving electrostatic discharge-robust, immunity-enhanced, SI/PI-ensured, electromagnetic interference and noise mitigated, safe and secure design are investigated, developed, and disseminated throughout the industry.</p>"
     field_center_personnel: 
     field_states: HI, MO, TX
@@ -830,7 +830,7 @@ CBM:
     field_focus: Biotechnology
     field_phase: Phase I
     field_year: 2019
-    field_overview: "<p>The Center for Bioanalytic Metrology (CBM) advances U.S. competitiveness by working with industry to solve current, emerging, and industry-relevant challenges in measurement science and technology. The CBM  has two overarching objectives: to deliver best-in-class molecular measurement tools and expertise that enable the development of powerful new technologies and capabilities across the pharmaceutical, biotechnology, nutrition and agriculture, energy, and analytical instrumentation sectors; and to serve as a proving ground for applications of new instrumentation to cutting-edge chemical and biochemical problems.</p><p>Measurement science, and associated instrumentation, is a key contributor to the U.S. economy, enabling advances in everything from drug discovery to materials manufacturing. By bringing together companies in these high-technology sectors with major analytical instrument makers, CBM bridges the gap between the initial demonstration of new ideas - the traditional province of academia - and the delivery of practical technologies.</p>"
+    field_overview: "<p>The Center for Bioanalytic Metrology (CBM) advances U.S. competitiveness by working with industry to solve current, emerging, and industry-relevant challenges in measurement science and technology. The CBM has two overarching objectives: to deliver best-in-class molecular measurement tools and expertise that enable the development of powerful new technologies and capabilities across the pharmaceutical, biotechnology, nutrition and agriculture, energy, and analytical instrumentation sectors; and to serve as a proving ground for applications of new instrumentation to cutting-edge chemical and biochemical problems.</p><p>Measurement science, and associated instrumentation, is a key contributor to the U.S. economy, enabling advances in everything from drug discovery to materials manufacturing. By bringing together companies in these high-technology sectors with major analytical instrument makers, CBM bridges the gap between the initial demonstration of new ideas - the traditional province of academia - and the delivery of practical technologies.</p>"
     field_research_focus: "<p>CBM provides its members with research solutions in a variety of areas, including:</p><ul><li>Analysis of rare or extremely dilute cells, molecules, exosomes, etc.</li><li>Artificial intelligence-driven instrumentation, feedback optimization, and 'driverless' instruments.</li><li>Discrimination between large biomolecules and their multimolecule complexes.</li><li>Enhanced imaging of cells, organisms, and chemical processes.</li><li>Massively parallel approaches to chemical cytometry, genetic profiling, and panel screening.</li><li>Online and nearline <em>in situ</em> measurements.</li><li>Point-of-use analysis, companion diagnostics, and inexpensive testing in the field.</li><li>Reduced volume/materials analysis and experimentation at high throughput and productivity.</li></ul><p>Ultrahigh sensitivity assays for trace-level biomarkers and impurities.</p>"
     field_center_personnel: 
     field_states: IN
@@ -963,7 +963,7 @@ CANFSA:
     field_awards: CANFSA 1624836, CANFSA 1624748
     url: /centers/center-for-advanced-non-ferrous-structural-alloy
 CAMTech:
-    title: Center for Arthropod Management Technologies  (CAMTech)
+    title: Center for Arthropod Management Technologies (CAMTech)
     field_acronym: CAMTech
     field_universities: 
         - name: University of Florida
@@ -998,7 +998,7 @@ CARD:
     field_awards: CARD 1624812, CARD 1624767
     url: /centers/center-for-advanced-research-in-drying
 CAKE:
-    title: Center for Advanced Knowledge Enablement  (CAKE)
+    title: Center for Advanced Knowledge Enablement (CAKE)
     field_acronym: CAKE
     field_universities: 
         - name: Florida Atlantic University
@@ -1059,7 +1059,7 @@ CADMIM:
     field_acronym: CADMIM
     field_universities: 
         - name: University of California, Irvine
-        - name: University of Illinois,  Chicago
+        - name: University of Illinois, Chicago
     field_button_link: NULL
     field_focus: Advanced Manufacturing
     field_phase: Phase II

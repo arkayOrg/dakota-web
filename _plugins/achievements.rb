@@ -13,11 +13,24 @@ module SiteData
 
       achievements = YAML.load_file(File.join(@basepath, '_data', 'achievements.yml'))
 
+      centers = YAML.load_file(File.join(@basepath, '_data', 'centers.yaml'))
+
       achievements.each do |achievement|
         yml_filename = achievement['key']
 
         title = achievement['title'].strip
         title = "\"#{title}\"" if title =~ /(:|-)/
+
+        center = nil
+        center_url = nil
+        focus_area = nil
+        center_key = achievement['center_key']
+
+        if center_key
+          center = centers[center_key]['title']
+          center_url = centers[center_key]['url']
+          focus_area = centers[center_key]['field_focus']
+        end
 
         # For front matter values, "site.baseurl" needs to be the acutal baseurl (@site.baseurl),
         # but for the content, "site.baseurl" needs to be "{{ site.baseurl }}".  The point is to
@@ -29,9 +42,9 @@ module SiteData
         output << "key: #{achievement['key']}\n"
         output << "layout: achievement\n"
         output << "title: #{title}\n"
-        output << "focus_area: #{achievement['focus_area']}\n" if achievement['focus_area']
-        output << "category: #{slugify('focus-' + achievement['focus_area'])}\n" if achievement['focus_area']
-        output << "center: #{achievement['center']}\n" if achievement['center']
+        output << "focus_area: #{focus_area}\n" if focus_area
+        output << "category: #{slugify('focus-' + focus_area)}\n" if focus_area
+        output << "center: #{center}\n" if center
         output << "date: #{achievement['date']}\n"
         output << "img: #{achievement['img']}\n" if achievement['img']
         output << "learn_more_link: #{achievement['learn_more_link']}\n".gsub('site.baseurl', @site.baseurl) if achievement['learn_more_link']
@@ -44,7 +57,7 @@ module SiteData
         if achievement['learn_more_link']
           output << "<p><a target=\"_blank\" href=\"{{ page.learn_more_link }}\">Learn more</a></p>"
         else
-          output << "<h2><a href=\"{{ site.baseurl }}/centers/TBD\">{{ page.center }}</a></h2>\n"
+          output << "<h2><a href=\"{{ site.baseurl }}#{center_url}\">{{ page.center }}</a></h2>\n"
           output << '<p>{{ page.date | date: "%B %d, %Y" }}</p>'
           output << "\n<p><strong><a href=\"{{ site.baseurl }}/centers/focus-area/{{ page.focus_area | slugify }}\">{{ page.focus_area }}</a></strong></p>\n\n"
           output << achievement['content'].gsub('site.baseurl', '{{ site.baseurl }}')
