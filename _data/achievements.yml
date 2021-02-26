@@ -274,6 +274,67 @@
     <p>
       This <a target="_blank" href="https://www.aiche.org/resources/publications/cep/2017/september/catalyzing-commercialization-cold-sintering-creates-new-avenues-advanced-composites-manufacture">article</a> was prepared by NSF for AIChE and appeared in the September 2017 issue of Chemical Engineering Progress.
     </p>
+- key: compact-spectrometer-designs
+  date: 2021-02-23
+  title: >-
+    Freeform Enables Compact Spectrometer Designs
+  description: >-
+    2D raytrace of the five-mirror freeform viewfinder design superimposed on a 3D model of the system housing.
+  img: csd_raytrace_2d_3d.png
+  center_key: CeFO
+  content: |-
+    <figure>
+      <img alt="2D raytrace" src="site.baseurl/visuals/achievements/csd_raytrace_2d_3d.png" width="534" height="545">
+      <figcaption>
+        2D raytrace of the five-mirror freeform viewfinder design superimposed on a 3D model of the system housing. Credit: Aaron Bauer, University of Rochester
+      </figcaption>
+    </figure>
+
+    <h3>New All-Reflective Electronic Viewfinder Offers Cinematographers Best Picture Yet</h3>
+
+    <p>A new high-fidelity electronic viewfinder made with a unique optical design offers cinematographers the highest image quality to date. In lab experiments, the prototype exceeded strict industry-specific performance requirements for accuracy, resolution, and contrast and was completely free of color and light aberrations across a wide field of view.</p>
+
+    <p>To achieve this, researchers created a new design, rooted in freeform optics. Unlike conventional optics, where mirrors and lenses are symmetrical and have flat, smooth surfaces, freeform optics employ elements that lack symmetry and may have surfaces shaped like potato chips. The new design is the first of its kind to employ special mirrors — five in this case — in a comfortable eyebox that measures 200 cm3.</p>
+
+    <p>“The technology can open up a space for new art and better experiences at the movies,” says Jannick Rolland, professor of optical engineering at the University of Rochester and the Director of the <a href="site.baseurl/centers/center-for-freeform-optics">Center for Freeform Optics (CeFO)</a>. CeFO is an Industry-University Cooperative Research Center (IUCRC) funded by the National Science Foundation to advance research, education and development of freeform optics in science and engineering. Rolland and her team say their new all-reflective electronic viewfinder could have wide-ranging applications outside of the film industry, from health to military to space.</p>
+
+    <figure>
+      <img alt="Conventional viewfinder design" src="site.baseurl/visuals/achievements/csd_conv_view.png" width="511" height="417">
+      <figcaption>
+        Convetional viewfinder design whose volume is filled with glass. Credit: Aaron Bauer, University of Rochester
+      </figcaption>
+    </figure>
+
+    <h3>Getting Focused</h3>
+
+    <p>Digital video cameras capture motion with an imaging sensor and present it to the cinematographer on a small electronic display viewed through an eyepiece. Typically, the camera’s design locates the eyepiece apart from the camera’s lens and uses lens elements that refract light. These produce aberrations in the final image. Some objects can look warped and distorted, while others may be ringed or fringed in color. Correcting these defects usually requires additional lenses, which add weight and cost to the viewfinder. Designers that opt for reflective mirror elements — in particular, symmetrical mirrors that reflect light without negatively impacting the color — face other hurdles. For instance, one mirror in a multi-mirror setup will partially obstruct the light reflected from another mirror.
+
+    <p>Rolland and her colleagues found a way to overcome these challenges. The team, working with Munich, Germany-based ARRI, a noted designer and manufacturer of high-end movie camera and lighting systems, designed an eyepiece that more tightly couples the viewfinder with an off-the-shelf electronic microdisplay. That reduced some aberrations. The display uses an off-the-shelf organic light emitting diode (OLED) display, which has subpixels that individually produce light and do not require extra illumination. This helped simplify design. The viewfinder employs five all-reflective freeform optical elements — mirror-coated pieces that can be molded into complex shapes, such as that of a saddle. The unique shapes reflect light along pathways that can be fine-tuned for the intended application, in ways conventional lenses cannot.
+
+    <p>To determine the best shapes for the freeform optical elements and the best way to position them, team member Aaron Bauer developed custom software that helps plan the path of light rays. That allowed him to design a virtual viewfinder on screen before it was constructed, finding the minimum number of optical elements that would produce the highest quality image in the most compact space.
+
+    <p>The researchers used 3-D printing technology to create a complex assembly that both held the optical components in place and also served as baffling to block stray light.</p>
+
+    <figure>
+      <img alt="2D raytrace" src="site.baseurl/visuals/achievements/csd_raytrace_2d.png" width="559" height="519">
+      <figcaption>
+        2D raytrace of the five-mirror freeform viewfinder design. Credit Aaron Bauer, University of Rochester
+      </figcaption>
+    </figure>
+
+    <h3>Meeting Specs</h3>
+
+    <p>Professional cinematographers prefer the highest quality equipment and expect it to meet strict specifications. In addition to the challenges of perfecting a freeform optical assembly, Rolland and her colleagues had to also address nine different design specifications in an intensely competitive industry.</p>
+
+    <p>For instance, the OLED microdisplay’s resolution had to be 1920 pixels x 1080 pixels. And although OLED displays reduce some light aberrations, they can produce color that’s not uniform. To avoid that, the researchers had to ensure that the freeform optics did not allow the angle of light ray cones emitted by the OLED display to deviate more than 2 degrees. Additionally, because most camera operators prefer to work without their eyeglasses, the viewfinder had to be focusable for people who were nearsighted and farsighted.</p>
+
+    <p>Matthias Pesch, head of the Center of Competence Optics at ARRI, says the all-reflective viewfinder outperformed all of the company’s refractive systems.</p>
+
+    <p>“We observed a very high resolution, lack of chromatic aberrations and a very well-balanced image quality within the whole eyebox,” Pesch says. Although the prototype was bigger and heavier than would be required for camera systems, the researchers proved that freeform reflective optics could provide superior performance. “From this point, the requirements could be tuned down to allow for smaller, more compact systems,” says Pesch.</p>
+
+    <p>Because the viewfinder was manufactured in partnership with ARRI, the group did not file for a patent. Instead, they published their findings in the October 2019 issue of Optics Express.</p>
+
+    <p>“What we learn from this project can help bring freeform optics to a wider market,” says Rolland.</p>
 - key: creating-novel-bimetallic-catalysts
   date: 2020-06-17
   title: >-
@@ -1595,7 +1656,7 @@
     <h3>The size of a shoebox</h3>
   
     <figure role="group" class="align-left">
-      <img alt="Test Fixture" height="592" src="site.baseurl/visuals/achievements/driving_conditions_2.jpg" style="margin-right:1rem;" width="304">
+      <img alt="Test Fixture" src="site.baseurl/visuals/achievements/driving_conditions_2.jpg" style="margin-right:1rem;" width="304" height="592" >
       <figcaption>
         Credit: Siamak Farhad, Mechanical Engineering<br>
         Department, University of Akron
