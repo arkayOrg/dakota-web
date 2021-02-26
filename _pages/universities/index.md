@@ -71,7 +71,6 @@ secondary: true
 
       <div class="row three-column-cta__row">
         <div class="col-12 col-md-6 col-lg-4 three-column-cta__single">
-          <a class="three-column-cta__link" href="#">
           <div class="three-column-cta__card">
             <img src="{{ site.baseurl }}/visuals/css-assets/coins.svg" alt="Coins">
             <div class="three-column-cta__content">
@@ -79,10 +78,8 @@ secondary: true
               <p>Build new, sustainable funding paths.</p>
             </div>
           </div>
-          </a>
         </div>
         <div class="col-12 col-md-6 col-lg-4 three-column-cta__single">
-          <a class="three-column-cta__link" href="#">
           <div class="three-column-cta__card">
             <img src="{{ site.baseurl }}/visuals/css-assets/key.svg" alt="Key">
             <div class="three-column-cta__content">
@@ -90,10 +87,8 @@ secondary: true
               <p>Learn about cutting-edge industrial needs.</p>
             </div>
           </div>
-          </a>
         </div>
         <div class="col-12 col-md-6 col-lg-4 three-column-cta__single">
-          <a class="three-column-cta__link" href="#">
           <div class="three-column-cta__card">
             <img src="{{ site.baseurl }}/visuals/css-assets/graduation.svg" alt="Graduation">
             <div class="three-column-cta__content">
@@ -101,7 +96,6 @@ secondary: true
               <p>Train and place students in highly relevant research areas.</p>
             </div>
           </div>
-          </a>
         </div>
       </div>
 
