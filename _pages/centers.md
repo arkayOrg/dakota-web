@@ -1001,31 +1001,39 @@ scripts: /assets/js/filters.js
 <div class="three-column-cta three-column-cta--bg">
   <div class="container">
     <h2 id="join-the-iucrc-program"><span class="highlight"> Join the IUCRC Program</span></h2>
-    <div class="three-column-cta__desc"><p></p></div>
     <div class="row three-column-cta__row">
-      <div class="paragraph col-12 col-md-6 col-lg-4 three-column-cta__single paragraph--type--three-column-cta paragraph--view-mode--default">
-        <img src="{{ site.baseurl }}/visuals/css-assets/industry.svg" alt="industry building">
-        <div class="three-column-cta__content">
-          <h4>Industry</h4>
-          <p>Explore how membership could benefit your bottom line and help you grow your workforce.</p>
-          <a class="usa-button btn-primary" href="/industry">Learn More</a>
-        </div>
+      <div class="col-12 col-md-6 col-lg-4 three-column-cta__single">
+        <a class="three-column-cta__link" href="/universities">
+          <div class="three-column-cta__card">
+            <img src="{{ site.baseurl }}/visuals/css-assets/industry.svg" alt="Industry">
+            <div class="three-column-cta__content">  
+              <h4>Industry</h4>
+              <p>Explore how membership could benefit your bottom line and help you grow your workforce.</p>
+            </div>
+          </div>
+        </a>
       </div>
-      <div class="paragraph col-12 col-md-6 col-lg-4 three-column-cta__single paragraph--type--three-column-cta paragraph--view-mode--default">
-        <img src="{{ site.baseurl }}/visuals/css-assets/universities.svg" alt="university">
-        <div class="three-column-cta__content">
-          <h4>University</h4>
-          <p>Learn how joining an IUCRC can generate industry insight.</p>
-          <a class="usa-button btn-primary" href="/universities">Learn More</a>
-        </div>
+      <div class="col-12 col-md-6 col-lg-4 three-column-cta__single">
+        <a class="three-column-cta__link" href="/universities">
+          <div class="three-column-cta__card">
+            <img src="{{ site.baseurl }}/visuals/css-assets/universities.svg" alt="university">
+            <div class="three-column-cta__content">  
+              <h4>University</h4>
+              <p>Learn how joining an IUCRC can generate industry insight.</p>
+            </div>
+          </div>
+        </a>
       </div>
-      <div class="paragraph col-12 col-md-6 col-lg-4 three-column-cta__single paragraph--type--three-column-cta paragraph--view-mode--default">
+      <div class="col-12 col-md-6 col-lg-4 three-column-cta__single">
+        <a class="three-column-cta__link" href="/government">
+          <div class="three-column-cta__card">
         <img src="{{ site.baseurl }}/visuals/css-assets/government.svg" alt="Government building">
-        <div class="three-column-cta__content">
-          <h4>Government</h4>
-          <p>See how the IUCRC program can connect you with top researchers and industrial leaders.</p>
-          <a class="usa-button btn-primary" href="/government">Learn More</a>
-        </div>
+            <div class="three-column-cta__content">  
+              <h4>Government</h4>
+              <p>See how the IUCRC program can connect you with top researchers and industrial leaders.</p>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   </div>

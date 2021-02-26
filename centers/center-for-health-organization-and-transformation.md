@@ -1,6 +1,6 @@
 ---
 title: Center for Identification Technology Research (CITeR)
-acronym: CITeR
+acronym: CHOT
 layout: center
 sidenav: false
 ---
