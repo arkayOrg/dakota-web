@@ -82,8 +82,8 @@ scripts: /assets/js/filters.js
         </ul>
       </div>
       <div class="row filters__row">
-        <div class="col-12 col-lg-3">
-          <div class="filters__sidebar">
+        <div class="col-12 col-lg-3 filters__sticky">
+          <div class="filters__sidebar usa-accordion">
             <form class=" ">
               <h3>Filters</h3>
               <div class=" usa-label">
