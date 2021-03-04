@@ -1140,10 +1140,10 @@ if($(".filters__results").length > 0) {
         });
       }
       if($('#search-fulltext').val()) {
-        console.log("searching fulltext");
+        //console.log("searching fulltext");
         filterHeadersInput.push("search-fulltext");
         filterHeadersInputText.push( "Search: " + $('#search-fulltext').val());
-        console.log(filterHeadersInputText);
+        //console.log(filterHeadersInputText);
 
         dataLayer.push({
           'event': 'directory_search', 
@@ -1252,7 +1252,7 @@ if($(".filters__results").length > 0) {
       $count = 0;
       $.each( $centers, function( index ) {
 
-        console.log( index + ": " + ": " + $filter );
+        //console.log( index + ": " + ": " + $filter );
         if (this.title.toUpperCase().indexOf($filter) >= 0 || this.field_overview.toUpperCase().indexOf($filter) >= 0 || this.field_research_focus.toUpperCase().indexOf($filter) >= 0) {
           ///console.log("fulltext filter works");
         }
@@ -1266,7 +1266,7 @@ if($(".filters__results").length > 0) {
             if(el.field_centeracronym.toUpperCase() == $acro.toUpperCase())
             { 
               $.each(el.data, function(i, l){
-                console.log("hwoaol" + l.field_awardabstractText.toUpperCase() + " " + l.field_awardabstractText.toUpperCase().indexOf($filter));
+               //console.log(l.field_awardabstractText.toUpperCase() + " " + l.field_awardabstractText.toUpperCase().indexOf($filter));
                 if ( l.field_awardabstractText.toUpperCase().indexOf($filter) >= 0 ) {
                   //console.log(l.field_centeracronym + " fulltext filter works for awards");
                   $award_searched = true;
@@ -1297,7 +1297,7 @@ if($(".filters__results").length > 0) {
         $filter = $year1.val();
         $.each($rows, function(i, val){
             $year = $(val).find(".year").text();
-            console.log($year+ " " + $filter + ($year >= $filter));
+            //console.log($year+ " " + $filter + ($year >= $filter));
             if (parseInt($year) >= parseInt($filter)) 
                 $(val).show();
             else
