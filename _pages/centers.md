@@ -976,9 +976,11 @@ scripts: /assets/js/filters.js
                 <a href="{{ site.baseurl }}/centers/focus-area/{{ center[1].field_focus | slugify }}/" hreflang="en">{{ center[1].field_focus }}</a>
               </div>
               <div class="col-12 col-lg-3 alternating-list__col universities">
+                <ul>
                 {% for member in center[1].field_universities%}
                 <li>{{ member.name }}</li>
                 {% endfor %}
+                </ul>
               </div>
               <div class="col-12 col-lg-2 alternating-list__col year">
                 <p class="alternating-list__date">
