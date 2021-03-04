@@ -37,7 +37,8 @@ WHIP:
 WGRC:
     title: Wheat Genetics Resource Center (WGRC)
     field_acronym: WGRC
-    field_universities: Kansas State University
+    field_universities: 
+        - name: Kansas State University
     field_button_link: <a class="usa-button btn-tertiary" href="http://www.k-state.edu/wheat-iucrc/">View Center Website</a>
     field_focus: Biotechnology
     field_phase: Phase II
@@ -86,7 +87,8 @@ WBC:
 SVC:
     title: Smart Vehicle Concepts Center (SVC)
     field_acronym: SVC
-    field_universities: Ohio State University
+    field_universities: 
+        - name: Ohio State University
     field_button_link: <a class="usa-button btn-tertiary" href="https://svc.engineering.osu.edu/">View Center Website</a>
     field_focus: Advanced Manufacturing
     field_phase: Phase III
@@ -188,7 +190,8 @@ ROSE-HUB:
 PMIC:
     title: Power Management Integration Center (PMIC)
     field_acronym: PMIC
-    field_universities: Dartmouth University
+    field_universities: 
+        - name: Dartmouth University
     field_button_link: NULL
     field_focus: Advanced Electronics
     field_phase: Phase I
@@ -346,7 +349,8 @@ FiWIN:
 GMG:
     title: Center for Geomechanics and Mitigation of Geohazards (GMG)
     field_acronym: GMG
-    field_universities: California Institute of Technology
+    field_universities: 
+        - name: California Institute of Technology
     field_button_link: <a class="usa-button btn-tertiary" href="https://gmg.sites.caltech.edu/">View Center Website</a>
     field_focus: Energy and Environment
     field_phase: Phase I
@@ -807,7 +811,8 @@ CCOMC:
 CChIPS:
     title: Center for Child Injury Prevention Studies (CChIPS)
     field_acronym: CChIPS
-    field_universities: Ohio State University
+    field_universities:
+        - name: Ohio State University
     field_button_link: <a class="usa-button btn-tertiary" href="http://cchips.research.chop.edu">View Center Website</a>
     field_focus: Health and Safety
     field_phase: Phase III
