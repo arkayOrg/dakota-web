@@ -11,7 +11,13 @@ secondary: true
   <div class="content-block">
     <div class="container">
       <div class="content-block__inner">
-        <h2 id=""><span class="highlight">Introduction</span></h2>
+        <p><em>Download a fillable copy of the
+          <a href="/sites/default/files/2021-03/membership_agreement.doc">Membership Agreement</a>.</em></p>
+
+        <p><em>Download the sample 
+          <a href="/sites/default/files/2021-03/membership_agreement_addendum.doc">IUCRC Membership Agreement Addendum</a>
+          (For institutes and associations).</em></p>
+
         <p>The Center Membership Agreement provides the framework for Industry–University Cooperative Research Center
           operation.</p>
 
@@ -189,12 +195,6 @@ secondary: true
             </tr>
           </tbody>
         </table>
-        <p>&nbsp;</p>
-
-        <p>
-          View the
-          <a href="{{site.baseurl}}/industry/joining-a-center/member_agree_assoc_industry.doc">IUCRC Membership Agreement Addendum</a>.
-        </p>
       </div>
     </div>
   </div>

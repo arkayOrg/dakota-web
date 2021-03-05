@@ -349,6 +349,20 @@ secondary: true
         <div class="container">
           <div class="row">
             <div class="col-12 col-lg-4 alternating-list__col">
+              <a href="{{ site.baseurl }}/sites/default/files/2021-03/membership_agreement.doc">Membership Agreement (Document)</a>
+            </div>
+            <div class="col-12 col-lg-6 alternating-list__col">
+              <p><span><span><span><span><span>The Center Membership Agreement provides the framework for IUCRC
+                          operation as a vibrant research cooperative.</span></span></span></span></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="alternating-list__row">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-4 alternating-list__col">
               <a href="{{ site.baseurl }}/sites/default/files/2020-07/how-to-run-a-successful-planning-grant-meeting.docx">How to Run a
                 Successful Planning Grant Meeting</a>
             </div>
@@ -538,6 +552,20 @@ secondary: true
         <div class="container">
           <div class="row">
             <div class="col-12 col-lg-4 alternating-list__col">
+              <a href="{{ site.baseurl }}/sites/default/files/2021-03/membership_agreement.doc">Membership Agreement (Document)</a>
+            </div>
+            <div class="col-12 col-lg-6 alternating-list__col">
+              <p><span><span><span><span><span>The Center Membership Agreement provides the framework for IUCRC
+                          operation as a vibrant research cooperative.</span></span></span></span></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="alternating-list__row">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-4 alternating-list__col">
               <a href="{{ site.baseurl }}/universities/solicitation/center-requirements">Center Requirements</a>
             </div>
             <div class="col-12 col-lg-6 alternating-list__col">
@@ -617,6 +645,20 @@ secondary: true
           <div class="row">
             <div class="col-12 col-lg-4 alternating-list__col">
               <a href="{{ site.baseurl }}/industry/joining-a-center/membership-agreement">Membership Agreement</a>
+            </div>
+            <div class="col-12 col-lg-6 alternating-list__col">
+              <p><span><span><span><span><span>The Center Membership Agreement provides the framework for IUCRC
+                          operation as a vibrant research cooperative.</span></span></span></span></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="alternating-list__row">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-lg-4 alternating-list__col">
+              <a href="{{ site.baseurl }}/sites/default/files/2021-03/membership_agreement.doc">Membership Agreement (Document)</a>
             </div>
             <div class="col-12 col-lg-6 alternating-list__col">
               <p><span><span><span><span><span>The Center Membership Agreement provides the framework for IUCRC
